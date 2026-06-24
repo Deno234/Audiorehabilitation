@@ -12,6 +12,8 @@ The repository is prepared for GitHub with:
 - `.gitattributes` for Git LFS tracking of model binaries and generated audio
 - `docs/GITHUB_ARTIFACTS.md` describing which large files are required and how to distribute them
 
+Code is licensed under the MIT License. Generated datasets, reports, model files, and audio artifacts are provided for research and educational reproducibility only. Generated text and audio are not clinically approved rehabilitation material. Model files may also be subject to their original upstream licenses.
+
 Do not commit `.venv/`. Recreate the environment from `requirements.txt`. The local `models/` directory contains required model artifacts for the full audio workflow and must be distributed either through Git LFS or as a release/archive artifact that is unpacked back into `models/`.
 
 ## Quick start: order of scripts
