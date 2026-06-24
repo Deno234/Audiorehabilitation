@@ -1,0 +1,1765 @@
+left_index,right_index,left_candidate,right_candidate,pcd_version,pcd
+0,0,panj,panj,pcd_paper_style,0.0
+0,1,panj,puna,pcd_paper_style,0.5
+0,2,panj,bun,pcd_paper_style,1.0
+0,3,panj,pupun,pcd_paper_style,0.8
+0,4,panj,mumun,pcd_paper_style,1.0
+0,5,panj,puno banana u panju,pcd_paper_style,0.8
+0,6,panj,mama puni puno,pcd_paper_style,0.8333333333333334
+0,7,panj,buna puni mumun,pcd_paper_style,0.8461538461538461
+0,8,panj,polje,pcd_paper_style,0.75
+0,9,panj,vol,pcd_paper_style,1.0
+0,10,panj,glog,pcd_paper_style,1.0
+0,11,panj,lovilo,pcd_paper_style,1.0
+0,12,panj,golovol,pcd_paper_style,1.0
+0,13,panj,ovo veliko polje,pcd_paper_style,0.9230769230769231
+0,14,panj,lovac lovi goluba,pcd_paper_style,0.9333333333333333
+0,15,panj,volog glog lovi,pcd_paper_style,1.0
+0,16,panj,ovo polje lovi,pcd_paper_style,0.9090909090909091
+0,17,panj,rad,pcd_paper_style,0.6666666666666666
+0,18,panj,krad,pcd_paper_style,0.75
+0,19,panj,ražar,pcd_paper_style,0.8
+0,20,panj,džaradar,pcd_paper_style,0.8571428571428571
+0,21,panj,brza riba radi,pcd_paper_style,0.9166666666666666
+0,22,panj,radar radi brzo,pcd_paper_style,0.9230769230769231
+0,23,panj,džar radi razdragano,pcd_paper_style,0.9411764705882353
+0,24,panj,krad rad džar,pcd_paper_style,0.9
+0,25,panj,čest,pcd_paper_style,1.0
+0,26,panj,šet,pcd_paper_style,1.0
+0,27,panj,tete,pcd_paper_style,1.0
+0,28,panj,češće,pcd_paper_style,1.0
+0,29,panj,češetet,pcd_paper_style,1.0
+0,30,panj,teta šeće često,pcd_paper_style,0.9230769230769231
+0,31,panj,čest šešir teče,pcd_paper_style,1.0
+0,32,panj,šeće teta češće,pcd_paper_style,0.9230769230769231
+0,33,panj,sit,pcd_paper_style,1.0
+0,34,panj,cic,pcd_paper_style,1.0
+0,35,panj,zizi,pcd_paper_style,1.0
+0,36,panj,siscic,pcd_paper_style,1.0
+0,37,panj,cizisic,pcd_paper_style,1.0
+0,38,panj,sit zec s ceste,pcd_paper_style,1.0
+0,39,panj,sivi zec sisa,pcd_paper_style,0.9090909090909091
+0,40,panj,cic zizi sisa,pcd_paper_style,0.9090909090909091
+0,41,panj,siscic zizi cic,pcd_paper_style,1.0
+1,0,puna,panj,pcd_paper_style,0.5
+1,1,puna,puna,pcd_paper_style,0.0
+1,2,puna,bun,pcd_paper_style,0.5
+1,3,puna,pupun,pcd_paper_style,0.4
+1,4,puna,mumun,pcd_paper_style,0.6
+1,5,puna,puno banana u panju,pcd_paper_style,0.7333333333333333
+1,6,puna,mama puni puno,pcd_paper_style,0.6666666666666666
+1,7,puna,buna puni mumun,pcd_paper_style,0.6923076923076923
+1,8,puna,polje,pcd_paper_style,0.75
+1,9,puna,vol,pcd_paper_style,1.0
+1,10,puna,glog,pcd_paper_style,1.0
+1,11,puna,lovilo,pcd_paper_style,1.0
+1,12,puna,golovol,pcd_paper_style,1.0
+1,13,puna,ovo veliko polje,pcd_paper_style,0.9230769230769231
+1,14,puna,lovac lovi goluba,pcd_paper_style,0.8666666666666667
+1,15,puna,volog glog lovi,pcd_paper_style,1.0
+1,16,puna,ovo polje lovi,pcd_paper_style,0.9090909090909091
+1,17,puna,rad,pcd_paper_style,0.75
+1,18,puna,krad,pcd_paper_style,0.75
+1,19,puna,ražar,pcd_paper_style,0.8
+1,20,puna,džaradar,pcd_paper_style,0.8571428571428571
+1,21,puna,brza riba radi,pcd_paper_style,0.9166666666666666
+1,22,puna,radar radi brzo,pcd_paper_style,0.9230769230769231
+1,23,puna,džar radi razdragano,pcd_paper_style,0.8823529411764706
+1,24,puna,krad rad džar,pcd_paper_style,0.9
+1,25,puna,čest,pcd_paper_style,1.0
+1,26,puna,šet,pcd_paper_style,1.0
+1,27,puna,tete,pcd_paper_style,1.0
+1,28,puna,češće,pcd_paper_style,1.0
+1,29,puna,češetet,pcd_paper_style,1.0
+1,30,puna,teta šeće često,pcd_paper_style,0.9230769230769231
+1,31,puna,čest šešir teče,pcd_paper_style,1.0
+1,32,puna,šeće teta češće,pcd_paper_style,0.9230769230769231
+1,33,puna,sit,pcd_paper_style,1.0
+1,34,puna,cic,pcd_paper_style,1.0
+1,35,puna,zizi,pcd_paper_style,1.0
+1,36,puna,siscic,pcd_paper_style,1.0
+1,37,puna,cizisic,pcd_paper_style,1.0
+1,38,puna,sit zec s ceste,pcd_paper_style,1.0
+1,39,puna,sivi zec sisa,pcd_paper_style,0.9090909090909091
+1,40,puna,cic zizi sisa,pcd_paper_style,0.9090909090909091
+1,41,puna,siscic zizi cic,pcd_paper_style,1.0
+2,0,bun,panj,pcd_paper_style,1.0
+2,1,bun,puna,pcd_paper_style,0.5
+2,2,bun,bun,pcd_paper_style,0.0
+2,3,bun,pupun,pcd_paper_style,0.6
+2,4,bun,mumun,pcd_paper_style,0.6
+2,5,bun,puno banana u panju,pcd_paper_style,0.8
+2,6,bun,mama puni puno,pcd_paper_style,0.8333333333333334
+2,7,bun,buna puni mumun,pcd_paper_style,0.7692307692307693
+2,8,bun,polje,pcd_paper_style,1.0
+2,9,bun,vol,pcd_paper_style,1.0
+2,10,bun,glog,pcd_paper_style,1.0
+2,11,bun,lovilo,pcd_paper_style,1.0
+2,12,bun,golovol,pcd_paper_style,1.0
+2,13,bun,ovo veliko polje,pcd_paper_style,1.0
+2,14,bun,lovac lovi goluba,pcd_paper_style,0.8666666666666667
+2,15,bun,volog glog lovi,pcd_paper_style,1.0
+2,16,bun,ovo polje lovi,pcd_paper_style,1.0
+2,17,bun,rad,pcd_paper_style,1.0
+2,18,bun,krad,pcd_paper_style,1.0
+2,19,bun,ražar,pcd_paper_style,1.0
+2,20,bun,džaradar,pcd_paper_style,1.0
+2,21,bun,brza riba radi,pcd_paper_style,0.9166666666666666
+2,22,bun,radar radi brzo,pcd_paper_style,0.9230769230769231
+2,23,bun,džar radi razdragano,pcd_paper_style,0.9411764705882353
+2,24,bun,krad rad džar,pcd_paper_style,1.0
+2,25,bun,čest,pcd_paper_style,1.0
+2,26,bun,šet,pcd_paper_style,1.0
+2,27,bun,tete,pcd_paper_style,1.0
+2,28,bun,češće,pcd_paper_style,1.0
+2,29,bun,češetet,pcd_paper_style,1.0
+2,30,bun,teta šeće često,pcd_paper_style,1.0
+2,31,bun,čest šešir teče,pcd_paper_style,1.0
+2,32,bun,šeće teta češće,pcd_paper_style,1.0
+2,33,bun,sit,pcd_paper_style,1.0
+2,34,bun,cic,pcd_paper_style,1.0
+2,35,bun,zizi,pcd_paper_style,1.0
+2,36,bun,siscic,pcd_paper_style,1.0
+2,37,bun,cizisic,pcd_paper_style,1.0
+2,38,bun,sit zec s ceste,pcd_paper_style,1.0
+2,39,bun,sivi zec sisa,pcd_paper_style,1.0
+2,40,bun,cic zizi sisa,pcd_paper_style,1.0
+2,41,bun,siscic zizi cic,pcd_paper_style,1.0
+3,0,pupun,panj,pcd_paper_style,0.8
+3,1,pupun,puna,pcd_paper_style,0.4
+3,2,pupun,bun,pcd_paper_style,0.6
+3,3,pupun,pupun,pcd_paper_style,0.0
+3,4,pupun,mumun,pcd_paper_style,0.4
+3,5,pupun,puno banana u panju,pcd_paper_style,0.6666666666666666
+3,6,pupun,mama puni puno,pcd_paper_style,0.5833333333333334
+3,7,pupun,buna puni mumun,pcd_paper_style,0.6923076923076923
+3,8,pupun,polje,pcd_paper_style,0.8
+3,9,pupun,vol,pcd_paper_style,1.0
+3,10,pupun,glog,pcd_paper_style,1.0
+3,11,pupun,lovilo,pcd_paper_style,1.0
+3,12,pupun,golovol,pcd_paper_style,1.0
+3,13,pupun,ovo veliko polje,pcd_paper_style,0.9230769230769231
+3,14,pupun,lovac lovi goluba,pcd_paper_style,0.9333333333333333
+3,15,pupun,volog glog lovi,pcd_paper_style,1.0
+3,16,pupun,ovo polje lovi,pcd_paper_style,0.9090909090909091
+3,17,pupun,rad,pcd_paper_style,1.0
+3,18,pupun,krad,pcd_paper_style,1.0
+3,19,pupun,ražar,pcd_paper_style,1.0
+3,20,pupun,džaradar,pcd_paper_style,1.0
+3,21,pupun,brza riba radi,pcd_paper_style,1.0
+3,22,pupun,radar radi brzo,pcd_paper_style,1.0
+3,23,pupun,džar radi razdragano,pcd_paper_style,0.9411764705882353
+3,24,pupun,krad rad džar,pcd_paper_style,1.0
+3,25,pupun,čest,pcd_paper_style,1.0
+3,26,pupun,šet,pcd_paper_style,1.0
+3,27,pupun,tete,pcd_paper_style,1.0
+3,28,pupun,češće,pcd_paper_style,1.0
+3,29,pupun,češetet,pcd_paper_style,1.0
+3,30,pupun,teta šeće često,pcd_paper_style,1.0
+3,31,pupun,čest šešir teče,pcd_paper_style,1.0
+3,32,pupun,šeće teta češće,pcd_paper_style,1.0
+3,33,pupun,sit,pcd_paper_style,1.0
+3,34,pupun,cic,pcd_paper_style,1.0
+3,35,pupun,zizi,pcd_paper_style,1.0
+3,36,pupun,siscic,pcd_paper_style,1.0
+3,37,pupun,cizisic,pcd_paper_style,1.0
+3,38,pupun,sit zec s ceste,pcd_paper_style,1.0
+3,39,pupun,sivi zec sisa,pcd_paper_style,1.0
+3,40,pupun,cic zizi sisa,pcd_paper_style,1.0
+3,41,pupun,siscic zizi cic,pcd_paper_style,1.0
+4,0,mumun,panj,pcd_paper_style,1.0
+4,1,mumun,puna,pcd_paper_style,0.6
+4,2,mumun,bun,pcd_paper_style,0.6
+4,3,mumun,pupun,pcd_paper_style,0.4
+4,4,mumun,mumun,pcd_paper_style,0.0
+4,5,mumun,puno banana u panju,pcd_paper_style,0.8
+4,6,mumun,mama puni puno,pcd_paper_style,0.5833333333333334
+4,7,mumun,buna puni mumun,pcd_paper_style,0.6153846153846154
+4,8,mumun,polje,pcd_paper_style,1.0
+4,9,mumun,vol,pcd_paper_style,1.0
+4,10,mumun,glog,pcd_paper_style,1.0
+4,11,mumun,lovilo,pcd_paper_style,1.0
+4,12,mumun,golovol,pcd_paper_style,1.0
+4,13,mumun,ovo veliko polje,pcd_paper_style,1.0
+4,14,mumun,lovac lovi goluba,pcd_paper_style,0.9333333333333333
+4,15,mumun,volog glog lovi,pcd_paper_style,1.0
+4,16,mumun,ovo polje lovi,pcd_paper_style,1.0
+4,17,mumun,rad,pcd_paper_style,1.0
+4,18,mumun,krad,pcd_paper_style,1.0
+4,19,mumun,ražar,pcd_paper_style,1.0
+4,20,mumun,džaradar,pcd_paper_style,1.0
+4,21,mumun,brza riba radi,pcd_paper_style,1.0
+4,22,mumun,radar radi brzo,pcd_paper_style,1.0
+4,23,mumun,džar radi razdragano,pcd_paper_style,0.9411764705882353
+4,24,mumun,krad rad džar,pcd_paper_style,1.0
+4,25,mumun,čest,pcd_paper_style,1.0
+4,26,mumun,šet,pcd_paper_style,1.0
+4,27,mumun,tete,pcd_paper_style,1.0
+4,28,mumun,češće,pcd_paper_style,1.0
+4,29,mumun,češetet,pcd_paper_style,1.0
+4,30,mumun,teta šeće često,pcd_paper_style,1.0
+4,31,mumun,čest šešir teče,pcd_paper_style,1.0
+4,32,mumun,šeće teta češće,pcd_paper_style,1.0
+4,33,mumun,sit,pcd_paper_style,1.0
+4,34,mumun,cic,pcd_paper_style,1.0
+4,35,mumun,zizi,pcd_paper_style,1.0
+4,36,mumun,siscic,pcd_paper_style,1.0
+4,37,mumun,cizisic,pcd_paper_style,1.0
+4,38,mumun,sit zec s ceste,pcd_paper_style,1.0
+4,39,mumun,sivi zec sisa,pcd_paper_style,1.0
+4,40,mumun,cic zizi sisa,pcd_paper_style,1.0
+4,41,mumun,siscic zizi cic,pcd_paper_style,1.0
+5,0,puno banana u panju,panj,pcd_paper_style,0.8
+5,1,puno banana u panju,puna,pcd_paper_style,0.7333333333333333
+5,2,puno banana u panju,bun,pcd_paper_style,0.8
+5,3,puno banana u panju,pupun,pcd_paper_style,0.6666666666666666
+5,4,puno banana u panju,mumun,pcd_paper_style,0.8
+5,5,puno banana u panju,puno banana u panju,pcd_paper_style,0.0
+5,6,puno banana u panju,mama puni puno,pcd_paper_style,0.4
+5,7,puno banana u panju,buna puni mumun,pcd_paper_style,0.4
+5,8,puno banana u panju,polje,pcd_paper_style,0.8666666666666667
+5,9,puno banana u panju,vol,pcd_paper_style,0.9333333333333333
+5,10,puno banana u panju,glog,pcd_paper_style,0.9333333333333333
+5,11,puno banana u panju,lovilo,pcd_paper_style,0.9333333333333333
+5,12,puno banana u panju,golovol,pcd_paper_style,0.9333333333333333
+5,13,puno banana u panju,ovo veliko polje,pcd_paper_style,0.8666666666666667
+5,14,puno banana u panju,lovac lovi goluba,pcd_paper_style,0.6666666666666666
+5,15,puno banana u panju,volog glog lovi,pcd_paper_style,0.9333333333333333
+5,16,puno banana u panju,ovo polje lovi,pcd_paper_style,0.8666666666666667
+5,17,puno banana u panju,rad,pcd_paper_style,0.9333333333333333
+5,18,puno banana u panju,krad,pcd_paper_style,0.9333333333333333
+5,19,puno banana u panju,ražar,pcd_paper_style,0.8666666666666667
+5,20,puno banana u panju,džaradar,pcd_paper_style,0.8
+5,21,puno banana u panju,brza riba radi,pcd_paper_style,0.7333333333333333
+5,22,puno banana u panju,radar radi brzo,pcd_paper_style,0.6666666666666666
+5,23,puno banana u panju,džar radi razdragano,pcd_paper_style,0.6470588235294118
+5,24,puno banana u panju,krad rad džar,pcd_paper_style,0.8
+5,25,puno banana u panju,čest,pcd_paper_style,1.0
+5,26,puno banana u panju,šet,pcd_paper_style,1.0
+5,27,puno banana u panju,tete,pcd_paper_style,1.0
+5,28,puno banana u panju,češće,pcd_paper_style,1.0
+5,29,puno banana u panju,češetet,pcd_paper_style,1.0
+5,30,puno banana u panju,teta šeće često,pcd_paper_style,0.8666666666666667
+5,31,puno banana u panju,čest šešir teče,pcd_paper_style,1.0
+5,32,puno banana u panju,šeće teta češće,pcd_paper_style,0.9333333333333333
+5,33,puno banana u panju,sit,pcd_paper_style,1.0
+5,34,puno banana u panju,cic,pcd_paper_style,1.0
+5,35,puno banana u panju,zizi,pcd_paper_style,1.0
+5,36,puno banana u panju,siscic,pcd_paper_style,1.0
+5,37,puno banana u panju,cizisic,pcd_paper_style,1.0
+5,38,puno banana u panju,sit zec s ceste,pcd_paper_style,1.0
+5,39,puno banana u panju,sivi zec sisa,pcd_paper_style,0.9333333333333333
+5,40,puno banana u panju,cic zizi sisa,pcd_paper_style,0.9333333333333333
+5,41,puno banana u panju,siscic zizi cic,pcd_paper_style,1.0
+6,0,mama puni puno,panj,pcd_paper_style,0.8333333333333334
+6,1,mama puni puno,puna,pcd_paper_style,0.6666666666666666
+6,2,mama puni puno,bun,pcd_paper_style,0.8333333333333334
+6,3,mama puni puno,pupun,pcd_paper_style,0.5833333333333334
+6,4,mama puni puno,mumun,pcd_paper_style,0.5833333333333334
+6,5,mama puni puno,puno banana u panju,pcd_paper_style,0.4
+6,6,mama puni puno,mama puni puno,pcd_paper_style,0.0
+6,7,mama puni puno,buna puni mumun,pcd_paper_style,0.3076923076923077
+6,8,mama puni puno,polje,pcd_paper_style,0.8333333333333334
+6,9,mama puni puno,vol,pcd_paper_style,0.9166666666666666
+6,10,mama puni puno,glog,pcd_paper_style,0.9166666666666666
+6,11,mama puni puno,lovilo,pcd_paper_style,0.8333333333333334
+6,12,mama puni puno,golovol,pcd_paper_style,0.9166666666666666
+6,13,mama puni puno,ovo veliko polje,pcd_paper_style,0.7692307692307693
+6,14,mama puni puno,lovac lovi goluba,pcd_paper_style,0.6666666666666666
+6,15,mama puni puno,volog glog lovi,pcd_paper_style,0.8461538461538461
+6,16,mama puni puno,ovo polje lovi,pcd_paper_style,0.75
+6,17,mama puni puno,rad,pcd_paper_style,0.9166666666666666
+6,18,mama puni puno,krad,pcd_paper_style,0.9166666666666666
+6,19,mama puni puno,ražar,pcd_paper_style,0.8333333333333334
+6,20,mama puni puno,džaradar,pcd_paper_style,0.8333333333333334
+6,21,mama puni puno,brza riba radi,pcd_paper_style,0.75
+6,22,mama puni puno,radar radi brzo,pcd_paper_style,0.6923076923076923
+6,23,mama puni puno,džar radi razdragano,pcd_paper_style,0.7058823529411765
+6,24,mama puni puno,krad rad džar,pcd_paper_style,0.8333333333333334
+6,25,mama puni puno,čest,pcd_paper_style,1.0
+6,26,mama puni puno,šet,pcd_paper_style,1.0
+6,27,mama puni puno,tete,pcd_paper_style,1.0
+6,28,mama puni puno,češće,pcd_paper_style,1.0
+6,29,mama puni puno,češetet,pcd_paper_style,1.0
+6,30,mama puni puno,teta šeće često,pcd_paper_style,0.8461538461538461
+6,31,mama puni puno,čest šešir teče,pcd_paper_style,0.9230769230769231
+6,32,mama puni puno,šeće teta češće,pcd_paper_style,0.9230769230769231
+6,33,mama puni puno,sit,pcd_paper_style,0.9166666666666666
+6,34,mama puni puno,cic,pcd_paper_style,0.9166666666666666
+6,35,mama puni puno,zizi,pcd_paper_style,0.9166666666666666
+6,36,mama puni puno,siscic,pcd_paper_style,0.9166666666666666
+6,37,mama puni puno,cizisic,pcd_paper_style,0.9166666666666666
+6,38,mama puni puno,sit zec s ceste,pcd_paper_style,0.9166666666666666
+6,39,mama puni puno,sivi zec sisa,pcd_paper_style,0.8333333333333334
+6,40,mama puni puno,cic zizi sisa,pcd_paper_style,0.8333333333333334
+6,41,mama puni puno,siscic zizi cic,pcd_paper_style,0.9230769230769231
+7,0,buna puni mumun,panj,pcd_paper_style,0.8461538461538461
+7,1,buna puni mumun,puna,pcd_paper_style,0.6923076923076923
+7,2,buna puni mumun,bun,pcd_paper_style,0.7692307692307693
+7,3,buna puni mumun,pupun,pcd_paper_style,0.6923076923076923
+7,4,buna puni mumun,mumun,pcd_paper_style,0.6153846153846154
+7,5,buna puni mumun,puno banana u panju,pcd_paper_style,0.4
+7,6,buna puni mumun,mama puni puno,pcd_paper_style,0.3076923076923077
+7,7,buna puni mumun,buna puni mumun,pcd_paper_style,0.0
+7,8,buna puni mumun,polje,pcd_paper_style,0.9230769230769231
+7,9,buna puni mumun,vol,pcd_paper_style,1.0
+7,10,buna puni mumun,glog,pcd_paper_style,1.0
+7,11,buna puni mumun,lovilo,pcd_paper_style,0.9230769230769231
+7,12,buna puni mumun,golovol,pcd_paper_style,1.0
+7,13,buna puni mumun,ovo veliko polje,pcd_paper_style,0.8461538461538461
+7,14,buna puni mumun,lovac lovi goluba,pcd_paper_style,0.7333333333333333
+7,15,buna puni mumun,volog glog lovi,pcd_paper_style,0.9230769230769231
+7,16,buna puni mumun,ovo polje lovi,pcd_paper_style,0.8461538461538461
+7,17,buna puni mumun,rad,pcd_paper_style,0.9230769230769231
+7,18,buna puni mumun,krad,pcd_paper_style,0.9230769230769231
+7,19,buna puni mumun,ražar,pcd_paper_style,0.9230769230769231
+7,20,buna puni mumun,džaradar,pcd_paper_style,0.9230769230769231
+7,21,buna puni mumun,brza riba radi,pcd_paper_style,0.7692307692307693
+7,22,buna puni mumun,radar radi brzo,pcd_paper_style,0.7692307692307693
+7,23,buna puni mumun,džar radi razdragano,pcd_paper_style,0.8235294117647058
+7,24,buna puni mumun,krad rad džar,pcd_paper_style,0.9230769230769231
+7,25,buna puni mumun,čest,pcd_paper_style,1.0
+7,26,buna puni mumun,šet,pcd_paper_style,1.0
+7,27,buna puni mumun,tete,pcd_paper_style,1.0
+7,28,buna puni mumun,češće,pcd_paper_style,1.0
+7,29,buna puni mumun,češetet,pcd_paper_style,1.0
+7,30,buna puni mumun,teta šeće često,pcd_paper_style,0.9230769230769231
+7,31,buna puni mumun,čest šešir teče,pcd_paper_style,0.9230769230769231
+7,32,buna puni mumun,šeće teta češće,pcd_paper_style,0.9230769230769231
+7,33,buna puni mumun,sit,pcd_paper_style,0.9230769230769231
+7,34,buna puni mumun,cic,pcd_paper_style,0.9230769230769231
+7,35,buna puni mumun,zizi,pcd_paper_style,0.9230769230769231
+7,36,buna puni mumun,siscic,pcd_paper_style,0.9230769230769231
+7,37,buna puni mumun,cizisic,pcd_paper_style,0.9230769230769231
+7,38,buna puni mumun,sit zec s ceste,pcd_paper_style,0.9230769230769231
+7,39,buna puni mumun,sivi zec sisa,pcd_paper_style,0.8461538461538461
+7,40,buna puni mumun,cic zizi sisa,pcd_paper_style,0.8461538461538461
+7,41,buna puni mumun,siscic zizi cic,pcd_paper_style,0.9230769230769231
+8,0,polje,panj,pcd_paper_style,0.75
+8,1,polje,puna,pcd_paper_style,0.75
+8,2,polje,bun,pcd_paper_style,1.0
+8,3,polje,pupun,pcd_paper_style,0.8
+8,4,polje,mumun,pcd_paper_style,1.0
+8,5,polje,puno banana u panju,pcd_paper_style,0.8666666666666667
+8,6,polje,mama puni puno,pcd_paper_style,0.8333333333333334
+8,7,polje,buna puni mumun,pcd_paper_style,0.9230769230769231
+8,8,polje,polje,pcd_paper_style,0.0
+8,9,polje,vol,pcd_paper_style,0.75
+8,10,polje,glog,pcd_paper_style,0.75
+8,11,polje,lovilo,pcd_paper_style,0.8333333333333334
+8,12,polje,golovol,pcd_paper_style,0.8571428571428571
+8,13,polje,ovo veliko polje,pcd_paper_style,0.6923076923076923
+8,14,polje,lovac lovi goluba,pcd_paper_style,0.9333333333333333
+8,15,polje,volog glog lovi,pcd_paper_style,0.9230769230769231
+8,16,polje,ovo polje lovi,pcd_paper_style,0.6363636363636364
+8,17,polje,rad,pcd_paper_style,1.0
+8,18,polje,krad,pcd_paper_style,1.0
+8,19,polje,ražar,pcd_paper_style,1.0
+8,20,polje,džaradar,pcd_paper_style,1.0
+8,21,polje,brza riba radi,pcd_paper_style,1.0
+8,22,polje,radar radi brzo,pcd_paper_style,0.9230769230769231
+8,23,polje,džar radi razdragano,pcd_paper_style,0.9411764705882353
+8,24,polje,krad rad džar,pcd_paper_style,1.0
+8,25,polje,čest,pcd_paper_style,0.75
+8,26,polje,šet,pcd_paper_style,0.75
+8,27,polje,tete,pcd_paper_style,0.75
+8,28,polje,češće,pcd_paper_style,0.8
+8,29,polje,češetet,pcd_paper_style,0.8571428571428571
+8,30,polje,teta šeće često,pcd_paper_style,0.8461538461538461
+8,31,polje,čest šešir teče,pcd_paper_style,0.9230769230769231
+8,32,polje,šeće teta češće,pcd_paper_style,0.9230769230769231
+8,33,polje,sit,pcd_paper_style,1.0
+8,34,polje,cic,pcd_paper_style,1.0
+8,35,polje,zizi,pcd_paper_style,1.0
+8,36,polje,siscic,pcd_paper_style,1.0
+8,37,polje,cizisic,pcd_paper_style,1.0
+8,38,polje,sit zec s ceste,pcd_paper_style,0.9166666666666666
+8,39,polje,sivi zec sisa,pcd_paper_style,0.9090909090909091
+8,40,polje,cic zizi sisa,pcd_paper_style,1.0
+8,41,polje,siscic zizi cic,pcd_paper_style,1.0
+9,0,vol,panj,pcd_paper_style,1.0
+9,1,vol,puna,pcd_paper_style,1.0
+9,2,vol,bun,pcd_paper_style,1.0
+9,3,vol,pupun,pcd_paper_style,1.0
+9,4,vol,mumun,pcd_paper_style,1.0
+9,5,vol,puno banana u panju,pcd_paper_style,0.9333333333333333
+9,6,vol,mama puni puno,pcd_paper_style,0.9166666666666666
+9,7,vol,buna puni mumun,pcd_paper_style,1.0
+9,8,vol,polje,pcd_paper_style,0.75
+9,9,vol,vol,pcd_paper_style,0.0
+9,10,vol,glog,pcd_paper_style,0.5
+9,11,vol,lovilo,pcd_paper_style,0.5
+9,12,vol,golovol,pcd_paper_style,0.5714285714285714
+9,13,vol,ovo veliko polje,pcd_paper_style,0.7692307692307693
+9,14,vol,lovac lovi goluba,pcd_paper_style,0.8
+9,15,vol,volog glog lovi,pcd_paper_style,0.7692307692307693
+9,16,vol,ovo polje lovi,pcd_paper_style,0.7272727272727273
+9,17,vol,rad,pcd_paper_style,1.0
+9,18,vol,krad,pcd_paper_style,1.0
+9,19,vol,ražar,pcd_paper_style,1.0
+9,20,vol,džaradar,pcd_paper_style,1.0
+9,21,vol,brza riba radi,pcd_paper_style,1.0
+9,22,vol,radar radi brzo,pcd_paper_style,0.9230769230769231
+9,23,vol,džar radi razdragano,pcd_paper_style,0.9411764705882353
+9,24,vol,krad rad džar,pcd_paper_style,1.0
+9,25,vol,čest,pcd_paper_style,1.0
+9,26,vol,šet,pcd_paper_style,1.0
+9,27,vol,tete,pcd_paper_style,1.0
+9,28,vol,češće,pcd_paper_style,1.0
+9,29,vol,češetet,pcd_paper_style,1.0
+9,30,vol,teta šeće često,pcd_paper_style,0.9230769230769231
+9,31,vol,čest šešir teče,pcd_paper_style,1.0
+9,32,vol,šeće teta češće,pcd_paper_style,1.0
+9,33,vol,sit,pcd_paper_style,1.0
+9,34,vol,cic,pcd_paper_style,1.0
+9,35,vol,zizi,pcd_paper_style,1.0
+9,36,vol,siscic,pcd_paper_style,1.0
+9,37,vol,cizisic,pcd_paper_style,1.0
+9,38,vol,sit zec s ceste,pcd_paper_style,1.0
+9,39,vol,sivi zec sisa,pcd_paper_style,0.9090909090909091
+9,40,vol,cic zizi sisa,pcd_paper_style,1.0
+9,41,vol,siscic zizi cic,pcd_paper_style,1.0
+10,0,glog,panj,pcd_paper_style,1.0
+10,1,glog,puna,pcd_paper_style,1.0
+10,2,glog,bun,pcd_paper_style,1.0
+10,3,glog,pupun,pcd_paper_style,1.0
+10,4,glog,mumun,pcd_paper_style,1.0
+10,5,glog,puno banana u panju,pcd_paper_style,0.9333333333333333
+10,6,glog,mama puni puno,pcd_paper_style,0.9166666666666666
+10,7,glog,buna puni mumun,pcd_paper_style,1.0
+10,8,glog,polje,pcd_paper_style,0.75
+10,9,glog,vol,pcd_paper_style,0.5
+10,10,glog,glog,pcd_paper_style,0.0
+10,11,glog,lovilo,pcd_paper_style,0.6666666666666666
+10,12,glog,golovol,pcd_paper_style,0.5714285714285714
+10,13,glog,ovo veliko polje,pcd_paper_style,0.8461538461538461
+10,14,glog,lovac lovi goluba,pcd_paper_style,0.8
+10,15,glog,volog glog lovi,pcd_paper_style,0.6923076923076923
+10,16,glog,ovo polje lovi,pcd_paper_style,0.8181818181818182
+10,17,glog,rad,pcd_paper_style,1.0
+10,18,glog,krad,pcd_paper_style,1.0
+10,19,glog,ražar,pcd_paper_style,1.0
+10,20,glog,džaradar,pcd_paper_style,1.0
+10,21,glog,brza riba radi,pcd_paper_style,1.0
+10,22,glog,radar radi brzo,pcd_paper_style,0.9230769230769231
+10,23,glog,džar radi razdragano,pcd_paper_style,0.8823529411764706
+10,24,glog,krad rad džar,pcd_paper_style,1.0
+10,25,glog,čest,pcd_paper_style,1.0
+10,26,glog,šet,pcd_paper_style,1.0
+10,27,glog,tete,pcd_paper_style,1.0
+10,28,glog,češće,pcd_paper_style,1.0
+10,29,glog,češetet,pcd_paper_style,1.0
+10,30,glog,teta šeće često,pcd_paper_style,0.9230769230769231
+10,31,glog,čest šešir teče,pcd_paper_style,1.0
+10,32,glog,šeće teta češće,pcd_paper_style,1.0
+10,33,glog,sit,pcd_paper_style,1.0
+10,34,glog,cic,pcd_paper_style,1.0
+10,35,glog,zizi,pcd_paper_style,1.0
+10,36,glog,siscic,pcd_paper_style,1.0
+10,37,glog,cizisic,pcd_paper_style,1.0
+10,38,glog,sit zec s ceste,pcd_paper_style,1.0
+10,39,glog,sivi zec sisa,pcd_paper_style,1.0
+10,40,glog,cic zizi sisa,pcd_paper_style,1.0
+10,41,glog,siscic zizi cic,pcd_paper_style,1.0
+11,0,lovilo,panj,pcd_paper_style,1.0
+11,1,lovilo,puna,pcd_paper_style,1.0
+11,2,lovilo,bun,pcd_paper_style,1.0
+11,3,lovilo,pupun,pcd_paper_style,1.0
+11,4,lovilo,mumun,pcd_paper_style,1.0
+11,5,lovilo,puno banana u panju,pcd_paper_style,0.9333333333333333
+11,6,lovilo,mama puni puno,pcd_paper_style,0.8333333333333334
+11,7,lovilo,buna puni mumun,pcd_paper_style,0.9230769230769231
+11,8,lovilo,polje,pcd_paper_style,0.8333333333333334
+11,9,lovilo,vol,pcd_paper_style,0.5
+11,10,lovilo,glog,pcd_paper_style,0.6666666666666666
+11,11,lovilo,lovilo,pcd_paper_style,0.0
+11,12,lovilo,golovol,pcd_paper_style,0.2857142857142857
+11,13,lovilo,ovo veliko polje,pcd_paper_style,0.6153846153846154
+11,14,lovilo,lovac lovi goluba,pcd_paper_style,0.6
+11,15,lovilo,volog glog lovi,pcd_paper_style,0.5384615384615384
+11,16,lovilo,ovo polje lovi,pcd_paper_style,0.5454545454545454
+11,17,lovilo,rad,pcd_paper_style,1.0
+11,18,lovilo,krad,pcd_paper_style,1.0
+11,19,lovilo,ražar,pcd_paper_style,1.0
+11,20,lovilo,džaradar,pcd_paper_style,1.0
+11,21,lovilo,brza riba radi,pcd_paper_style,0.9166666666666666
+11,22,lovilo,radar radi brzo,pcd_paper_style,0.8461538461538461
+11,23,lovilo,džar radi razdragano,pcd_paper_style,0.8823529411764706
+11,24,lovilo,krad rad džar,pcd_paper_style,1.0
+11,25,lovilo,čest,pcd_paper_style,1.0
+11,26,lovilo,šet,pcd_paper_style,1.0
+11,27,lovilo,tete,pcd_paper_style,1.0
+11,28,lovilo,češće,pcd_paper_style,1.0
+11,29,lovilo,češetet,pcd_paper_style,1.0
+11,30,lovilo,teta šeće često,pcd_paper_style,0.9230769230769231
+11,31,lovilo,čest šešir teče,pcd_paper_style,0.9230769230769231
+11,32,lovilo,šeće teta češće,pcd_paper_style,1.0
+11,33,lovilo,sit,pcd_paper_style,0.8333333333333334
+11,34,lovilo,cic,pcd_paper_style,0.8333333333333334
+11,35,lovilo,zizi,pcd_paper_style,0.8333333333333334
+11,36,lovilo,siscic,pcd_paper_style,0.8333333333333334
+11,37,lovilo,cizisic,pcd_paper_style,0.8571428571428571
+11,38,lovilo,sit zec s ceste,pcd_paper_style,0.9166666666666666
+11,39,lovilo,sivi zec sisa,pcd_paper_style,0.8181818181818182
+11,40,lovilo,cic zizi sisa,pcd_paper_style,0.9090909090909091
+11,41,lovilo,siscic zizi cic,pcd_paper_style,0.9230769230769231
+12,0,golovol,panj,pcd_paper_style,1.0
+12,1,golovol,puna,pcd_paper_style,1.0
+12,2,golovol,bun,pcd_paper_style,1.0
+12,3,golovol,pupun,pcd_paper_style,1.0
+12,4,golovol,mumun,pcd_paper_style,1.0
+12,5,golovol,puno banana u panju,pcd_paper_style,0.9333333333333333
+12,6,golovol,mama puni puno,pcd_paper_style,0.9166666666666666
+12,7,golovol,buna puni mumun,pcd_paper_style,1.0
+12,8,golovol,polje,pcd_paper_style,0.8571428571428571
+12,9,golovol,vol,pcd_paper_style,0.5714285714285714
+12,10,golovol,glog,pcd_paper_style,0.5714285714285714
+12,11,golovol,lovilo,pcd_paper_style,0.2857142857142857
+12,12,golovol,golovol,pcd_paper_style,0.0
+12,13,golovol,ovo veliko polje,pcd_paper_style,0.6153846153846154
+12,14,golovol,lovac lovi goluba,pcd_paper_style,0.5333333333333333
+12,15,golovol,volog glog lovi,pcd_paper_style,0.46153846153846156
+12,16,golovol,ovo polje lovi,pcd_paper_style,0.5454545454545454
+12,17,golovol,rad,pcd_paper_style,1.0
+12,18,golovol,krad,pcd_paper_style,1.0
+12,19,golovol,ražar,pcd_paper_style,1.0
+12,20,golovol,džaradar,pcd_paper_style,1.0
+12,21,golovol,brza riba radi,pcd_paper_style,1.0
+12,22,golovol,radar radi brzo,pcd_paper_style,0.9230769230769231
+12,23,golovol,džar radi razdragano,pcd_paper_style,0.8823529411764706
+12,24,golovol,krad rad džar,pcd_paper_style,1.0
+12,25,golovol,čest,pcd_paper_style,1.0
+12,26,golovol,šet,pcd_paper_style,1.0
+12,27,golovol,tete,pcd_paper_style,1.0
+12,28,golovol,češće,pcd_paper_style,1.0
+12,29,golovol,češetet,pcd_paper_style,1.0
+12,30,golovol,teta šeće često,pcd_paper_style,0.9230769230769231
+12,31,golovol,čest šešir teče,pcd_paper_style,1.0
+12,32,golovol,šeće teta češće,pcd_paper_style,1.0
+12,33,golovol,sit,pcd_paper_style,1.0
+12,34,golovol,cic,pcd_paper_style,1.0
+12,35,golovol,zizi,pcd_paper_style,1.0
+12,36,golovol,siscic,pcd_paper_style,1.0
+12,37,golovol,cizisic,pcd_paper_style,1.0
+12,38,golovol,sit zec s ceste,pcd_paper_style,1.0
+12,39,golovol,sivi zec sisa,pcd_paper_style,0.9090909090909091
+12,40,golovol,cic zizi sisa,pcd_paper_style,1.0
+12,41,golovol,siscic zizi cic,pcd_paper_style,1.0
+13,0,ovo veliko polje,panj,pcd_paper_style,0.9230769230769231
+13,1,ovo veliko polje,puna,pcd_paper_style,0.9230769230769231
+13,2,ovo veliko polje,bun,pcd_paper_style,1.0
+13,3,ovo veliko polje,pupun,pcd_paper_style,0.9230769230769231
+13,4,ovo veliko polje,mumun,pcd_paper_style,1.0
+13,5,ovo veliko polje,puno banana u panju,pcd_paper_style,0.8666666666666667
+13,6,ovo veliko polje,mama puni puno,pcd_paper_style,0.7692307692307693
+13,7,ovo veliko polje,buna puni mumun,pcd_paper_style,0.8461538461538461
+13,8,ovo veliko polje,polje,pcd_paper_style,0.6923076923076923
+13,9,ovo veliko polje,vol,pcd_paper_style,0.7692307692307693
+13,10,ovo veliko polje,glog,pcd_paper_style,0.8461538461538461
+13,11,ovo veliko polje,lovilo,pcd_paper_style,0.6153846153846154
+13,12,ovo veliko polje,golovol,pcd_paper_style,0.6153846153846154
+13,13,ovo veliko polje,ovo veliko polje,pcd_paper_style,0.0
+13,14,ovo veliko polje,lovac lovi goluba,pcd_paper_style,0.5333333333333333
+13,15,ovo veliko polje,volog glog lovi,pcd_paper_style,0.38461538461538464
+13,16,ovo veliko polje,ovo polje lovi,pcd_paper_style,0.15384615384615385
+13,17,ovo veliko polje,rad,pcd_paper_style,1.0
+13,18,ovo veliko polje,krad,pcd_paper_style,0.9230769230769231
+13,19,ovo veliko polje,ražar,pcd_paper_style,1.0
+13,20,ovo veliko polje,džaradar,pcd_paper_style,1.0
+13,21,ovo veliko polje,brza riba radi,pcd_paper_style,0.9230769230769231
+13,22,ovo veliko polje,radar radi brzo,pcd_paper_style,0.8461538461538461
+13,23,ovo veliko polje,džar radi razdragano,pcd_paper_style,0.8823529411764706
+13,24,ovo veliko polje,krad rad džar,pcd_paper_style,0.9230769230769231
+13,25,ovo veliko polje,čest,pcd_paper_style,0.9230769230769231
+13,26,ovo veliko polje,šet,pcd_paper_style,0.9230769230769231
+13,27,ovo veliko polje,tete,pcd_paper_style,0.8461538461538461
+13,28,ovo veliko polje,češće,pcd_paper_style,0.8461538461538461
+13,29,ovo veliko polje,češetet,pcd_paper_style,0.8461538461538461
+13,30,ovo veliko polje,teta šeće često,pcd_paper_style,0.7692307692307693
+13,31,ovo veliko polje,čest šešir teče,pcd_paper_style,0.7692307692307693
+13,32,ovo veliko polje,šeće teta češće,pcd_paper_style,0.8461538461538461
+13,33,ovo veliko polje,sit,pcd_paper_style,0.9230769230769231
+13,34,ovo veliko polje,cic,pcd_paper_style,0.9230769230769231
+13,35,ovo veliko polje,zizi,pcd_paper_style,0.9230769230769231
+13,36,ovo veliko polje,siscic,pcd_paper_style,0.9230769230769231
+13,37,ovo veliko polje,cizisic,pcd_paper_style,0.9230769230769231
+13,38,ovo veliko polje,sit zec s ceste,pcd_paper_style,0.7692307692307693
+13,39,ovo veliko polje,sivi zec sisa,pcd_paper_style,0.7692307692307693
+13,40,ovo veliko polje,cic zizi sisa,pcd_paper_style,0.9230769230769231
+13,41,ovo veliko polje,siscic zizi cic,pcd_paper_style,0.9230769230769231
+14,0,lovac lovi goluba,panj,pcd_paper_style,0.9333333333333333
+14,1,lovac lovi goluba,puna,pcd_paper_style,0.8666666666666667
+14,2,lovac lovi goluba,bun,pcd_paper_style,0.8666666666666667
+14,3,lovac lovi goluba,pupun,pcd_paper_style,0.9333333333333333
+14,4,lovac lovi goluba,mumun,pcd_paper_style,0.9333333333333333
+14,5,lovac lovi goluba,puno banana u panju,pcd_paper_style,0.6666666666666666
+14,6,lovac lovi goluba,mama puni puno,pcd_paper_style,0.6666666666666666
+14,7,lovac lovi goluba,buna puni mumun,pcd_paper_style,0.7333333333333333
+14,8,lovac lovi goluba,polje,pcd_paper_style,0.9333333333333333
+14,9,lovac lovi goluba,vol,pcd_paper_style,0.8
+14,10,lovac lovi goluba,glog,pcd_paper_style,0.8
+14,11,lovac lovi goluba,lovilo,pcd_paper_style,0.6
+14,12,lovac lovi goluba,golovol,pcd_paper_style,0.5333333333333333
+14,13,lovac lovi goluba,ovo veliko polje,pcd_paper_style,0.5333333333333333
+14,14,lovac lovi goluba,lovac lovi goluba,pcd_paper_style,0.0
+14,15,lovac lovi goluba,volog glog lovi,pcd_paper_style,0.3333333333333333
+14,16,lovac lovi goluba,ovo polje lovi,pcd_paper_style,0.5333333333333333
+14,17,lovac lovi goluba,rad,pcd_paper_style,0.9333333333333333
+14,18,lovac lovi goluba,krad,pcd_paper_style,0.9333333333333333
+14,19,lovac lovi goluba,ražar,pcd_paper_style,0.8666666666666667
+14,20,lovac lovi goluba,džaradar,pcd_paper_style,0.8666666666666667
+14,21,lovac lovi goluba,brza riba radi,pcd_paper_style,0.7333333333333333
+14,22,lovac lovi goluba,radar radi brzo,pcd_paper_style,0.6666666666666666
+14,23,lovac lovi goluba,džar radi razdragano,pcd_paper_style,0.7058823529411765
+14,24,lovac lovi goluba,krad rad džar,pcd_paper_style,0.8666666666666667
+14,25,lovac lovi goluba,čest,pcd_paper_style,1.0
+14,26,lovac lovi goluba,šet,pcd_paper_style,1.0
+14,27,lovac lovi goluba,tete,pcd_paper_style,1.0
+14,28,lovac lovi goluba,češće,pcd_paper_style,1.0
+14,29,lovac lovi goluba,češetet,pcd_paper_style,1.0
+14,30,lovac lovi goluba,teta šeće često,pcd_paper_style,0.8666666666666667
+14,31,lovac lovi goluba,čest šešir teče,pcd_paper_style,0.9333333333333333
+14,32,lovac lovi goluba,šeće teta češće,pcd_paper_style,0.9333333333333333
+14,33,lovac lovi goluba,sit,pcd_paper_style,0.9333333333333333
+14,34,lovac lovi goluba,cic,pcd_paper_style,0.8666666666666667
+14,35,lovac lovi goluba,zizi,pcd_paper_style,0.9333333333333333
+14,36,lovac lovi goluba,siscic,pcd_paper_style,0.8666666666666667
+14,37,lovac lovi goluba,cizisic,pcd_paper_style,0.8666666666666667
+14,38,lovac lovi goluba,sit zec s ceste,pcd_paper_style,0.8666666666666667
+14,39,lovac lovi goluba,sivi zec sisa,pcd_paper_style,0.7333333333333333
+14,40,lovac lovi goluba,cic zizi sisa,pcd_paper_style,0.8
+14,41,lovac lovi goluba,siscic zizi cic,pcd_paper_style,0.8666666666666667
+15,0,volog glog lovi,panj,pcd_paper_style,1.0
+15,1,volog glog lovi,puna,pcd_paper_style,1.0
+15,2,volog glog lovi,bun,pcd_paper_style,1.0
+15,3,volog glog lovi,pupun,pcd_paper_style,1.0
+15,4,volog glog lovi,mumun,pcd_paper_style,1.0
+15,5,volog glog lovi,puno banana u panju,pcd_paper_style,0.9333333333333333
+15,6,volog glog lovi,mama puni puno,pcd_paper_style,0.8461538461538461
+15,7,volog glog lovi,buna puni mumun,pcd_paper_style,0.9230769230769231
+15,8,volog glog lovi,polje,pcd_paper_style,0.9230769230769231
+15,9,volog glog lovi,vol,pcd_paper_style,0.7692307692307693
+15,10,volog glog lovi,glog,pcd_paper_style,0.6923076923076923
+15,11,volog glog lovi,lovilo,pcd_paper_style,0.5384615384615384
+15,12,volog glog lovi,golovol,pcd_paper_style,0.46153846153846156
+15,13,volog glog lovi,ovo veliko polje,pcd_paper_style,0.38461538461538464
+15,14,volog glog lovi,lovac lovi goluba,pcd_paper_style,0.3333333333333333
+15,15,volog glog lovi,volog glog lovi,pcd_paper_style,0.0
+15,16,volog glog lovi,ovo polje lovi,pcd_paper_style,0.38461538461538464
+15,17,volog glog lovi,rad,pcd_paper_style,1.0
+15,18,volog glog lovi,krad,pcd_paper_style,1.0
+15,19,volog glog lovi,ražar,pcd_paper_style,1.0
+15,20,volog glog lovi,džaradar,pcd_paper_style,1.0
+15,21,volog glog lovi,brza riba radi,pcd_paper_style,0.9230769230769231
+15,22,volog glog lovi,radar radi brzo,pcd_paper_style,0.8461538461538461
+15,23,volog glog lovi,džar radi razdragano,pcd_paper_style,0.8235294117647058
+15,24,volog glog lovi,krad rad džar,pcd_paper_style,1.0
+15,25,volog glog lovi,čest,pcd_paper_style,1.0
+15,26,volog glog lovi,šet,pcd_paper_style,1.0
+15,27,volog glog lovi,tete,pcd_paper_style,1.0
+15,28,volog glog lovi,češće,pcd_paper_style,1.0
+15,29,volog glog lovi,češetet,pcd_paper_style,1.0
+15,30,volog glog lovi,teta šeće često,pcd_paper_style,0.9230769230769231
+15,31,volog glog lovi,čest šešir teče,pcd_paper_style,0.9230769230769231
+15,32,volog glog lovi,šeće teta češće,pcd_paper_style,1.0
+15,33,volog glog lovi,sit,pcd_paper_style,0.9230769230769231
+15,34,volog glog lovi,cic,pcd_paper_style,0.9230769230769231
+15,35,volog glog lovi,zizi,pcd_paper_style,0.9230769230769231
+15,36,volog glog lovi,siscic,pcd_paper_style,0.9230769230769231
+15,37,volog glog lovi,cizisic,pcd_paper_style,0.9230769230769231
+15,38,volog glog lovi,sit zec s ceste,pcd_paper_style,0.9230769230769231
+15,39,volog glog lovi,sivi zec sisa,pcd_paper_style,0.8461538461538461
+15,40,volog glog lovi,cic zizi sisa,pcd_paper_style,0.9230769230769231
+15,41,volog glog lovi,siscic zizi cic,pcd_paper_style,0.9230769230769231
+16,0,ovo polje lovi,panj,pcd_paper_style,0.9090909090909091
+16,1,ovo polje lovi,puna,pcd_paper_style,0.9090909090909091
+16,2,ovo polje lovi,bun,pcd_paper_style,1.0
+16,3,ovo polje lovi,pupun,pcd_paper_style,0.9090909090909091
+16,4,ovo polje lovi,mumun,pcd_paper_style,1.0
+16,5,ovo polje lovi,puno banana u panju,pcd_paper_style,0.8666666666666667
+16,6,ovo polje lovi,mama puni puno,pcd_paper_style,0.75
+16,7,ovo polje lovi,buna puni mumun,pcd_paper_style,0.8461538461538461
+16,8,ovo polje lovi,polje,pcd_paper_style,0.6363636363636364
+16,9,ovo polje lovi,vol,pcd_paper_style,0.7272727272727273
+16,10,ovo polje lovi,glog,pcd_paper_style,0.8181818181818182
+16,11,ovo polje lovi,lovilo,pcd_paper_style,0.5454545454545454
+16,12,ovo polje lovi,golovol,pcd_paper_style,0.5454545454545454
+16,13,ovo polje lovi,ovo veliko polje,pcd_paper_style,0.15384615384615385
+16,14,ovo polje lovi,lovac lovi goluba,pcd_paper_style,0.5333333333333333
+16,15,ovo polje lovi,volog glog lovi,pcd_paper_style,0.38461538461538464
+16,16,ovo polje lovi,ovo polje lovi,pcd_paper_style,0.0
+16,17,ovo polje lovi,rad,pcd_paper_style,1.0
+16,18,ovo polje lovi,krad,pcd_paper_style,1.0
+16,19,ovo polje lovi,ražar,pcd_paper_style,1.0
+16,20,ovo polje lovi,džaradar,pcd_paper_style,1.0
+16,21,ovo polje lovi,brza riba radi,pcd_paper_style,0.9166666666666666
+16,22,ovo polje lovi,radar radi brzo,pcd_paper_style,0.8461538461538461
+16,23,ovo polje lovi,džar radi razdragano,pcd_paper_style,0.8823529411764706
+16,24,ovo polje lovi,krad rad džar,pcd_paper_style,1.0
+16,25,ovo polje lovi,čest,pcd_paper_style,0.9090909090909091
+16,26,ovo polje lovi,šet,pcd_paper_style,0.9090909090909091
+16,27,ovo polje lovi,tete,pcd_paper_style,0.9090909090909091
+16,28,ovo polje lovi,češće,pcd_paper_style,0.9090909090909091
+16,29,ovo polje lovi,češetet,pcd_paper_style,0.9090909090909091
+16,30,ovo polje lovi,teta šeće često,pcd_paper_style,0.8461538461538461
+16,31,ovo polje lovi,čest šešir teče,pcd_paper_style,0.8461538461538461
+16,32,ovo polje lovi,šeće teta češće,pcd_paper_style,0.9230769230769231
+16,33,ovo polje lovi,sit,pcd_paper_style,0.9090909090909091
+16,34,ovo polje lovi,cic,pcd_paper_style,0.9090909090909091
+16,35,ovo polje lovi,zizi,pcd_paper_style,0.9090909090909091
+16,36,ovo polje lovi,siscic,pcd_paper_style,0.9090909090909091
+16,37,ovo polje lovi,cizisic,pcd_paper_style,0.9090909090909091
+16,38,ovo polje lovi,sit zec s ceste,pcd_paper_style,0.8333333333333334
+16,39,ovo polje lovi,sivi zec sisa,pcd_paper_style,0.7272727272727273
+16,40,ovo polje lovi,cic zizi sisa,pcd_paper_style,0.9090909090909091
+16,41,ovo polje lovi,siscic zizi cic,pcd_paper_style,0.9230769230769231
+17,0,rad,panj,pcd_paper_style,0.6666666666666666
+17,1,rad,puna,pcd_paper_style,0.75
+17,2,rad,bun,pcd_paper_style,1.0
+17,3,rad,pupun,pcd_paper_style,1.0
+17,4,rad,mumun,pcd_paper_style,1.0
+17,5,rad,puno banana u panju,pcd_paper_style,0.9333333333333333
+17,6,rad,mama puni puno,pcd_paper_style,0.9166666666666666
+17,7,rad,buna puni mumun,pcd_paper_style,0.9230769230769231
+17,8,rad,polje,pcd_paper_style,1.0
+17,9,rad,vol,pcd_paper_style,1.0
+17,10,rad,glog,pcd_paper_style,1.0
+17,11,rad,lovilo,pcd_paper_style,1.0
+17,12,rad,golovol,pcd_paper_style,1.0
+17,13,rad,ovo veliko polje,pcd_paper_style,1.0
+17,14,rad,lovac lovi goluba,pcd_paper_style,0.9333333333333333
+17,15,rad,volog glog lovi,pcd_paper_style,1.0
+17,16,rad,ovo polje lovi,pcd_paper_style,1.0
+17,17,rad,rad,pcd_paper_style,0.0
+17,18,rad,krad,pcd_paper_style,0.25
+17,19,rad,ražar,pcd_paper_style,0.6
+17,20,rad,džaradar,pcd_paper_style,0.5714285714285714
+17,21,rad,brza riba radi,pcd_paper_style,0.75
+17,22,rad,radar radi brzo,pcd_paper_style,0.7692307692307693
+17,23,rad,džar radi razdragano,pcd_paper_style,0.8235294117647058
+17,24,rad,krad rad džar,pcd_paper_style,0.7
+17,25,rad,čest,pcd_paper_style,1.0
+17,26,rad,šet,pcd_paper_style,1.0
+17,27,rad,tete,pcd_paper_style,1.0
+17,28,rad,češće,pcd_paper_style,1.0
+17,29,rad,češetet,pcd_paper_style,1.0
+17,30,rad,teta šeće često,pcd_paper_style,0.9230769230769231
+17,31,rad,čest šešir teče,pcd_paper_style,0.9230769230769231
+17,32,rad,šeće teta češće,pcd_paper_style,0.9230769230769231
+17,33,rad,sit,pcd_paper_style,1.0
+17,34,rad,cic,pcd_paper_style,1.0
+17,35,rad,zizi,pcd_paper_style,1.0
+17,36,rad,siscic,pcd_paper_style,1.0
+17,37,rad,cizisic,pcd_paper_style,1.0
+17,38,rad,sit zec s ceste,pcd_paper_style,1.0
+17,39,rad,sivi zec sisa,pcd_paper_style,0.9090909090909091
+17,40,rad,cic zizi sisa,pcd_paper_style,0.9090909090909091
+17,41,rad,siscic zizi cic,pcd_paper_style,1.0
+18,0,krad,panj,pcd_paper_style,0.75
+18,1,krad,puna,pcd_paper_style,0.75
+18,2,krad,bun,pcd_paper_style,1.0
+18,3,krad,pupun,pcd_paper_style,1.0
+18,4,krad,mumun,pcd_paper_style,1.0
+18,5,krad,puno banana u panju,pcd_paper_style,0.9333333333333333
+18,6,krad,mama puni puno,pcd_paper_style,0.9166666666666666
+18,7,krad,buna puni mumun,pcd_paper_style,0.9230769230769231
+18,8,krad,polje,pcd_paper_style,1.0
+18,9,krad,vol,pcd_paper_style,1.0
+18,10,krad,glog,pcd_paper_style,1.0
+18,11,krad,lovilo,pcd_paper_style,1.0
+18,12,krad,golovol,pcd_paper_style,1.0
+18,13,krad,ovo veliko polje,pcd_paper_style,0.9230769230769231
+18,14,krad,lovac lovi goluba,pcd_paper_style,0.9333333333333333
+18,15,krad,volog glog lovi,pcd_paper_style,1.0
+18,16,krad,ovo polje lovi,pcd_paper_style,1.0
+18,17,krad,rad,pcd_paper_style,0.25
+18,18,krad,krad,pcd_paper_style,0.0
+18,19,krad,ražar,pcd_paper_style,0.6
+18,20,krad,džaradar,pcd_paper_style,0.5714285714285714
+18,21,krad,brza riba radi,pcd_paper_style,0.75
+18,22,krad,radar radi brzo,pcd_paper_style,0.7692307692307693
+18,23,krad,džar radi razdragano,pcd_paper_style,0.8235294117647058
+18,24,krad,krad rad džar,pcd_paper_style,0.6
+18,25,krad,čest,pcd_paper_style,1.0
+18,26,krad,šet,pcd_paper_style,1.0
+18,27,krad,tete,pcd_paper_style,1.0
+18,28,krad,češće,pcd_paper_style,1.0
+18,29,krad,češetet,pcd_paper_style,1.0
+18,30,krad,teta šeće često,pcd_paper_style,0.9230769230769231
+18,31,krad,čest šešir teče,pcd_paper_style,0.9230769230769231
+18,32,krad,šeće teta češće,pcd_paper_style,0.9230769230769231
+18,33,krad,sit,pcd_paper_style,1.0
+18,34,krad,cic,pcd_paper_style,1.0
+18,35,krad,zizi,pcd_paper_style,1.0
+18,36,krad,siscic,pcd_paper_style,1.0
+18,37,krad,cizisic,pcd_paper_style,1.0
+18,38,krad,sit zec s ceste,pcd_paper_style,1.0
+18,39,krad,sivi zec sisa,pcd_paper_style,0.9090909090909091
+18,40,krad,cic zizi sisa,pcd_paper_style,0.9090909090909091
+18,41,krad,siscic zizi cic,pcd_paper_style,1.0
+19,0,ražar,panj,pcd_paper_style,0.8
+19,1,ražar,puna,pcd_paper_style,0.8
+19,2,ražar,bun,pcd_paper_style,1.0
+19,3,ražar,pupun,pcd_paper_style,1.0
+19,4,ražar,mumun,pcd_paper_style,1.0
+19,5,ražar,puno banana u panju,pcd_paper_style,0.8666666666666667
+19,6,ražar,mama puni puno,pcd_paper_style,0.8333333333333334
+19,7,ražar,buna puni mumun,pcd_paper_style,0.9230769230769231
+19,8,ražar,polje,pcd_paper_style,1.0
+19,9,ražar,vol,pcd_paper_style,1.0
+19,10,ražar,glog,pcd_paper_style,1.0
+19,11,ražar,lovilo,pcd_paper_style,1.0
+19,12,ražar,golovol,pcd_paper_style,1.0
+19,13,ražar,ovo veliko polje,pcd_paper_style,1.0
+19,14,ražar,lovac lovi goluba,pcd_paper_style,0.8666666666666667
+19,15,ražar,volog glog lovi,pcd_paper_style,1.0
+19,16,ražar,ovo polje lovi,pcd_paper_style,1.0
+19,17,ražar,rad,pcd_paper_style,0.6
+19,18,ražar,krad,pcd_paper_style,0.6
+19,19,ražar,ražar,pcd_paper_style,0.0
+19,20,ražar,džaradar,pcd_paper_style,0.42857142857142855
+19,21,ražar,brza riba radi,pcd_paper_style,0.6666666666666666
+19,22,ražar,radar radi brzo,pcd_paper_style,0.6923076923076923
+19,23,ražar,džar radi razdragano,pcd_paper_style,0.7647058823529411
+19,24,ražar,krad rad džar,pcd_paper_style,0.6
+19,25,ražar,čest,pcd_paper_style,1.0
+19,26,ražar,šet,pcd_paper_style,1.0
+19,27,ražar,tete,pcd_paper_style,1.0
+19,28,ražar,češće,pcd_paper_style,1.0
+19,29,ražar,češetet,pcd_paper_style,1.0
+19,30,ražar,teta šeće često,pcd_paper_style,0.9230769230769231
+19,31,ražar,čest šešir teče,pcd_paper_style,0.9230769230769231
+19,32,ražar,šeće teta češće,pcd_paper_style,0.9230769230769231
+19,33,ražar,sit,pcd_paper_style,1.0
+19,34,ražar,cic,pcd_paper_style,1.0
+19,35,ražar,zizi,pcd_paper_style,1.0
+19,36,ražar,siscic,pcd_paper_style,1.0
+19,37,ražar,cizisic,pcd_paper_style,1.0
+19,38,ražar,sit zec s ceste,pcd_paper_style,1.0
+19,39,ražar,sivi zec sisa,pcd_paper_style,0.9090909090909091
+19,40,ražar,cic zizi sisa,pcd_paper_style,0.9090909090909091
+19,41,ražar,siscic zizi cic,pcd_paper_style,1.0
+20,0,džaradar,panj,pcd_paper_style,0.8571428571428571
+20,1,džaradar,puna,pcd_paper_style,0.8571428571428571
+20,2,džaradar,bun,pcd_paper_style,1.0
+20,3,džaradar,pupun,pcd_paper_style,1.0
+20,4,džaradar,mumun,pcd_paper_style,1.0
+20,5,džaradar,puno banana u panju,pcd_paper_style,0.8
+20,6,džaradar,mama puni puno,pcd_paper_style,0.8333333333333334
+20,7,džaradar,buna puni mumun,pcd_paper_style,0.9230769230769231
+20,8,džaradar,polje,pcd_paper_style,1.0
+20,9,džaradar,vol,pcd_paper_style,1.0
+20,10,džaradar,glog,pcd_paper_style,1.0
+20,11,džaradar,lovilo,pcd_paper_style,1.0
+20,12,džaradar,golovol,pcd_paper_style,1.0
+20,13,džaradar,ovo veliko polje,pcd_paper_style,1.0
+20,14,džaradar,lovac lovi goluba,pcd_paper_style,0.8666666666666667
+20,15,džaradar,volog glog lovi,pcd_paper_style,1.0
+20,16,džaradar,ovo polje lovi,pcd_paper_style,1.0
+20,17,džaradar,rad,pcd_paper_style,0.5714285714285714
+20,18,džaradar,krad,pcd_paper_style,0.5714285714285714
+20,19,džaradar,ražar,pcd_paper_style,0.42857142857142855
+20,20,džaradar,džaradar,pcd_paper_style,0.0
+20,21,džaradar,brza riba radi,pcd_paper_style,0.5
+20,22,džaradar,radar radi brzo,pcd_paper_style,0.5384615384615384
+20,23,džaradar,džar radi razdragano,pcd_paper_style,0.5882352941176471
+20,24,džaradar,krad rad džar,pcd_paper_style,0.3
+20,25,džaradar,čest,pcd_paper_style,1.0
+20,26,džaradar,šet,pcd_paper_style,1.0
+20,27,džaradar,tete,pcd_paper_style,1.0
+20,28,džaradar,češće,pcd_paper_style,1.0
+20,29,džaradar,češetet,pcd_paper_style,1.0
+20,30,džaradar,teta šeće često,pcd_paper_style,0.9230769230769231
+20,31,džaradar,čest šešir teče,pcd_paper_style,0.9230769230769231
+20,32,džaradar,šeće teta češće,pcd_paper_style,0.9230769230769231
+20,33,džaradar,sit,pcd_paper_style,1.0
+20,34,džaradar,cic,pcd_paper_style,1.0
+20,35,džaradar,zizi,pcd_paper_style,1.0
+20,36,džaradar,siscic,pcd_paper_style,1.0
+20,37,džaradar,cizisic,pcd_paper_style,1.0
+20,38,džaradar,sit zec s ceste,pcd_paper_style,1.0
+20,39,džaradar,sivi zec sisa,pcd_paper_style,0.9090909090909091
+20,40,džaradar,cic zizi sisa,pcd_paper_style,0.9090909090909091
+20,41,džaradar,siscic zizi cic,pcd_paper_style,1.0
+21,0,brza riba radi,panj,pcd_paper_style,0.9166666666666666
+21,1,brza riba radi,puna,pcd_paper_style,0.9166666666666666
+21,2,brza riba radi,bun,pcd_paper_style,0.9166666666666666
+21,3,brza riba radi,pupun,pcd_paper_style,1.0
+21,4,brza riba radi,mumun,pcd_paper_style,1.0
+21,5,brza riba radi,puno banana u panju,pcd_paper_style,0.7333333333333333
+21,6,brza riba radi,mama puni puno,pcd_paper_style,0.75
+21,7,brza riba radi,buna puni mumun,pcd_paper_style,0.7692307692307693
+21,8,brza riba radi,polje,pcd_paper_style,1.0
+21,9,brza riba radi,vol,pcd_paper_style,1.0
+21,10,brza riba radi,glog,pcd_paper_style,1.0
+21,11,brza riba radi,lovilo,pcd_paper_style,0.9166666666666666
+21,12,brza riba radi,golovol,pcd_paper_style,1.0
+21,13,brza riba radi,ovo veliko polje,pcd_paper_style,0.9230769230769231
+21,14,brza riba radi,lovac lovi goluba,pcd_paper_style,0.7333333333333333
+21,15,brza riba radi,volog glog lovi,pcd_paper_style,0.9230769230769231
+21,16,brza riba radi,ovo polje lovi,pcd_paper_style,0.9166666666666666
+21,17,brza riba radi,rad,pcd_paper_style,0.75
+21,18,brza riba radi,krad,pcd_paper_style,0.75
+21,19,brza riba radi,ražar,pcd_paper_style,0.6666666666666666
+21,20,brza riba radi,džaradar,pcd_paper_style,0.5
+21,21,brza riba radi,brza riba radi,pcd_paper_style,0.0
+21,22,brza riba radi,radar radi brzo,pcd_paper_style,0.23076923076923078
+21,23,brza riba radi,džar radi razdragano,pcd_paper_style,0.47058823529411764
+21,24,brza riba radi,krad rad džar,pcd_paper_style,0.4166666666666667
+21,25,brza riba radi,čest,pcd_paper_style,1.0
+21,26,brza riba radi,šet,pcd_paper_style,1.0
+21,27,brza riba radi,tete,pcd_paper_style,1.0
+21,28,brza riba radi,češće,pcd_paper_style,1.0
+21,29,brza riba radi,češetet,pcd_paper_style,1.0
+21,30,brza riba radi,teta šeće često,pcd_paper_style,0.9230769230769231
+21,31,brza riba radi,čest šešir teče,pcd_paper_style,0.8461538461538461
+21,32,brza riba radi,šeće teta češće,pcd_paper_style,0.9230769230769231
+21,33,brza riba radi,sit,pcd_paper_style,0.9166666666666666
+21,34,brza riba radi,cic,pcd_paper_style,0.9166666666666666
+21,35,brza riba radi,zizi,pcd_paper_style,0.75
+21,36,brza riba radi,siscic,pcd_paper_style,0.8333333333333334
+21,37,brza riba radi,cizisic,pcd_paper_style,0.75
+21,38,brza riba radi,sit zec s ceste,pcd_paper_style,0.8333333333333334
+21,39,brza riba radi,sivi zec sisa,pcd_paper_style,0.6666666666666666
+21,40,brza riba radi,cic zizi sisa,pcd_paper_style,0.6666666666666666
+21,41,brza riba radi,siscic zizi cic,pcd_paper_style,0.7692307692307693
+22,0,radar radi brzo,panj,pcd_paper_style,0.9230769230769231
+22,1,radar radi brzo,puna,pcd_paper_style,0.9230769230769231
+22,2,radar radi brzo,bun,pcd_paper_style,0.9230769230769231
+22,3,radar radi brzo,pupun,pcd_paper_style,1.0
+22,4,radar radi brzo,mumun,pcd_paper_style,1.0
+22,5,radar radi brzo,puno banana u panju,pcd_paper_style,0.6666666666666666
+22,6,radar radi brzo,mama puni puno,pcd_paper_style,0.6923076923076923
+22,7,radar radi brzo,buna puni mumun,pcd_paper_style,0.7692307692307693
+22,8,radar radi brzo,polje,pcd_paper_style,0.9230769230769231
+22,9,radar radi brzo,vol,pcd_paper_style,0.9230769230769231
+22,10,radar radi brzo,glog,pcd_paper_style,0.9230769230769231
+22,11,radar radi brzo,lovilo,pcd_paper_style,0.8461538461538461
+22,12,radar radi brzo,golovol,pcd_paper_style,0.9230769230769231
+22,13,radar radi brzo,ovo veliko polje,pcd_paper_style,0.8461538461538461
+22,14,radar radi brzo,lovac lovi goluba,pcd_paper_style,0.6666666666666666
+22,15,radar radi brzo,volog glog lovi,pcd_paper_style,0.8461538461538461
+22,16,radar radi brzo,ovo polje lovi,pcd_paper_style,0.8461538461538461
+22,17,radar radi brzo,rad,pcd_paper_style,0.7692307692307693
+22,18,radar radi brzo,krad,pcd_paper_style,0.7692307692307693
+22,19,radar radi brzo,ražar,pcd_paper_style,0.6923076923076923
+22,20,radar radi brzo,džaradar,pcd_paper_style,0.5384615384615384
+22,21,radar radi brzo,brza riba radi,pcd_paper_style,0.23076923076923078
+22,22,radar radi brzo,radar radi brzo,pcd_paper_style,0.0
+22,23,radar radi brzo,džar radi razdragano,pcd_paper_style,0.29411764705882354
+22,24,radar radi brzo,krad rad džar,pcd_paper_style,0.38461538461538464
+22,25,radar radi brzo,čest,pcd_paper_style,1.0
+22,26,radar radi brzo,šet,pcd_paper_style,1.0
+22,27,radar radi brzo,tete,pcd_paper_style,1.0
+22,28,radar radi brzo,češće,pcd_paper_style,1.0
+22,29,radar radi brzo,češetet,pcd_paper_style,1.0
+22,30,radar radi brzo,teta šeće često,pcd_paper_style,0.8461538461538461
+22,31,radar radi brzo,čest šešir teče,pcd_paper_style,0.8461538461538461
+22,32,radar radi brzo,šeće teta češće,pcd_paper_style,0.9230769230769231
+22,33,radar radi brzo,sit,pcd_paper_style,0.9230769230769231
+22,34,radar radi brzo,cic,pcd_paper_style,0.9230769230769231
+22,35,radar radi brzo,zizi,pcd_paper_style,0.8461538461538461
+22,36,radar radi brzo,siscic,pcd_paper_style,0.9230769230769231
+22,37,radar radi brzo,cizisic,pcd_paper_style,0.8461538461538461
+22,38,radar radi brzo,sit zec s ceste,pcd_paper_style,0.8461538461538461
+22,39,radar radi brzo,sivi zec sisa,pcd_paper_style,0.7692307692307693
+22,40,radar radi brzo,cic zizi sisa,pcd_paper_style,0.7692307692307693
+22,41,radar radi brzo,siscic zizi cic,pcd_paper_style,0.8461538461538461
+23,0,džar radi razdragano,panj,pcd_paper_style,0.9411764705882353
+23,1,džar radi razdragano,puna,pcd_paper_style,0.8823529411764706
+23,2,džar radi razdragano,bun,pcd_paper_style,0.9411764705882353
+23,3,džar radi razdragano,pupun,pcd_paper_style,0.9411764705882353
+23,4,džar radi razdragano,mumun,pcd_paper_style,0.9411764705882353
+23,5,džar radi razdragano,puno banana u panju,pcd_paper_style,0.6470588235294118
+23,6,džar radi razdragano,mama puni puno,pcd_paper_style,0.7058823529411765
+23,7,džar radi razdragano,buna puni mumun,pcd_paper_style,0.8235294117647058
+23,8,džar radi razdragano,polje,pcd_paper_style,0.9411764705882353
+23,9,džar radi razdragano,vol,pcd_paper_style,0.9411764705882353
+23,10,džar radi razdragano,glog,pcd_paper_style,0.8823529411764706
+23,11,džar radi razdragano,lovilo,pcd_paper_style,0.8823529411764706
+23,12,džar radi razdragano,golovol,pcd_paper_style,0.8823529411764706
+23,13,džar radi razdragano,ovo veliko polje,pcd_paper_style,0.8823529411764706
+23,14,džar radi razdragano,lovac lovi goluba,pcd_paper_style,0.7058823529411765
+23,15,džar radi razdragano,volog glog lovi,pcd_paper_style,0.8235294117647058
+23,16,džar radi razdragano,ovo polje lovi,pcd_paper_style,0.8823529411764706
+23,17,džar radi razdragano,rad,pcd_paper_style,0.8235294117647058
+23,18,džar radi razdragano,krad,pcd_paper_style,0.8235294117647058
+23,19,džar radi razdragano,ražar,pcd_paper_style,0.7647058823529411
+23,20,džar radi razdragano,džaradar,pcd_paper_style,0.5882352941176471
+23,21,džar radi razdragano,brza riba radi,pcd_paper_style,0.47058823529411764
+23,22,džar radi razdragano,radar radi brzo,pcd_paper_style,0.29411764705882354
+23,23,džar radi razdragano,džar radi razdragano,pcd_paper_style,0.0
+23,24,džar radi razdragano,krad rad džar,pcd_paper_style,0.47058823529411764
+23,25,džar radi razdragano,čest,pcd_paper_style,1.0
+23,26,džar radi razdragano,šet,pcd_paper_style,1.0
+23,27,džar radi razdragano,tete,pcd_paper_style,1.0
+23,28,džar radi razdragano,češće,pcd_paper_style,1.0
+23,29,džar radi razdragano,češetet,pcd_paper_style,1.0
+23,30,džar radi razdragano,teta šeće često,pcd_paper_style,0.8823529411764706
+23,31,džar radi razdragano,čest šešir teče,pcd_paper_style,0.8823529411764706
+23,32,džar radi razdragano,šeće teta češće,pcd_paper_style,0.9411764705882353
+23,33,džar radi razdragano,sit,pcd_paper_style,0.9411764705882353
+23,34,džar radi razdragano,cic,pcd_paper_style,0.9411764705882353
+23,35,džar radi razdragano,zizi,pcd_paper_style,0.8823529411764706
+23,36,džar radi razdragano,siscic,pcd_paper_style,0.9411764705882353
+23,37,džar radi razdragano,cizisic,pcd_paper_style,0.8823529411764706
+23,38,džar radi razdragano,sit zec s ceste,pcd_paper_style,0.8823529411764706
+23,39,džar radi razdragano,sivi zec sisa,pcd_paper_style,0.8235294117647058
+23,40,džar radi razdragano,cic zizi sisa,pcd_paper_style,0.8235294117647058
+23,41,džar radi razdragano,siscic zizi cic,pcd_paper_style,0.8823529411764706
+24,0,krad rad džar,panj,pcd_paper_style,0.9
+24,1,krad rad džar,puna,pcd_paper_style,0.9
+24,2,krad rad džar,bun,pcd_paper_style,1.0
+24,3,krad rad džar,pupun,pcd_paper_style,1.0
+24,4,krad rad džar,mumun,pcd_paper_style,1.0
+24,5,krad rad džar,puno banana u panju,pcd_paper_style,0.8
+24,6,krad rad džar,mama puni puno,pcd_paper_style,0.8333333333333334
+24,7,krad rad džar,buna puni mumun,pcd_paper_style,0.9230769230769231
+24,8,krad rad džar,polje,pcd_paper_style,1.0
+24,9,krad rad džar,vol,pcd_paper_style,1.0
+24,10,krad rad džar,glog,pcd_paper_style,1.0
+24,11,krad rad džar,lovilo,pcd_paper_style,1.0
+24,12,krad rad džar,golovol,pcd_paper_style,1.0
+24,13,krad rad džar,ovo veliko polje,pcd_paper_style,0.9230769230769231
+24,14,krad rad džar,lovac lovi goluba,pcd_paper_style,0.8666666666666667
+24,15,krad rad džar,volog glog lovi,pcd_paper_style,1.0
+24,16,krad rad džar,ovo polje lovi,pcd_paper_style,1.0
+24,17,krad rad džar,rad,pcd_paper_style,0.7
+24,18,krad rad džar,krad,pcd_paper_style,0.6
+24,19,krad rad džar,ražar,pcd_paper_style,0.6
+24,20,krad rad džar,džaradar,pcd_paper_style,0.3
+24,21,krad rad džar,brza riba radi,pcd_paper_style,0.4166666666666667
+24,22,krad rad džar,radar radi brzo,pcd_paper_style,0.38461538461538464
+24,23,krad rad džar,džar radi razdragano,pcd_paper_style,0.47058823529411764
+24,24,krad rad džar,krad rad džar,pcd_paper_style,0.0
+24,25,krad rad džar,čest,pcd_paper_style,1.0
+24,26,krad rad džar,šet,pcd_paper_style,1.0
+24,27,krad rad džar,tete,pcd_paper_style,1.0
+24,28,krad rad džar,češće,pcd_paper_style,1.0
+24,29,krad rad džar,češetet,pcd_paper_style,1.0
+24,30,krad rad džar,teta šeće često,pcd_paper_style,0.9230769230769231
+24,31,krad rad džar,čest šešir teče,pcd_paper_style,0.9230769230769231
+24,32,krad rad džar,šeće teta češće,pcd_paper_style,0.9230769230769231
+24,33,krad rad džar,sit,pcd_paper_style,1.0
+24,34,krad rad džar,cic,pcd_paper_style,1.0
+24,35,krad rad džar,zizi,pcd_paper_style,1.0
+24,36,krad rad džar,siscic,pcd_paper_style,1.0
+24,37,krad rad džar,cizisic,pcd_paper_style,1.0
+24,38,krad rad džar,sit zec s ceste,pcd_paper_style,1.0
+24,39,krad rad džar,sivi zec sisa,pcd_paper_style,0.9090909090909091
+24,40,krad rad džar,cic zizi sisa,pcd_paper_style,0.9090909090909091
+24,41,krad rad džar,siscic zizi cic,pcd_paper_style,1.0
+25,0,čest,panj,pcd_paper_style,1.0
+25,1,čest,puna,pcd_paper_style,1.0
+25,2,čest,bun,pcd_paper_style,1.0
+25,3,čest,pupun,pcd_paper_style,1.0
+25,4,čest,mumun,pcd_paper_style,1.0
+25,5,čest,puno banana u panju,pcd_paper_style,1.0
+25,6,čest,mama puni puno,pcd_paper_style,1.0
+25,7,čest,buna puni mumun,pcd_paper_style,1.0
+25,8,čest,polje,pcd_paper_style,0.75
+25,9,čest,vol,pcd_paper_style,1.0
+25,10,čest,glog,pcd_paper_style,1.0
+25,11,čest,lovilo,pcd_paper_style,1.0
+25,12,čest,golovol,pcd_paper_style,1.0
+25,13,čest,ovo veliko polje,pcd_paper_style,0.9230769230769231
+25,14,čest,lovac lovi goluba,pcd_paper_style,1.0
+25,15,čest,volog glog lovi,pcd_paper_style,1.0
+25,16,čest,ovo polje lovi,pcd_paper_style,0.9090909090909091
+25,17,čest,rad,pcd_paper_style,1.0
+25,18,čest,krad,pcd_paper_style,1.0
+25,19,čest,ražar,pcd_paper_style,1.0
+25,20,čest,džaradar,pcd_paper_style,1.0
+25,21,čest,brza riba radi,pcd_paper_style,1.0
+25,22,čest,radar radi brzo,pcd_paper_style,1.0
+25,23,čest,džar radi razdragano,pcd_paper_style,1.0
+25,24,čest,krad rad džar,pcd_paper_style,1.0
+25,25,čest,čest,pcd_paper_style,0.0
+25,26,čest,šet,pcd_paper_style,0.5
+25,27,čest,tete,pcd_paper_style,0.5
+25,28,čest,češće,pcd_paper_style,0.6
+25,29,čest,češetet,pcd_paper_style,0.5714285714285714
+25,30,čest,teta šeće često,pcd_paper_style,0.6923076923076923
+25,31,čest,čest šešir teče,pcd_paper_style,0.6923076923076923
+25,32,čest,šeće teta češće,pcd_paper_style,0.7692307692307693
+25,33,čest,sit,pcd_paper_style,0.5
+25,34,čest,cic,pcd_paper_style,1.0
+25,35,čest,zizi,pcd_paper_style,1.0
+25,36,čest,siscic,pcd_paper_style,0.8333333333333334
+25,37,čest,cizisic,pcd_paper_style,0.8571428571428571
+25,38,čest,sit zec s ceste,pcd_paper_style,0.75
+25,39,čest,sivi zec sisa,pcd_paper_style,0.8181818181818182
+25,40,čest,cic zizi sisa,pcd_paper_style,0.9090909090909091
+25,41,čest,siscic zizi cic,pcd_paper_style,0.9230769230769231
+26,0,šet,panj,pcd_paper_style,1.0
+26,1,šet,puna,pcd_paper_style,1.0
+26,2,šet,bun,pcd_paper_style,1.0
+26,3,šet,pupun,pcd_paper_style,1.0
+26,4,šet,mumun,pcd_paper_style,1.0
+26,5,šet,puno banana u panju,pcd_paper_style,1.0
+26,6,šet,mama puni puno,pcd_paper_style,1.0
+26,7,šet,buna puni mumun,pcd_paper_style,1.0
+26,8,šet,polje,pcd_paper_style,0.75
+26,9,šet,vol,pcd_paper_style,1.0
+26,10,šet,glog,pcd_paper_style,1.0
+26,11,šet,lovilo,pcd_paper_style,1.0
+26,12,šet,golovol,pcd_paper_style,1.0
+26,13,šet,ovo veliko polje,pcd_paper_style,0.9230769230769231
+26,14,šet,lovac lovi goluba,pcd_paper_style,1.0
+26,15,šet,volog glog lovi,pcd_paper_style,1.0
+26,16,šet,ovo polje lovi,pcd_paper_style,0.9090909090909091
+26,17,šet,rad,pcd_paper_style,1.0
+26,18,šet,krad,pcd_paper_style,1.0
+26,19,šet,ražar,pcd_paper_style,1.0
+26,20,šet,džaradar,pcd_paper_style,1.0
+26,21,šet,brza riba radi,pcd_paper_style,1.0
+26,22,šet,radar radi brzo,pcd_paper_style,1.0
+26,23,šet,džar radi razdragano,pcd_paper_style,1.0
+26,24,šet,krad rad džar,pcd_paper_style,1.0
+26,25,šet,čest,pcd_paper_style,0.5
+26,26,šet,šet,pcd_paper_style,0.0
+26,27,šet,tete,pcd_paper_style,0.5
+26,28,šet,češće,pcd_paper_style,0.6
+26,29,šet,češetet,pcd_paper_style,0.5714285714285714
+26,30,šet,teta šeće često,pcd_paper_style,0.7692307692307693
+26,31,šet,čest šešir teče,pcd_paper_style,0.7692307692307693
+26,32,šet,šeće teta češće,pcd_paper_style,0.7692307692307693
+26,33,šet,sit,pcd_paper_style,0.6666666666666666
+26,34,šet,cic,pcd_paper_style,1.0
+26,35,šet,zizi,pcd_paper_style,1.0
+26,36,šet,siscic,pcd_paper_style,1.0
+26,37,šet,cizisic,pcd_paper_style,1.0
+26,38,šet,sit zec s ceste,pcd_paper_style,0.8333333333333334
+26,39,šet,sivi zec sisa,pcd_paper_style,0.9090909090909091
+26,40,šet,cic zizi sisa,pcd_paper_style,1.0
+26,41,šet,siscic zizi cic,pcd_paper_style,1.0
+27,0,tete,panj,pcd_paper_style,1.0
+27,1,tete,puna,pcd_paper_style,1.0
+27,2,tete,bun,pcd_paper_style,1.0
+27,3,tete,pupun,pcd_paper_style,1.0
+27,4,tete,mumun,pcd_paper_style,1.0
+27,5,tete,puno banana u panju,pcd_paper_style,1.0
+27,6,tete,mama puni puno,pcd_paper_style,1.0
+27,7,tete,buna puni mumun,pcd_paper_style,1.0
+27,8,tete,polje,pcd_paper_style,0.75
+27,9,tete,vol,pcd_paper_style,1.0
+27,10,tete,glog,pcd_paper_style,1.0
+27,11,tete,lovilo,pcd_paper_style,1.0
+27,12,tete,golovol,pcd_paper_style,1.0
+27,13,tete,ovo veliko polje,pcd_paper_style,0.8461538461538461
+27,14,tete,lovac lovi goluba,pcd_paper_style,1.0
+27,15,tete,volog glog lovi,pcd_paper_style,1.0
+27,16,tete,ovo polje lovi,pcd_paper_style,0.9090909090909091
+27,17,tete,rad,pcd_paper_style,1.0
+27,18,tete,krad,pcd_paper_style,1.0
+27,19,tete,ražar,pcd_paper_style,1.0
+27,20,tete,džaradar,pcd_paper_style,1.0
+27,21,tete,brza riba radi,pcd_paper_style,1.0
+27,22,tete,radar radi brzo,pcd_paper_style,1.0
+27,23,tete,džar radi razdragano,pcd_paper_style,1.0
+27,24,tete,krad rad džar,pcd_paper_style,1.0
+27,25,tete,čest,pcd_paper_style,0.5
+27,26,tete,šet,pcd_paper_style,0.5
+27,27,tete,tete,pcd_paper_style,0.0
+27,28,tete,češće,pcd_paper_style,0.6
+27,29,tete,češetet,pcd_paper_style,0.42857142857142855
+27,30,tete,teta šeće često,pcd_paper_style,0.6923076923076923
+27,31,tete,čest šešir teče,pcd_paper_style,0.6923076923076923
+27,32,tete,šeće teta češće,pcd_paper_style,0.6923076923076923
+27,33,tete,sit,pcd_paper_style,0.75
+27,34,tete,cic,pcd_paper_style,1.0
+27,35,tete,zizi,pcd_paper_style,1.0
+27,36,tete,siscic,pcd_paper_style,1.0
+27,37,tete,cizisic,pcd_paper_style,1.0
+27,38,tete,sit zec s ceste,pcd_paper_style,0.6666666666666666
+27,39,tete,sivi zec sisa,pcd_paper_style,0.9090909090909091
+27,40,tete,cic zizi sisa,pcd_paper_style,1.0
+27,41,tete,siscic zizi cic,pcd_paper_style,1.0
+28,0,češće,panj,pcd_paper_style,1.0
+28,1,češće,puna,pcd_paper_style,1.0
+28,2,češće,bun,pcd_paper_style,1.0
+28,3,češće,pupun,pcd_paper_style,1.0
+28,4,češće,mumun,pcd_paper_style,1.0
+28,5,češće,puno banana u panju,pcd_paper_style,1.0
+28,6,češće,mama puni puno,pcd_paper_style,1.0
+28,7,češće,buna puni mumun,pcd_paper_style,1.0
+28,8,češće,polje,pcd_paper_style,0.8
+28,9,češće,vol,pcd_paper_style,1.0
+28,10,češće,glog,pcd_paper_style,1.0
+28,11,češće,lovilo,pcd_paper_style,1.0
+28,12,češće,golovol,pcd_paper_style,1.0
+28,13,češće,ovo veliko polje,pcd_paper_style,0.8461538461538461
+28,14,češće,lovac lovi goluba,pcd_paper_style,1.0
+28,15,češće,volog glog lovi,pcd_paper_style,1.0
+28,16,češće,ovo polje lovi,pcd_paper_style,0.9090909090909091
+28,17,češće,rad,pcd_paper_style,1.0
+28,18,češće,krad,pcd_paper_style,1.0
+28,19,češće,ražar,pcd_paper_style,1.0
+28,20,češće,džaradar,pcd_paper_style,1.0
+28,21,češće,brza riba radi,pcd_paper_style,1.0
+28,22,češće,radar radi brzo,pcd_paper_style,1.0
+28,23,češće,džar radi razdragano,pcd_paper_style,1.0
+28,24,češće,krad rad džar,pcd_paper_style,1.0
+28,25,češće,čest,pcd_paper_style,0.6
+28,26,češće,šet,pcd_paper_style,0.6
+28,27,češće,tete,pcd_paper_style,0.6
+28,28,češće,češće,pcd_paper_style,0.0
+28,29,češće,češetet,pcd_paper_style,0.42857142857142855
+28,30,češće,teta šeće često,pcd_paper_style,0.6153846153846154
+28,31,češće,čest šešir teče,pcd_paper_style,0.6923076923076923
+28,32,češće,šeće teta češće,pcd_paper_style,0.6153846153846154
+28,33,češće,sit,pcd_paper_style,1.0
+28,34,češće,cic,pcd_paper_style,1.0
+28,35,češće,zizi,pcd_paper_style,1.0
+28,36,češće,siscic,pcd_paper_style,1.0
+28,37,češće,cizisic,pcd_paper_style,1.0
+28,38,češće,sit zec s ceste,pcd_paper_style,0.8333333333333334
+28,39,češće,sivi zec sisa,pcd_paper_style,0.9090909090909091
+28,40,češće,cic zizi sisa,pcd_paper_style,1.0
+28,41,češće,siscic zizi cic,pcd_paper_style,1.0
+29,0,češetet,panj,pcd_paper_style,1.0
+29,1,češetet,puna,pcd_paper_style,1.0
+29,2,češetet,bun,pcd_paper_style,1.0
+29,3,češetet,pupun,pcd_paper_style,1.0
+29,4,češetet,mumun,pcd_paper_style,1.0
+29,5,češetet,puno banana u panju,pcd_paper_style,1.0
+29,6,češetet,mama puni puno,pcd_paper_style,1.0
+29,7,češetet,buna puni mumun,pcd_paper_style,1.0
+29,8,češetet,polje,pcd_paper_style,0.8571428571428571
+29,9,češetet,vol,pcd_paper_style,1.0
+29,10,češetet,glog,pcd_paper_style,1.0
+29,11,češetet,lovilo,pcd_paper_style,1.0
+29,12,češetet,golovol,pcd_paper_style,1.0
+29,13,češetet,ovo veliko polje,pcd_paper_style,0.8461538461538461
+29,14,češetet,lovac lovi goluba,pcd_paper_style,1.0
+29,15,češetet,volog glog lovi,pcd_paper_style,1.0
+29,16,češetet,ovo polje lovi,pcd_paper_style,0.9090909090909091
+29,17,češetet,rad,pcd_paper_style,1.0
+29,18,češetet,krad,pcd_paper_style,1.0
+29,19,češetet,ražar,pcd_paper_style,1.0
+29,20,češetet,džaradar,pcd_paper_style,1.0
+29,21,češetet,brza riba radi,pcd_paper_style,1.0
+29,22,češetet,radar radi brzo,pcd_paper_style,1.0
+29,23,češetet,džar radi razdragano,pcd_paper_style,1.0
+29,24,češetet,krad rad džar,pcd_paper_style,1.0
+29,25,češetet,čest,pcd_paper_style,0.5714285714285714
+29,26,češetet,šet,pcd_paper_style,0.5714285714285714
+29,27,češetet,tete,pcd_paper_style,0.42857142857142855
+29,28,češetet,češće,pcd_paper_style,0.42857142857142855
+29,29,češetet,češetet,pcd_paper_style,0.0
+29,30,češetet,teta šeće često,pcd_paper_style,0.46153846153846156
+29,31,češetet,čest šešir teče,pcd_paper_style,0.46153846153846156
+29,32,češetet,šeće teta češće,pcd_paper_style,0.46153846153846156
+29,33,češetet,sit,pcd_paper_style,0.8571428571428571
+29,34,češetet,cic,pcd_paper_style,1.0
+29,35,češetet,zizi,pcd_paper_style,1.0
+29,36,češetet,siscic,pcd_paper_style,1.0
+29,37,češetet,cizisic,pcd_paper_style,1.0
+29,38,češetet,sit zec s ceste,pcd_paper_style,0.5833333333333334
+29,39,češetet,sivi zec sisa,pcd_paper_style,0.9090909090909091
+29,40,češetet,cic zizi sisa,pcd_paper_style,1.0
+29,41,češetet,siscic zizi cic,pcd_paper_style,1.0
+30,0,teta šeće često,panj,pcd_paper_style,0.9230769230769231
+30,1,teta šeće često,puna,pcd_paper_style,0.9230769230769231
+30,2,teta šeće često,bun,pcd_paper_style,1.0
+30,3,teta šeće često,pupun,pcd_paper_style,1.0
+30,4,teta šeće često,mumun,pcd_paper_style,1.0
+30,5,teta šeće često,puno banana u panju,pcd_paper_style,0.8666666666666667
+30,6,teta šeće često,mama puni puno,pcd_paper_style,0.8461538461538461
+30,7,teta šeće često,buna puni mumun,pcd_paper_style,0.9230769230769231
+30,8,teta šeće često,polje,pcd_paper_style,0.8461538461538461
+30,9,teta šeće često,vol,pcd_paper_style,0.9230769230769231
+30,10,teta šeće često,glog,pcd_paper_style,0.9230769230769231
+30,11,teta šeće često,lovilo,pcd_paper_style,0.9230769230769231
+30,12,teta šeće često,golovol,pcd_paper_style,0.9230769230769231
+30,13,teta šeće često,ovo veliko polje,pcd_paper_style,0.7692307692307693
+30,14,teta šeće često,lovac lovi goluba,pcd_paper_style,0.8666666666666667
+30,15,teta šeće često,volog glog lovi,pcd_paper_style,0.9230769230769231
+30,16,teta šeće često,ovo polje lovi,pcd_paper_style,0.8461538461538461
+30,17,teta šeće često,rad,pcd_paper_style,0.9230769230769231
+30,18,teta šeće često,krad,pcd_paper_style,0.9230769230769231
+30,19,teta šeće često,ražar,pcd_paper_style,0.9230769230769231
+30,20,teta šeće često,džaradar,pcd_paper_style,0.9230769230769231
+30,21,teta šeće često,brza riba radi,pcd_paper_style,0.9230769230769231
+30,22,teta šeće često,radar radi brzo,pcd_paper_style,0.8461538461538461
+30,23,teta šeće često,džar radi razdragano,pcd_paper_style,0.8823529411764706
+30,24,teta šeće često,krad rad džar,pcd_paper_style,0.9230769230769231
+30,25,teta šeće često,čest,pcd_paper_style,0.6923076923076923
+30,26,teta šeće često,šet,pcd_paper_style,0.7692307692307693
+30,27,teta šeće često,tete,pcd_paper_style,0.6923076923076923
+30,28,teta šeće često,češće,pcd_paper_style,0.6153846153846154
+30,29,teta šeće često,češetet,pcd_paper_style,0.46153846153846156
+30,30,teta šeće često,teta šeće često,pcd_paper_style,0.0
+30,31,teta šeće često,čest šešir teče,pcd_paper_style,0.3076923076923077
+30,32,teta šeće često,šeće teta češće,pcd_paper_style,0.23076923076923078
+30,33,teta šeće često,sit,pcd_paper_style,0.8461538461538461
+30,34,teta šeće često,cic,pcd_paper_style,1.0
+30,35,teta šeće često,zizi,pcd_paper_style,1.0
+30,36,teta šeće često,siscic,pcd_paper_style,0.9230769230769231
+30,37,teta šeće često,cizisic,pcd_paper_style,0.9230769230769231
+30,38,teta šeće često,sit zec s ceste,pcd_paper_style,0.5384615384615384
+30,39,teta šeće često,sivi zec sisa,pcd_paper_style,0.7692307692307693
+30,40,teta šeće često,cic zizi sisa,pcd_paper_style,0.8461538461538461
+30,41,teta šeće često,siscic zizi cic,pcd_paper_style,0.9230769230769231
+31,0,čest šešir teče,panj,pcd_paper_style,1.0
+31,1,čest šešir teče,puna,pcd_paper_style,1.0
+31,2,čest šešir teče,bun,pcd_paper_style,1.0
+31,3,čest šešir teče,pupun,pcd_paper_style,1.0
+31,4,čest šešir teče,mumun,pcd_paper_style,1.0
+31,5,čest šešir teče,puno banana u panju,pcd_paper_style,1.0
+31,6,čest šešir teče,mama puni puno,pcd_paper_style,0.9230769230769231
+31,7,čest šešir teče,buna puni mumun,pcd_paper_style,0.9230769230769231
+31,8,čest šešir teče,polje,pcd_paper_style,0.9230769230769231
+31,9,čest šešir teče,vol,pcd_paper_style,1.0
+31,10,čest šešir teče,glog,pcd_paper_style,1.0
+31,11,čest šešir teče,lovilo,pcd_paper_style,0.9230769230769231
+31,12,čest šešir teče,golovol,pcd_paper_style,1.0
+31,13,čest šešir teče,ovo veliko polje,pcd_paper_style,0.7692307692307693
+31,14,čest šešir teče,lovac lovi goluba,pcd_paper_style,0.9333333333333333
+31,15,čest šešir teče,volog glog lovi,pcd_paper_style,0.9230769230769231
+31,16,čest šešir teče,ovo polje lovi,pcd_paper_style,0.8461538461538461
+31,17,čest šešir teče,rad,pcd_paper_style,0.9230769230769231
+31,18,čest šešir teče,krad,pcd_paper_style,0.9230769230769231
+31,19,čest šešir teče,ražar,pcd_paper_style,0.9230769230769231
+31,20,čest šešir teče,džaradar,pcd_paper_style,0.9230769230769231
+31,21,čest šešir teče,brza riba radi,pcd_paper_style,0.8461538461538461
+31,22,čest šešir teče,radar radi brzo,pcd_paper_style,0.8461538461538461
+31,23,čest šešir teče,džar radi razdragano,pcd_paper_style,0.8823529411764706
+31,24,čest šešir teče,krad rad džar,pcd_paper_style,0.9230769230769231
+31,25,čest šešir teče,čest,pcd_paper_style,0.6923076923076923
+31,26,čest šešir teče,šet,pcd_paper_style,0.7692307692307693
+31,27,čest šešir teče,tete,pcd_paper_style,0.6923076923076923
+31,28,čest šešir teče,češće,pcd_paper_style,0.6923076923076923
+31,29,čest šešir teče,češetet,pcd_paper_style,0.46153846153846156
+31,30,čest šešir teče,teta šeće često,pcd_paper_style,0.3076923076923077
+31,31,čest šešir teče,čest šešir teče,pcd_paper_style,0.0
+31,32,čest šešir teče,šeće teta češće,pcd_paper_style,0.3076923076923077
+31,33,čest šešir teče,sit,pcd_paper_style,0.7692307692307693
+31,34,čest šešir teče,cic,pcd_paper_style,0.9230769230769231
+31,35,čest šešir teče,zizi,pcd_paper_style,0.9230769230769231
+31,36,čest šešir teče,siscic,pcd_paper_style,0.8461538461538461
+31,37,čest šešir teče,cizisic,pcd_paper_style,0.8461538461538461
+31,38,čest šešir teče,sit zec s ceste,pcd_paper_style,0.46153846153846156
+31,39,čest šešir teče,sivi zec sisa,pcd_paper_style,0.7692307692307693
+31,40,čest šešir teče,cic zizi sisa,pcd_paper_style,0.8461538461538461
+31,41,čest šešir teče,siscic zizi cic,pcd_paper_style,0.8461538461538461
+32,0,šeće teta češće,panj,pcd_paper_style,0.9230769230769231
+32,1,šeće teta češće,puna,pcd_paper_style,0.9230769230769231
+32,2,šeće teta češće,bun,pcd_paper_style,1.0
+32,3,šeće teta češće,pupun,pcd_paper_style,1.0
+32,4,šeće teta češće,mumun,pcd_paper_style,1.0
+32,5,šeće teta češće,puno banana u panju,pcd_paper_style,0.9333333333333333
+32,6,šeće teta češće,mama puni puno,pcd_paper_style,0.9230769230769231
+32,7,šeće teta češće,buna puni mumun,pcd_paper_style,0.9230769230769231
+32,8,šeće teta češće,polje,pcd_paper_style,0.9230769230769231
+32,9,šeće teta češće,vol,pcd_paper_style,1.0
+32,10,šeće teta češće,glog,pcd_paper_style,1.0
+32,11,šeće teta češće,lovilo,pcd_paper_style,1.0
+32,12,šeće teta češće,golovol,pcd_paper_style,1.0
+32,13,šeće teta češće,ovo veliko polje,pcd_paper_style,0.8461538461538461
+32,14,šeće teta češće,lovac lovi goluba,pcd_paper_style,0.9333333333333333
+32,15,šeće teta češće,volog glog lovi,pcd_paper_style,1.0
+32,16,šeće teta češće,ovo polje lovi,pcd_paper_style,0.9230769230769231
+32,17,šeće teta češće,rad,pcd_paper_style,0.9230769230769231
+32,18,šeće teta češće,krad,pcd_paper_style,0.9230769230769231
+32,19,šeće teta češće,ražar,pcd_paper_style,0.9230769230769231
+32,20,šeće teta češće,džaradar,pcd_paper_style,0.9230769230769231
+32,21,šeće teta češće,brza riba radi,pcd_paper_style,0.9230769230769231
+32,22,šeće teta češće,radar radi brzo,pcd_paper_style,0.9230769230769231
+32,23,šeće teta češće,džar radi razdragano,pcd_paper_style,0.9411764705882353
+32,24,šeće teta češće,krad rad džar,pcd_paper_style,0.9230769230769231
+32,25,šeće teta češće,čest,pcd_paper_style,0.7692307692307693
+32,26,šeće teta češće,šet,pcd_paper_style,0.7692307692307693
+32,27,šeće teta češće,tete,pcd_paper_style,0.6923076923076923
+32,28,šeće teta češće,češće,pcd_paper_style,0.6153846153846154
+32,29,šeće teta češće,češetet,pcd_paper_style,0.46153846153846156
+32,30,šeće teta češće,teta šeće često,pcd_paper_style,0.23076923076923078
+32,31,šeće teta češće,čest šešir teče,pcd_paper_style,0.3076923076923077
+32,32,šeće teta češće,šeće teta češće,pcd_paper_style,0.0
+32,33,šeće teta češće,sit,pcd_paper_style,0.9230769230769231
+32,34,šeće teta češće,cic,pcd_paper_style,1.0
+32,35,šeće teta češće,zizi,pcd_paper_style,1.0
+32,36,šeće teta češće,siscic,pcd_paper_style,1.0
+32,37,šeće teta češće,cizisic,pcd_paper_style,1.0
+32,38,šeće teta češće,sit zec s ceste,pcd_paper_style,0.6153846153846154
+32,39,šeće teta češće,sivi zec sisa,pcd_paper_style,0.8461538461538461
+32,40,šeće teta češće,cic zizi sisa,pcd_paper_style,0.9230769230769231
+32,41,šeće teta češće,siscic zizi cic,pcd_paper_style,1.0
+33,0,sit,panj,pcd_paper_style,1.0
+33,1,sit,puna,pcd_paper_style,1.0
+33,2,sit,bun,pcd_paper_style,1.0
+33,3,sit,pupun,pcd_paper_style,1.0
+33,4,sit,mumun,pcd_paper_style,1.0
+33,5,sit,puno banana u panju,pcd_paper_style,1.0
+33,6,sit,mama puni puno,pcd_paper_style,0.9166666666666666
+33,7,sit,buna puni mumun,pcd_paper_style,0.9230769230769231
+33,8,sit,polje,pcd_paper_style,1.0
+33,9,sit,vol,pcd_paper_style,1.0
+33,10,sit,glog,pcd_paper_style,1.0
+33,11,sit,lovilo,pcd_paper_style,0.8333333333333334
+33,12,sit,golovol,pcd_paper_style,1.0
+33,13,sit,ovo veliko polje,pcd_paper_style,0.9230769230769231
+33,14,sit,lovac lovi goluba,pcd_paper_style,0.9333333333333333
+33,15,sit,volog glog lovi,pcd_paper_style,0.9230769230769231
+33,16,sit,ovo polje lovi,pcd_paper_style,0.9090909090909091
+33,17,sit,rad,pcd_paper_style,1.0
+33,18,sit,krad,pcd_paper_style,1.0
+33,19,sit,ražar,pcd_paper_style,1.0
+33,20,sit,džaradar,pcd_paper_style,1.0
+33,21,sit,brza riba radi,pcd_paper_style,0.9166666666666666
+33,22,sit,radar radi brzo,pcd_paper_style,0.9230769230769231
+33,23,sit,džar radi razdragano,pcd_paper_style,0.9411764705882353
+33,24,sit,krad rad džar,pcd_paper_style,1.0
+33,25,sit,čest,pcd_paper_style,0.5
+33,26,sit,šet,pcd_paper_style,0.6666666666666666
+33,27,sit,tete,pcd_paper_style,0.75
+33,28,sit,češće,pcd_paper_style,1.0
+33,29,sit,češetet,pcd_paper_style,0.8571428571428571
+33,30,sit,teta šeće često,pcd_paper_style,0.8461538461538461
+33,31,sit,čest šešir teče,pcd_paper_style,0.7692307692307693
+33,32,sit,šeće teta češće,pcd_paper_style,0.9230769230769231
+33,33,sit,sit,pcd_paper_style,0.0
+33,34,sit,cic,pcd_paper_style,0.6666666666666666
+33,35,sit,zizi,pcd_paper_style,0.75
+33,36,sit,siscic,pcd_paper_style,0.6666666666666666
+33,37,sit,cizisic,pcd_paper_style,0.7142857142857143
+33,38,sit,sit zec s ceste,pcd_paper_style,0.75
+33,39,sit,sivi zec sisa,pcd_paper_style,0.8181818181818182
+33,40,sit,cic zizi sisa,pcd_paper_style,0.8181818181818182
+33,41,sit,siscic zizi cic,pcd_paper_style,0.8461538461538461
+34,0,cic,panj,pcd_paper_style,1.0
+34,1,cic,puna,pcd_paper_style,1.0
+34,2,cic,bun,pcd_paper_style,1.0
+34,3,cic,pupun,pcd_paper_style,1.0
+34,4,cic,mumun,pcd_paper_style,1.0
+34,5,cic,puno banana u panju,pcd_paper_style,1.0
+34,6,cic,mama puni puno,pcd_paper_style,0.9166666666666666
+34,7,cic,buna puni mumun,pcd_paper_style,0.9230769230769231
+34,8,cic,polje,pcd_paper_style,1.0
+34,9,cic,vol,pcd_paper_style,1.0
+34,10,cic,glog,pcd_paper_style,1.0
+34,11,cic,lovilo,pcd_paper_style,0.8333333333333334
+34,12,cic,golovol,pcd_paper_style,1.0
+34,13,cic,ovo veliko polje,pcd_paper_style,0.9230769230769231
+34,14,cic,lovac lovi goluba,pcd_paper_style,0.8666666666666667
+34,15,cic,volog glog lovi,pcd_paper_style,0.9230769230769231
+34,16,cic,ovo polje lovi,pcd_paper_style,0.9090909090909091
+34,17,cic,rad,pcd_paper_style,1.0
+34,18,cic,krad,pcd_paper_style,1.0
+34,19,cic,ražar,pcd_paper_style,1.0
+34,20,cic,džaradar,pcd_paper_style,1.0
+34,21,cic,brza riba radi,pcd_paper_style,0.9166666666666666
+34,22,cic,radar radi brzo,pcd_paper_style,0.9230769230769231
+34,23,cic,džar radi razdragano,pcd_paper_style,0.9411764705882353
+34,24,cic,krad rad džar,pcd_paper_style,1.0
+34,25,cic,čest,pcd_paper_style,1.0
+34,26,cic,šet,pcd_paper_style,1.0
+34,27,cic,tete,pcd_paper_style,1.0
+34,28,cic,češće,pcd_paper_style,1.0
+34,29,cic,češetet,pcd_paper_style,1.0
+34,30,cic,teta šeće često,pcd_paper_style,1.0
+34,31,cic,čest šešir teče,pcd_paper_style,0.9230769230769231
+34,32,cic,šeće teta češće,pcd_paper_style,1.0
+34,33,cic,sit,pcd_paper_style,0.6666666666666666
+34,34,cic,cic,pcd_paper_style,0.0
+34,35,cic,zizi,pcd_paper_style,0.75
+34,36,cic,siscic,pcd_paper_style,0.5
+34,37,cic,cizisic,pcd_paper_style,0.5714285714285714
+34,38,cic,sit zec s ceste,pcd_paper_style,0.75
+34,39,cic,sivi zec sisa,pcd_paper_style,0.8181818181818182
+34,40,cic,cic zizi sisa,pcd_paper_style,0.7272727272727273
+34,41,cic,siscic zizi cic,pcd_paper_style,0.7692307692307693
+35,0,zizi,panj,pcd_paper_style,1.0
+35,1,zizi,puna,pcd_paper_style,1.0
+35,2,zizi,bun,pcd_paper_style,1.0
+35,3,zizi,pupun,pcd_paper_style,1.0
+35,4,zizi,mumun,pcd_paper_style,1.0
+35,5,zizi,puno banana u panju,pcd_paper_style,1.0
+35,6,zizi,mama puni puno,pcd_paper_style,0.9166666666666666
+35,7,zizi,buna puni mumun,pcd_paper_style,0.9230769230769231
+35,8,zizi,polje,pcd_paper_style,1.0
+35,9,zizi,vol,pcd_paper_style,1.0
+35,10,zizi,glog,pcd_paper_style,1.0
+35,11,zizi,lovilo,pcd_paper_style,0.8333333333333334
+35,12,zizi,golovol,pcd_paper_style,1.0
+35,13,zizi,ovo veliko polje,pcd_paper_style,0.9230769230769231
+35,14,zizi,lovac lovi goluba,pcd_paper_style,0.9333333333333333
+35,15,zizi,volog glog lovi,pcd_paper_style,0.9230769230769231
+35,16,zizi,ovo polje lovi,pcd_paper_style,0.9090909090909091
+35,17,zizi,rad,pcd_paper_style,1.0
+35,18,zizi,krad,pcd_paper_style,1.0
+35,19,zizi,ražar,pcd_paper_style,1.0
+35,20,zizi,džaradar,pcd_paper_style,1.0
+35,21,zizi,brza riba radi,pcd_paper_style,0.75
+35,22,zizi,radar radi brzo,pcd_paper_style,0.8461538461538461
+35,23,zizi,džar radi razdragano,pcd_paper_style,0.8823529411764706
+35,24,zizi,krad rad džar,pcd_paper_style,1.0
+35,25,zizi,čest,pcd_paper_style,1.0
+35,26,zizi,šet,pcd_paper_style,1.0
+35,27,zizi,tete,pcd_paper_style,1.0
+35,28,zizi,češće,pcd_paper_style,1.0
+35,29,zizi,češetet,pcd_paper_style,1.0
+35,30,zizi,teta šeće često,pcd_paper_style,1.0
+35,31,zizi,čest šešir teče,pcd_paper_style,0.9230769230769231
+35,32,zizi,šeće teta češće,pcd_paper_style,1.0
+35,33,zizi,sit,pcd_paper_style,0.75
+35,34,zizi,cic,pcd_paper_style,0.75
+35,35,zizi,zizi,pcd_paper_style,0.0
+35,36,zizi,siscic,pcd_paper_style,0.6666666666666666
+35,37,zizi,cizisic,pcd_paper_style,0.5714285714285714
+35,38,zizi,sit zec s ceste,pcd_paper_style,0.8333333333333334
+35,39,zizi,sivi zec sisa,pcd_paper_style,0.7272727272727273
+35,40,zizi,cic zizi sisa,pcd_paper_style,0.6363636363636364
+35,41,zizi,siscic zizi cic,pcd_paper_style,0.6923076923076923
+36,0,siscic,panj,pcd_paper_style,1.0
+36,1,siscic,puna,pcd_paper_style,1.0
+36,2,siscic,bun,pcd_paper_style,1.0
+36,3,siscic,pupun,pcd_paper_style,1.0
+36,4,siscic,mumun,pcd_paper_style,1.0
+36,5,siscic,puno banana u panju,pcd_paper_style,1.0
+36,6,siscic,mama puni puno,pcd_paper_style,0.9166666666666666
+36,7,siscic,buna puni mumun,pcd_paper_style,0.9230769230769231
+36,8,siscic,polje,pcd_paper_style,1.0
+36,9,siscic,vol,pcd_paper_style,1.0
+36,10,siscic,glog,pcd_paper_style,1.0
+36,11,siscic,lovilo,pcd_paper_style,0.8333333333333334
+36,12,siscic,golovol,pcd_paper_style,1.0
+36,13,siscic,ovo veliko polje,pcd_paper_style,0.9230769230769231
+36,14,siscic,lovac lovi goluba,pcd_paper_style,0.8666666666666667
+36,15,siscic,volog glog lovi,pcd_paper_style,0.9230769230769231
+36,16,siscic,ovo polje lovi,pcd_paper_style,0.9090909090909091
+36,17,siscic,rad,pcd_paper_style,1.0
+36,18,siscic,krad,pcd_paper_style,1.0
+36,19,siscic,ražar,pcd_paper_style,1.0
+36,20,siscic,džaradar,pcd_paper_style,1.0
+36,21,siscic,brza riba radi,pcd_paper_style,0.8333333333333334
+36,22,siscic,radar radi brzo,pcd_paper_style,0.9230769230769231
+36,23,siscic,džar radi razdragano,pcd_paper_style,0.9411764705882353
+36,24,siscic,krad rad džar,pcd_paper_style,1.0
+36,25,siscic,čest,pcd_paper_style,0.8333333333333334
+36,26,siscic,šet,pcd_paper_style,1.0
+36,27,siscic,tete,pcd_paper_style,1.0
+36,28,siscic,češće,pcd_paper_style,1.0
+36,29,siscic,češetet,pcd_paper_style,1.0
+36,30,siscic,teta šeće često,pcd_paper_style,0.9230769230769231
+36,31,siscic,čest šešir teče,pcd_paper_style,0.8461538461538461
+36,32,siscic,šeće teta češće,pcd_paper_style,1.0
+36,33,siscic,sit,pcd_paper_style,0.6666666666666666
+36,34,siscic,cic,pcd_paper_style,0.5
+36,35,siscic,zizi,pcd_paper_style,0.6666666666666666
+36,36,siscic,siscic,pcd_paper_style,0.0
+36,37,siscic,cizisic,pcd_paper_style,0.2857142857142857
+36,38,siscic,sit zec s ceste,pcd_paper_style,0.5833333333333334
+36,39,siscic,sivi zec sisa,pcd_paper_style,0.5454545454545454
+36,40,siscic,cic zizi sisa,pcd_paper_style,0.45454545454545453
+36,41,siscic,siscic zizi cic,pcd_paper_style,0.5384615384615384
+37,0,cizisic,panj,pcd_paper_style,1.0
+37,1,cizisic,puna,pcd_paper_style,1.0
+37,2,cizisic,bun,pcd_paper_style,1.0
+37,3,cizisic,pupun,pcd_paper_style,1.0
+37,4,cizisic,mumun,pcd_paper_style,1.0
+37,5,cizisic,puno banana u panju,pcd_paper_style,1.0
+37,6,cizisic,mama puni puno,pcd_paper_style,0.9166666666666666
+37,7,cizisic,buna puni mumun,pcd_paper_style,0.9230769230769231
+37,8,cizisic,polje,pcd_paper_style,1.0
+37,9,cizisic,vol,pcd_paper_style,1.0
+37,10,cizisic,glog,pcd_paper_style,1.0
+37,11,cizisic,lovilo,pcd_paper_style,0.8571428571428571
+37,12,cizisic,golovol,pcd_paper_style,1.0
+37,13,cizisic,ovo veliko polje,pcd_paper_style,0.9230769230769231
+37,14,cizisic,lovac lovi goluba,pcd_paper_style,0.8666666666666667
+37,15,cizisic,volog glog lovi,pcd_paper_style,0.9230769230769231
+37,16,cizisic,ovo polje lovi,pcd_paper_style,0.9090909090909091
+37,17,cizisic,rad,pcd_paper_style,1.0
+37,18,cizisic,krad,pcd_paper_style,1.0
+37,19,cizisic,ražar,pcd_paper_style,1.0
+37,20,cizisic,džaradar,pcd_paper_style,1.0
+37,21,cizisic,brza riba radi,pcd_paper_style,0.75
+37,22,cizisic,radar radi brzo,pcd_paper_style,0.8461538461538461
+37,23,cizisic,džar radi razdragano,pcd_paper_style,0.8823529411764706
+37,24,cizisic,krad rad džar,pcd_paper_style,1.0
+37,25,cizisic,čest,pcd_paper_style,0.8571428571428571
+37,26,cizisic,šet,pcd_paper_style,1.0
+37,27,cizisic,tete,pcd_paper_style,1.0
+37,28,cizisic,češće,pcd_paper_style,1.0
+37,29,cizisic,češetet,pcd_paper_style,1.0
+37,30,cizisic,teta šeće često,pcd_paper_style,0.9230769230769231
+37,31,cizisic,čest šešir teče,pcd_paper_style,0.8461538461538461
+37,32,cizisic,šeće teta češće,pcd_paper_style,1.0
+37,33,cizisic,sit,pcd_paper_style,0.7142857142857143
+37,34,cizisic,cic,pcd_paper_style,0.5714285714285714
+37,35,cizisic,zizi,pcd_paper_style,0.5714285714285714
+37,36,cizisic,siscic,pcd_paper_style,0.2857142857142857
+37,37,cizisic,cizisic,pcd_paper_style,0.0
+37,38,cizisic,sit zec s ceste,pcd_paper_style,0.5833333333333334
+37,39,cizisic,sivi zec sisa,pcd_paper_style,0.45454545454545453
+37,40,cizisic,cic zizi sisa,pcd_paper_style,0.36363636363636365
+37,41,cizisic,siscic zizi cic,pcd_paper_style,0.46153846153846156
+38,0,sit zec s ceste,panj,pcd_paper_style,1.0
+38,1,sit zec s ceste,puna,pcd_paper_style,1.0
+38,2,sit zec s ceste,bun,pcd_paper_style,1.0
+38,3,sit zec s ceste,pupun,pcd_paper_style,1.0
+38,4,sit zec s ceste,mumun,pcd_paper_style,1.0
+38,5,sit zec s ceste,puno banana u panju,pcd_paper_style,1.0
+38,6,sit zec s ceste,mama puni puno,pcd_paper_style,0.9166666666666666
+38,7,sit zec s ceste,buna puni mumun,pcd_paper_style,0.9230769230769231
+38,8,sit zec s ceste,polje,pcd_paper_style,0.9166666666666666
+38,9,sit zec s ceste,vol,pcd_paper_style,1.0
+38,10,sit zec s ceste,glog,pcd_paper_style,1.0
+38,11,sit zec s ceste,lovilo,pcd_paper_style,0.9166666666666666
+38,12,sit zec s ceste,golovol,pcd_paper_style,1.0
+38,13,sit zec s ceste,ovo veliko polje,pcd_paper_style,0.7692307692307693
+38,14,sit zec s ceste,lovac lovi goluba,pcd_paper_style,0.8666666666666667
+38,15,sit zec s ceste,volog glog lovi,pcd_paper_style,0.9230769230769231
+38,16,sit zec s ceste,ovo polje lovi,pcd_paper_style,0.8333333333333334
+38,17,sit zec s ceste,rad,pcd_paper_style,1.0
+38,18,sit zec s ceste,krad,pcd_paper_style,1.0
+38,19,sit zec s ceste,ražar,pcd_paper_style,1.0
+38,20,sit zec s ceste,džaradar,pcd_paper_style,1.0
+38,21,sit zec s ceste,brza riba radi,pcd_paper_style,0.8333333333333334
+38,22,sit zec s ceste,radar radi brzo,pcd_paper_style,0.8461538461538461
+38,23,sit zec s ceste,džar radi razdragano,pcd_paper_style,0.8823529411764706
+38,24,sit zec s ceste,krad rad džar,pcd_paper_style,1.0
+38,25,sit zec s ceste,čest,pcd_paper_style,0.75
+38,26,sit zec s ceste,šet,pcd_paper_style,0.8333333333333334
+38,27,sit zec s ceste,tete,pcd_paper_style,0.6666666666666666
+38,28,sit zec s ceste,češće,pcd_paper_style,0.8333333333333334
+38,29,sit zec s ceste,češetet,pcd_paper_style,0.5833333333333334
+38,30,sit zec s ceste,teta šeće često,pcd_paper_style,0.5384615384615384
+38,31,sit zec s ceste,čest šešir teče,pcd_paper_style,0.46153846153846156
+38,32,sit zec s ceste,šeće teta češće,pcd_paper_style,0.6153846153846154
+38,33,sit zec s ceste,sit,pcd_paper_style,0.75
+38,34,sit zec s ceste,cic,pcd_paper_style,0.75
+38,35,sit zec s ceste,zizi,pcd_paper_style,0.8333333333333334
+38,36,sit zec s ceste,siscic,pcd_paper_style,0.5833333333333334
+38,37,sit zec s ceste,cizisic,pcd_paper_style,0.5833333333333334
+38,38,sit zec s ceste,sit zec s ceste,pcd_paper_style,0.0
+38,39,sit zec s ceste,sivi zec sisa,pcd_paper_style,0.4166666666666667
+38,40,sit zec s ceste,cic zizi sisa,pcd_paper_style,0.5
+38,41,sit zec s ceste,siscic zizi cic,pcd_paper_style,0.5384615384615384
+39,0,sivi zec sisa,panj,pcd_paper_style,0.9090909090909091
+39,1,sivi zec sisa,puna,pcd_paper_style,0.9090909090909091
+39,2,sivi zec sisa,bun,pcd_paper_style,1.0
+39,3,sivi zec sisa,pupun,pcd_paper_style,1.0
+39,4,sivi zec sisa,mumun,pcd_paper_style,1.0
+39,5,sivi zec sisa,puno banana u panju,pcd_paper_style,0.9333333333333333
+39,6,sivi zec sisa,mama puni puno,pcd_paper_style,0.8333333333333334
+39,7,sivi zec sisa,buna puni mumun,pcd_paper_style,0.8461538461538461
+39,8,sivi zec sisa,polje,pcd_paper_style,0.9090909090909091
+39,9,sivi zec sisa,vol,pcd_paper_style,0.9090909090909091
+39,10,sivi zec sisa,glog,pcd_paper_style,1.0
+39,11,sivi zec sisa,lovilo,pcd_paper_style,0.8181818181818182
+39,12,sivi zec sisa,golovol,pcd_paper_style,0.9090909090909091
+39,13,sivi zec sisa,ovo veliko polje,pcd_paper_style,0.7692307692307693
+39,14,sivi zec sisa,lovac lovi goluba,pcd_paper_style,0.7333333333333333
+39,15,sivi zec sisa,volog glog lovi,pcd_paper_style,0.8461538461538461
+39,16,sivi zec sisa,ovo polje lovi,pcd_paper_style,0.7272727272727273
+39,17,sivi zec sisa,rad,pcd_paper_style,0.9090909090909091
+39,18,sivi zec sisa,krad,pcd_paper_style,0.9090909090909091
+39,19,sivi zec sisa,ražar,pcd_paper_style,0.9090909090909091
+39,20,sivi zec sisa,džaradar,pcd_paper_style,0.9090909090909091
+39,21,sivi zec sisa,brza riba radi,pcd_paper_style,0.6666666666666666
+39,22,sivi zec sisa,radar radi brzo,pcd_paper_style,0.7692307692307693
+39,23,sivi zec sisa,džar radi razdragano,pcd_paper_style,0.8235294117647058
+39,24,sivi zec sisa,krad rad džar,pcd_paper_style,0.9090909090909091
+39,25,sivi zec sisa,čest,pcd_paper_style,0.8181818181818182
+39,26,sivi zec sisa,šet,pcd_paper_style,0.9090909090909091
+39,27,sivi zec sisa,tete,pcd_paper_style,0.9090909090909091
+39,28,sivi zec sisa,češće,pcd_paper_style,0.9090909090909091
+39,29,sivi zec sisa,češetet,pcd_paper_style,0.9090909090909091
+39,30,sivi zec sisa,teta šeće često,pcd_paper_style,0.7692307692307693
+39,31,sivi zec sisa,čest šešir teče,pcd_paper_style,0.7692307692307693
+39,32,sivi zec sisa,šeće teta češće,pcd_paper_style,0.8461538461538461
+39,33,sivi zec sisa,sit,pcd_paper_style,0.8181818181818182
+39,34,sivi zec sisa,cic,pcd_paper_style,0.8181818181818182
+39,35,sivi zec sisa,zizi,pcd_paper_style,0.7272727272727273
+39,36,sivi zec sisa,siscic,pcd_paper_style,0.5454545454545454
+39,37,sivi zec sisa,cizisic,pcd_paper_style,0.45454545454545453
+39,38,sivi zec sisa,sit zec s ceste,pcd_paper_style,0.4166666666666667
+39,39,sivi zec sisa,sivi zec sisa,pcd_paper_style,0.0
+39,40,sivi zec sisa,cic zizi sisa,pcd_paper_style,0.2727272727272727
+39,41,sivi zec sisa,siscic zizi cic,pcd_paper_style,0.46153846153846156
+40,0,cic zizi sisa,panj,pcd_paper_style,0.9090909090909091
+40,1,cic zizi sisa,puna,pcd_paper_style,0.9090909090909091
+40,2,cic zizi sisa,bun,pcd_paper_style,1.0
+40,3,cic zizi sisa,pupun,pcd_paper_style,1.0
+40,4,cic zizi sisa,mumun,pcd_paper_style,1.0
+40,5,cic zizi sisa,puno banana u panju,pcd_paper_style,0.9333333333333333
+40,6,cic zizi sisa,mama puni puno,pcd_paper_style,0.8333333333333334
+40,7,cic zizi sisa,buna puni mumun,pcd_paper_style,0.8461538461538461
+40,8,cic zizi sisa,polje,pcd_paper_style,1.0
+40,9,cic zizi sisa,vol,pcd_paper_style,1.0
+40,10,cic zizi sisa,glog,pcd_paper_style,1.0
+40,11,cic zizi sisa,lovilo,pcd_paper_style,0.9090909090909091
+40,12,cic zizi sisa,golovol,pcd_paper_style,1.0
+40,13,cic zizi sisa,ovo veliko polje,pcd_paper_style,0.9230769230769231
+40,14,cic zizi sisa,lovac lovi goluba,pcd_paper_style,0.8
+40,15,cic zizi sisa,volog glog lovi,pcd_paper_style,0.9230769230769231
+40,16,cic zizi sisa,ovo polje lovi,pcd_paper_style,0.9090909090909091
+40,17,cic zizi sisa,rad,pcd_paper_style,0.9090909090909091
+40,18,cic zizi sisa,krad,pcd_paper_style,0.9090909090909091
+40,19,cic zizi sisa,ražar,pcd_paper_style,0.9090909090909091
+40,20,cic zizi sisa,džaradar,pcd_paper_style,0.9090909090909091
+40,21,cic zizi sisa,brza riba radi,pcd_paper_style,0.6666666666666666
+40,22,cic zizi sisa,radar radi brzo,pcd_paper_style,0.7692307692307693
+40,23,cic zizi sisa,džar radi razdragano,pcd_paper_style,0.8235294117647058
+40,24,cic zizi sisa,krad rad džar,pcd_paper_style,0.9090909090909091
+40,25,cic zizi sisa,čest,pcd_paper_style,0.9090909090909091
+40,26,cic zizi sisa,šet,pcd_paper_style,1.0
+40,27,cic zizi sisa,tete,pcd_paper_style,1.0
+40,28,cic zizi sisa,češće,pcd_paper_style,1.0
+40,29,cic zizi sisa,češetet,pcd_paper_style,1.0
+40,30,cic zizi sisa,teta šeće često,pcd_paper_style,0.8461538461538461
+40,31,cic zizi sisa,čest šešir teče,pcd_paper_style,0.8461538461538461
+40,32,cic zizi sisa,šeće teta češće,pcd_paper_style,0.9230769230769231
+40,33,cic zizi sisa,sit,pcd_paper_style,0.8181818181818182
+40,34,cic zizi sisa,cic,pcd_paper_style,0.7272727272727273
+40,35,cic zizi sisa,zizi,pcd_paper_style,0.6363636363636364
+40,36,cic zizi sisa,siscic,pcd_paper_style,0.45454545454545453
+40,37,cic zizi sisa,cizisic,pcd_paper_style,0.36363636363636365
+40,38,cic zizi sisa,sit zec s ceste,pcd_paper_style,0.5
+40,39,cic zizi sisa,sivi zec sisa,pcd_paper_style,0.2727272727272727
+40,40,cic zizi sisa,cic zizi sisa,pcd_paper_style,0.0
+40,41,cic zizi sisa,siscic zizi cic,pcd_paper_style,0.23076923076923078
+41,0,siscic zizi cic,panj,pcd_paper_style,1.0
+41,1,siscic zizi cic,puna,pcd_paper_style,1.0
+41,2,siscic zizi cic,bun,pcd_paper_style,1.0
+41,3,siscic zizi cic,pupun,pcd_paper_style,1.0
+41,4,siscic zizi cic,mumun,pcd_paper_style,1.0
+41,5,siscic zizi cic,puno banana u panju,pcd_paper_style,1.0
+41,6,siscic zizi cic,mama puni puno,pcd_paper_style,0.9230769230769231
+41,7,siscic zizi cic,buna puni mumun,pcd_paper_style,0.9230769230769231
+41,8,siscic zizi cic,polje,pcd_paper_style,1.0
+41,9,siscic zizi cic,vol,pcd_paper_style,1.0
+41,10,siscic zizi cic,glog,pcd_paper_style,1.0
+41,11,siscic zizi cic,lovilo,pcd_paper_style,0.9230769230769231
+41,12,siscic zizi cic,golovol,pcd_paper_style,1.0
+41,13,siscic zizi cic,ovo veliko polje,pcd_paper_style,0.9230769230769231
+41,14,siscic zizi cic,lovac lovi goluba,pcd_paper_style,0.8666666666666667
+41,15,siscic zizi cic,volog glog lovi,pcd_paper_style,0.9230769230769231
+41,16,siscic zizi cic,ovo polje lovi,pcd_paper_style,0.9230769230769231
+41,17,siscic zizi cic,rad,pcd_paper_style,1.0
+41,18,siscic zizi cic,krad,pcd_paper_style,1.0
+41,19,siscic zizi cic,ražar,pcd_paper_style,1.0
+41,20,siscic zizi cic,džaradar,pcd_paper_style,1.0
+41,21,siscic zizi cic,brza riba radi,pcd_paper_style,0.7692307692307693
+41,22,siscic zizi cic,radar radi brzo,pcd_paper_style,0.8461538461538461
+41,23,siscic zizi cic,džar radi razdragano,pcd_paper_style,0.8823529411764706
+41,24,siscic zizi cic,krad rad džar,pcd_paper_style,1.0
+41,25,siscic zizi cic,čest,pcd_paper_style,0.9230769230769231
+41,26,siscic zizi cic,šet,pcd_paper_style,1.0
+41,27,siscic zizi cic,tete,pcd_paper_style,1.0
+41,28,siscic zizi cic,češće,pcd_paper_style,1.0
+41,29,siscic zizi cic,češetet,pcd_paper_style,1.0
+41,30,siscic zizi cic,teta šeće često,pcd_paper_style,0.9230769230769231
+41,31,siscic zizi cic,čest šešir teče,pcd_paper_style,0.8461538461538461
+41,32,siscic zizi cic,šeće teta češće,pcd_paper_style,1.0
+41,33,siscic zizi cic,sit,pcd_paper_style,0.8461538461538461
+41,34,siscic zizi cic,cic,pcd_paper_style,0.7692307692307693
+41,35,siscic zizi cic,zizi,pcd_paper_style,0.6923076923076923
+41,36,siscic zizi cic,siscic,pcd_paper_style,0.5384615384615384
+41,37,siscic zizi cic,cizisic,pcd_paper_style,0.46153846153846156
+41,38,siscic zizi cic,sit zec s ceste,pcd_paper_style,0.5384615384615384
+41,39,siscic zizi cic,sivi zec sisa,pcd_paper_style,0.46153846153846156
+41,40,siscic zizi cic,cic zizi sisa,pcd_paper_style,0.23076923076923078
+41,41,siscic zizi cic,siscic zizi cic,pcd_paper_style,0.0

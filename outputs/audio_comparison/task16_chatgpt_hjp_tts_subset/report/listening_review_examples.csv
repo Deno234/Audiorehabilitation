@@ -1,0 +1,61 @@
+candidate_id,candidate,tts_adapter,target_class,saturation_level,text_type,human_intelligibility_score,human_naturalness_score,wer,cer,pronunciation_notes,clinical_suitability_notes,audio_path
+20260604_160319_00040,Mama mumlja punu bundu.,coqui_vits_hr,N,50.0,sentence,1,1,1.0,0.3181818181818182,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00040.wav
+20260604_160319_00040,Mama mumlja punu bundu.,espeak_ng,N,50.0,sentence,5,3,1.0,0.2727272727272727,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00040.wav
+20260604_160319_00040,Mama mumlja punu bundu.,speecht5_hr,N,50.0,sentence,4,4,0.5,0.18181818181818182,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00040.wav
+20260604_160319_00120,Mama pumpa pumpu.,coqui_vits_hr,N,70.0,sentence,2,2,1.0,0.5625,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00120.wav
+20260604_160319_00120,Mama pumpa pumpu.,espeak_ng,N,70.0,sentence,5,4,0.6666666666666666,0.0625,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00120.wav
+20260604_160319_00120,Mama pumpa pumpu.,speecht5_hr,N,70.0,sentence,4,5,0.6666666666666666,0.4375,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00120.wav
+20260604_160319_00370,Draga rada radi.,coqui_vits_hr,S,50.0,sentence,3,3,2.0,0.4666666666666667,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00370.wav
+20260604_160319_00370,Draga rada radi.,espeak_ng,S,50.0,sentence,3,1,1.0,0.5333333333333333,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00370.wav
+20260604_160319_00370,Draga rada radi.,speecht5_hr,S,50.0,sentence,5,5,0.0,0.0,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00370.wav
+20260604_160319_00442,Radar rado radi.,coqui_vits_hr,S,70.0,sentence,4,3,0.6666666666666666,0.13333333333333333,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00442.wav
+20260604_160319_00442,Radar rado radi.,espeak_ng,S,70.0,sentence,4,2,1.6666666666666667,1.0,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00442.wav
+20260604_160319_00442,Radar rado radi.,speecht5_hr,S,70.0,sentence,4,5,0.3333333333333333,0.06666666666666667,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00442.wav
+20260604_160319_00200,Vol voli glog.,coqui_vits_hr,SN,50.0,sentence,2,2,1.0,0.6153846153846154,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00200.wav
+20260604_160319_00200,Vol voli glog.,espeak_ng,SN,50.0,sentence,5,3,1.0,0.23076923076923078,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00200.wav
+20260604_160319_00200,Vol voli glog.,speecht5_hr,SN,50.0,sentence,5,5,1.0,0.3076923076923077,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00200.wav
+20260604_160319_00282,Vol voli lov.,coqui_vits_hr,SN,70.0,sentence,3,3,1.0,0.5833333333333334,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00282.wav
+20260604_160319_00282,Vol voli lov.,espeak_ng,SN,70.0,sentence,5,3,1.0,0.3333333333333333,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00282.wav
+20260604_160319_00282,Vol voli lov.,speecht5_hr,SN,70.0,sentence,3,5,0.6666666666666666,0.25,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00282.wav
+20260604_160319_00521,Dječje čete šetaju.,coqui_vits_hr,SV,50.0,sentence,4,4,1.0,0.2222222222222222,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00521.wav
+20260604_160319_00521,Dječje čete šetaju.,espeak_ng,SV,50.0,sentence,4,3,1.3333333333333333,0.3888888888888889,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00521.wav
+20260604_160319_00521,Dječje čete šetaju.,speecht5_hr,SV,50.0,sentence,1,1,1.3333333333333333,0.5555555555555556,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00521.wav
+20260604_160319_00597,Tete tješe čete.,coqui_vits_hr,SV,70.0,sentence,1,1,1.0,1.0,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00597.wav
+20260604_160319_00597,Tete tješe čete.,espeak_ng,SV,70.0,sentence,5,3,1.6666666666666667,0.4666666666666667,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00597.wav
+20260604_160319_00597,Tete tješe čete.,speecht5_hr,SV,70.0,sentence,2,2,1.0,0.4,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00597.wav
+20260604_160319_00680,Sivi zec visi.,coqui_vits_hr,V,50.0,sentence,4,4,1.0,0.3076923076923077,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00680.wav
+20260604_160319_00680,Sivi zec visi.,espeak_ng,V,50.0,sentence,5,3,1.0,0.46153846153846156,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00680.wav
+20260604_160319_00680,Sivi zec visi.,speecht5_hr,V,50.0,sentence,5,5,0.6666666666666666,0.23076923076923078,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00680.wav
+20260604_160319_00757,Sivi zec sisi.,coqui_vits_hr,V,70.0,sentence,3,3,1.0,0.7692307692307693,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00757.wav
+20260604_160319_00757,Sivi zec sisi.,espeak_ng,V,70.0,sentence,5,3,1.0,0.46153846153846156,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00757.wav
+20260604_160319_00757,Sivi zec sisi.,speecht5_hr,V,70.0,sentence,5,5,1.0,0.46153846153846156,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00757.wav
+20260604_160319_00000,buba,coqui_vits_hr,N,50.0,word,1,1,1.0,0.5,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00000.wav
+20260604_160319_00000,buba,espeak_ng,N,50.0,word,5,5,1.0,0.5,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00000.wav
+20260604_160319_00000,buba,speecht5_hr,N,50.0,word,5,5,1.0,0.75,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00000.wav
+20260604_160319_00084,punu,coqui_vits_hr,N,70.0,word,4,4,1.0,0.75,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00084.wav
+20260604_160319_00084,punu,espeak_ng,N,70.0,word,5,5,1.0,0.25,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00084.wav
+20260604_160319_00084,punu,speecht5_hr,N,70.0,word,3,3,1.0,0.5,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00084.wav
+20260604_160319_00320,rad,coqui_vits_hr,S,50.0,word,3,3,1.0,1.3333333333333333,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00320.wav
+20260604_160319_00320,rad,espeak_ng,S,50.0,word,5,5,1.0,0.6666666666666666,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00320.wav
+20260604_160319_00320,rad,speecht5_hr,S,50.0,word,5,5,1.0,0.3333333333333333,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00320.wav
+20260604_160319_00419,kara,coqui_vits_hr,S,70.0,word,1,1,2.0,0.75,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00419.wav
+20260604_160319_00419,kara,espeak_ng,S,70.0,word,4,3,1.0,0.25,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00419.wav
+20260604_160319_00419,kara,speecht5_hr,S,70.0,word,4,4,1.0,0.25,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00419.wav
+20260604_160319_00160,vol,coqui_vits_hr,SN,50.0,word,1,1,1.0,1.0,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00160.wav
+20260604_160319_00160,vol,espeak_ng,SN,50.0,word,5,4,1.0,0.6666666666666666,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00160.wav
+20260604_160319_00160,vol,speecht5_hr,SN,50.0,word,2,2,2.0,1.3333333333333333,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00160.wav
+20260604_160319_00243,volom,coqui_vits_hr,SN,70.0,word,1,1,2.0,1.2,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00243.wav
+20260604_160319_00243,volom,espeak_ng,SN,70.0,word,4,3,0.0,0.0,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00243.wav
+20260604_160319_00243,volom,speecht5_hr,SN,70.0,word,2,2,1.0,0.2,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00243.wav
+20260604_160319_00480,tečaj,coqui_vits_hr,SV,50.0,word,2,2,1.0,0.8,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00480.wav
+20260604_160319_00480,tečaj,espeak_ng,SV,50.0,word,4,3,1.0,0.4,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00480.wav
+20260604_160319_00480,tečaj,speecht5_hr,SV,50.0,word,1,1,2.0,0.6,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00480.wav
+20260604_160319_00558,tete,coqui_vits_hr,SV,70.0,word,1,1,2.0,0.25,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00558.wav
+20260604_160319_00558,tete,espeak_ng,SV,70.0,word,5,4,1.0,0.5,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00558.wav
+20260604_160319_00558,tete,speecht5_hr,SV,70.0,word,1,1,1.0,1.0,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00558.wav
+20260604_160319_00637,sir,coqui_vits_hr,V,50.0,word,1,1,2.0,4.0,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00637.wav
+20260604_160319_00637,sir,espeak_ng,V,50.0,word,5,3,1.0,0.3333333333333333,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00637.wav
+20260604_160319_00637,sir,speecht5_hr,V,50.0,word,3,4,1.0,0.3333333333333333,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00637.wav
+20260604_160319_00727,sisi,coqui_vits_hr,V,70.0,word,1,1,1.0,1.0,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/coqui_vits_hr/20260604_160319_00727.wav
+20260604_160319_00727,sisi,espeak_ng,V,70.0,word,5,3,0.0,0.0,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/espeak_ng/20260604_160319_00727.wav
+20260604_160319_00727,sisi,speecht5_hr,V,70.0,word,3,3,1.0,1.5,,,outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/speecht5_hr/20260604_160319_00727.wav

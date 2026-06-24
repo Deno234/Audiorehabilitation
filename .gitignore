@@ -1,0 +1,31 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Local secrets and machine-specific settings
+.env
+.env.*
+*.local
+
+# Model download cache metadata; keep actual configured model files separately.
+models/**/.cache/
+models/**/__MACOSX/
+models/**/._*
+
+# Temporary logs
+*.log
+logs/
+

@@ -1,0 +1,81 @@
+model,source_adapter,prompt_strategy,target_class,saturation_level,text_type,total_candidates,valid_candidates,valid_rate,saturation_pass_rate,hjp_valid_rate,technical_plus_hjp_valid_rate,duplicate_rate,repeated_word_rate,average_saturation
+ChatGPT Plus,manual_csv,paper_style,N,50.0,sentence,20,9,0.45,1.0,0.0,0.0,0.0,0.0,66.24847374847374
+ChatGPT Plus,manual_csv,paper_style,N,50.0,word,20,18,0.9,0.95,0.0,0.0,0.0,0.0,69.83333333333333
+ChatGPT Plus,manual_csv,paper_style,N,70.0,sentence,20,5,0.25,0.25,0.0,0.0,0.0,0.0,67.57783882783882
+ChatGPT Plus,manual_csv,paper_style,N,70.0,word,20,11,0.55,1.0,0.0,0.0,0.0,0.0,83.91666666666666
+ChatGPT Plus,manual_csv,paper_style,S,50.0,sentence,20,19,0.95,1.0,0.0,0.0,0.0,0.0,71.8626912303383
+ChatGPT Plus,manual_csv,paper_style,S,50.0,word,20,20,1.0,1.0,0.0,0.0,0.0,0.0,85.66666666666666
+ChatGPT Plus,manual_csv,paper_style,S,70.0,sentence,20,13,0.65,0.95,0.0,0.0,0.0,0.0,80.67582417582418
+ChatGPT Plus,manual_csv,paper_style,S,70.0,word,20,1,0.05,1.0,0.0,0.0,0.0,0.0,91.41666666666666
+ChatGPT Plus,manual_csv,paper_style,SN,50.0,sentence,20,16,0.8,0.9,0.0,0.0,0.0,0.0,60.57555802041096
+ChatGPT Plus,manual_csv,paper_style,SN,50.0,word,20,19,0.95,0.95,0.0,0.0,0.0,0.0,73.83333333333334
+ChatGPT Plus,manual_csv,paper_style,SN,70.0,sentence,20,1,0.05,0.35,0.0,0.0,0.0,0.0,66.75231141407612
+ChatGPT Plus,manual_csv,paper_style,SN,70.0,word,20,14,0.7,1.0,0.0,0.0,0.0,0.0,84.83333333333334
+ChatGPT Plus,manual_csv,paper_style,SV,50.0,sentence,18,17,0.9444444444444444,1.0,0.0,0.0,0.0,0.0,66.0235760971055
+ChatGPT Plus,manual_csv,paper_style,SV,50.0,word,20,19,0.95,1.0,0.0,0.0,0.0,0.0,66.57142857142857
+ChatGPT Plus,manual_csv,paper_style,SV,70.0,sentence,20,12,0.6,0.75,0.0,0.0,0.0,0.0,77.36952581302427
+ChatGPT Plus,manual_csv,paper_style,SV,70.0,word,20,9,0.45,0.8,0.0,0.0,0.0,0.0,78.75
+ChatGPT Plus,manual_csv,paper_style,V,50.0,sentence,20,16,0.8,0.85,0.0,0.0,0.0,0.0,57.08799533799534
+ChatGPT Plus,manual_csv,paper_style,V,50.0,word,20,20,1.0,1.0,0.0,0.0,0.0,0.0,62.02380952380952
+ChatGPT Plus,manual_csv,paper_style,V,70.0,sentence,20,9,0.45,0.55,0.0,0.0,0.0,0.0,69.63378288378289
+ChatGPT Plus,manual_csv,paper_style,V,70.0,word,20,8,0.4,0.55,0.0,0.0,0.0,0.0,75.08333333333333
+ChatGPT Plus,manual_csv,strict_plain_list,N,50.0,sentence,20,14,0.7,1.0,0.0,0.0,0.0,0.0,64.16643772893772
+ChatGPT Plus,manual_csv,strict_plain_list,N,50.0,word,20,4,0.2,0.95,0.0,0.0,0.0,0.0,69.77380952380952
+ChatGPT Plus,manual_csv,strict_plain_list,N,70.0,sentence,20,10,0.5,0.8,0.0,0.0,0.0,0.0,76.81318681318682
+ChatGPT Plus,manual_csv,strict_plain_list,N,70.0,word,20,1,0.05,1.0,0.0,0.0,0.0,0.0,84.75
+ChatGPT Plus,manual_csv,strict_plain_list,S,50.0,sentence,20,11,0.55,1.0,0.0,0.0,0.0,0.0,73.04126265890972
+ChatGPT Plus,manual_csv,strict_plain_list,S,50.0,word,20,3,0.15,1.0,0.0,0.0,0.0,0.0,89.41666666666666
+ChatGPT Plus,manual_csv,strict_plain_list,S,70.0,sentence,20,8,0.4,0.95,0.0,0.0,0.0,0.0,79.07900432900433
+ChatGPT Plus,manual_csv,strict_plain_list,S,70.0,word,20,0,0.0,1.0,0.0,0.0,0.0,0.0,90.41666666666666
+ChatGPT Plus,manual_csv,strict_plain_list,SN,50.0,sentence,20,8,0.4,0.9,0.0,0.0,0.0,0.0,61.701465201465204
+ChatGPT Plus,manual_csv,strict_plain_list,SN,50.0,word,20,1,0.05,1.0,0.0,0.0,0.0,0.0,74.83333333333334
+ChatGPT Plus,manual_csv,strict_plain_list,SN,70.0,sentence,20,5,0.25,0.6,0.0,0.0,0.0,0.0,72.66749916749917
+ChatGPT Plus,manual_csv,strict_plain_list,SN,70.0,word,20,0,0.0,0.9,0.0,0.0,0.0,0.0,82.25
+ChatGPT Plus,manual_csv,strict_plain_list,SV,50.0,sentence,19,16,0.8421052631578947,1.0,0.0,0.0,0.0,0.0,69.24475941381596
+ChatGPT Plus,manual_csv,strict_plain_list,SV,50.0,word,20,0,0.0,1.0,0.0,0.0,0.0,0.0,66.57142857142857
+ChatGPT Plus,manual_csv,strict_plain_list,SV,70.0,sentence,20,8,0.4,0.8,0.0,0.0,0.0,0.0,76.94715578539108
+ChatGPT Plus,manual_csv,strict_plain_list,SV,70.0,word,20,0,0.0,0.8,0.0,0.0,0.0,0.0,78.75
+ChatGPT Plus,manual_csv,strict_plain_list,V,50.0,sentence,20,6,0.3,0.8,0.0,0.0,0.0,0.0,55.16949716949718
+ChatGPT Plus,manual_csv,strict_plain_list,V,50.0,word,20,2,0.1,0.95,0.0,0.0,0.0,0.0,60.83333333333333
+ChatGPT Plus,manual_csv,strict_plain_list,V,70.0,sentence,20,6,0.3,0.55,0.0,0.0,0.0,0.0,68.45454545454547
+ChatGPT Plus,manual_csv,strict_plain_list,V,70.0,word,20,0,0.0,0.55,0.0,0.0,0.0,0.0,75.08333333333333
+llama3.1:8b,manual_csv,paper_style,N,50.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.0,18.63146337517047
+llama3.1:8b,manual_csv,paper_style,N,50.0,word,20,0,0.0,0.05,0.0,0.0,0.0,0.0,28.44282106782107
+llama3.1:8b,manual_csv,paper_style,N,70.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.0,21.811376281558644
+llama3.1:8b,manual_csv,paper_style,N,70.0,word,1,0,0.0,0.0,0.0,0.0,0.0,1.0,19.407894736842106
+llama3.1:8b,manual_csv,paper_style,S,50.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.05,28.64208639054267
+llama3.1:8b,manual_csv,paper_style,S,50.0,word,20,7,0.35,0.35,0.0,0.0,0.0,0.0,38.5218253968254
+llama3.1:8b,manual_csv,paper_style,S,70.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.05,27.54616632023749
+llama3.1:8b,manual_csv,paper_style,S,70.0,word,20,2,0.1,0.1,0.0,0.0,0.0,0.0,39.77432053902642
+llama3.1:8b,manual_csv,paper_style,SN,50.0,sentence,12,0,0.0,0.0,0.0,0.0,0.0,0.0,20.631105684521515
+llama3.1:8b,manual_csv,paper_style,SN,50.0,word,20,5,0.25,0.4,0.0,0.0,0.0,0.0,37.666666666666664
+llama3.1:8b,manual_csv,paper_style,SN,70.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.05,19.425846661719305
+llama3.1:8b,manual_csv,paper_style,SN,70.0,word,20,0,0.0,0.0,0.0,0.0,0.0,0.0,4.744509043927648
+llama3.1:8b,manual_csv,paper_style,SV,50.0,sentence,19,0,0.0,0.0,0.0,0.0,0.0,0.0,16.341757928125485
+llama3.1:8b,manual_csv,paper_style,SV,50.0,word,20,7,0.35,0.4,0.0,0.0,0.0,0.0,40.60300207039337
+llama3.1:8b,manual_csv,paper_style,SV,70.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.0,22.36425690942713
+llama3.1:8b,manual_csv,paper_style,SV,70.0,word,20,0,0.0,0.0,0.0,0.0,0.0,0.0,22.155072424059764
+llama3.1:8b,manual_csv,paper_style,V,50.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.05,13.430453461699798
+llama3.1:8b,manual_csv,paper_style,V,50.0,word,11,2,0.18181818181818182,0.18181818181818182,0.0,0.0,0.0,0.0,26.49350649350649
+llama3.1:8b,manual_csv,paper_style,V,70.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.1,19.305804849053068
+llama3.1:8b,manual_csv,paper_style,V,70.0,word,15,0,0.0,0.0,0.0,0.0,0.0,0.0,30.833333333333332
+llama3.1:8b,manual_csv,strict_plain_list,N,50.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.0,16.00313549832803
+llama3.1:8b,manual_csv,strict_plain_list,N,50.0,word,20,1,0.05,0.05,0.0,0.0,0.0,0.0,24.692821067821065
+llama3.1:8b,manual_csv,strict_plain_list,N,70.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.0,18.04827117327117
+llama3.1:8b,manual_csv,strict_plain_list,N,70.0,word,20,0,0.0,0.0,0.0,0.0,0.0,0.0,27.103535353535353
+llama3.1:8b,manual_csv,strict_plain_list,S,50.0,sentence,20,1,0.05,0.05,0.0,0.0,0.0,0.05,21.818280167544874
+llama3.1:8b,manual_csv,strict_plain_list,S,50.0,word,20,1,0.05,0.05,0.0,0.0,0.0,0.0,17.91387778887779
+llama3.1:8b,manual_csv,strict_plain_list,S,70.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.0,28.236777420567297
+llama3.1:8b,manual_csv,strict_plain_list,S,70.0,word,20,0,0.0,0.0,0.0,0.0,0.0,0.0,21.127344877344875
+llama3.1:8b,manual_csv,strict_plain_list,SN,50.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.05,18.772467879912522
+llama3.1:8b,manual_csv,strict_plain_list,SN,50.0,word,20,0,0.0,0.0,0.0,0.0,0.0,0.0,21.84325396825397
+llama3.1:8b,manual_csv,strict_plain_list,SN,70.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.0,33.83333333333333
+llama3.1:8b,manual_csv,strict_plain_list,SN,70.0,word,19,2,0.10526315789473684,0.10526315789473684,0.0,0.0,0.0,0.0,46.666666666666664
+llama3.1:8b,manual_csv,strict_plain_list,SV,50.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.0,19.83491000481847
+llama3.1:8b,manual_csv,strict_plain_list,SV,50.0,word,20,0,0.0,0.05,0.0,0.0,0.0,0.0,18.71825396825397
+llama3.1:8b,manual_csv,strict_plain_list,SV,70.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.0,21.648785142147304
+llama3.1:8b,manual_csv,strict_plain_list,SV,70.0,word,20,0,0.0,0.0,0.0,0.0,0.0,0.0,13.68452380952381
+llama3.1:8b,manual_csv,strict_plain_list,V,50.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.0,15.40528321456441
+llama3.1:8b,manual_csv,strict_plain_list,V,50.0,word,20,0,0.0,0.05,0.0,0.0,0.0,0.0,22.781870906870907
+llama3.1:8b,manual_csv,strict_plain_list,V,70.0,sentence,20,0,0.0,0.0,0.0,0.0,0.0,0.0,19.99254117460639
+llama3.1:8b,manual_csv,strict_plain_list,V,70.0,word,20,0,0.0,0.0,0.0,0.0,0.0,0.0,17.617216117216117

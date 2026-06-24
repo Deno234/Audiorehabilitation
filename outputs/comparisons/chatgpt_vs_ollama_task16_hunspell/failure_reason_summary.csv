@@ -1,0 +1,201 @@
+model,source_adapter,prompt_strategy,target_class,saturation_level,text_type,failure_reason,count
+ChatGPT Plus,manual_csv,paper_style,N,50.0,sentence,dictionary_failed,11
+ChatGPT Plus,manual_csv,paper_style,N,50.0,word,dictionary_failed,1
+ChatGPT Plus,manual_csv,paper_style,N,50.0,word,failed_saturation,1
+ChatGPT Plus,manual_csv,paper_style,N,70.0,sentence,duplicate,2
+ChatGPT Plus,manual_csv,paper_style,N,70.0,sentence,failed_saturation,15
+ChatGPT Plus,manual_csv,paper_style,N,70.0,word,duplicate,9
+ChatGPT Plus,manual_csv,paper_style,S,50.0,sentence,dictionary_failed,1
+ChatGPT Plus,manual_csv,paper_style,S,70.0,sentence,duplicate,7
+ChatGPT Plus,manual_csv,paper_style,S,70.0,sentence,failed_saturation,1
+ChatGPT Plus,manual_csv,paper_style,S,70.0,word,dictionary_failed,1
+ChatGPT Plus,manual_csv,paper_style,S,70.0,word,duplicate,18
+ChatGPT Plus,manual_csv,paper_style,SN,50.0,sentence,dictionary_failed,2
+ChatGPT Plus,manual_csv,paper_style,SN,50.0,sentence,failed_saturation,2
+ChatGPT Plus,manual_csv,paper_style,SN,50.0,word,failed_saturation,1
+ChatGPT Plus,manual_csv,paper_style,SN,70.0,sentence,dictionary_failed,2
+ChatGPT Plus,manual_csv,paper_style,SN,70.0,sentence,duplicate,14
+ChatGPT Plus,manual_csv,paper_style,SN,70.0,sentence,failed_saturation,13
+ChatGPT Plus,manual_csv,paper_style,SN,70.0,word,duplicate,6
+ChatGPT Plus,manual_csv,paper_style,SV,50.0,sentence,dictionary_failed,1
+ChatGPT Plus,manual_csv,paper_style,SV,50.0,word,dictionary_failed,1
+ChatGPT Plus,manual_csv,paper_style,SV,70.0,sentence,dictionary_failed,1
+ChatGPT Plus,manual_csv,paper_style,SV,70.0,sentence,duplicate,4
+ChatGPT Plus,manual_csv,paper_style,SV,70.0,sentence,failed_saturation,5
+ChatGPT Plus,manual_csv,paper_style,SV,70.0,word,dictionary_failed,1
+ChatGPT Plus,manual_csv,paper_style,SV,70.0,word,duplicate,9
+ChatGPT Plus,manual_csv,paper_style,SV,70.0,word,failed_saturation,4
+ChatGPT Plus,manual_csv,paper_style,V,50.0,sentence,dictionary_failed,1
+ChatGPT Plus,manual_csv,paper_style,V,50.0,sentence,failed_saturation,3
+ChatGPT Plus,manual_csv,paper_style,V,70.0,sentence,duplicate,8
+ChatGPT Plus,manual_csv,paper_style,V,70.0,sentence,failed_saturation,9
+ChatGPT Plus,manual_csv,paper_style,V,70.0,word,dictionary_failed,1
+ChatGPT Plus,manual_csv,paper_style,V,70.0,word,duplicate,11
+ChatGPT Plus,manual_csv,paper_style,V,70.0,word,failed_saturation,9
+ChatGPT Plus,manual_csv,strict_plain_list,N,50.0,sentence,dictionary_failed,5
+ChatGPT Plus,manual_csv,strict_plain_list,N,50.0,sentence,duplicate,2
+ChatGPT Plus,manual_csv,strict_plain_list,N,50.0,word,duplicate,16
+ChatGPT Plus,manual_csv,strict_plain_list,N,50.0,word,failed_saturation,1
+ChatGPT Plus,manual_csv,strict_plain_list,N,70.0,sentence,duplicate,7
+ChatGPT Plus,manual_csv,strict_plain_list,N,70.0,sentence,failed_saturation,4
+ChatGPT Plus,manual_csv,strict_plain_list,N,70.0,word,duplicate,19
+ChatGPT Plus,manual_csv,strict_plain_list,S,50.0,sentence,dictionary_failed,1
+ChatGPT Plus,manual_csv,strict_plain_list,S,50.0,sentence,duplicate,8
+ChatGPT Plus,manual_csv,strict_plain_list,S,50.0,word,duplicate,17
+ChatGPT Plus,manual_csv,strict_plain_list,S,70.0,sentence,dictionary_failed,1
+ChatGPT Plus,manual_csv,strict_plain_list,S,70.0,sentence,duplicate,11
+ChatGPT Plus,manual_csv,strict_plain_list,S,70.0,sentence,failed_saturation,1
+ChatGPT Plus,manual_csv,strict_plain_list,S,70.0,word,dictionary_failed,1
+ChatGPT Plus,manual_csv,strict_plain_list,S,70.0,word,duplicate,20
+ChatGPT Plus,manual_csv,strict_plain_list,SN,50.0,sentence,duplicate,11
+ChatGPT Plus,manual_csv,strict_plain_list,SN,50.0,sentence,failed_saturation,2
+ChatGPT Plus,manual_csv,strict_plain_list,SN,50.0,word,duplicate,19
+ChatGPT Plus,manual_csv,strict_plain_list,SN,70.0,sentence,duplicate,12
+ChatGPT Plus,manual_csv,strict_plain_list,SN,70.0,sentence,failed_saturation,8
+ChatGPT Plus,manual_csv,strict_plain_list,SN,70.0,word,duplicate,20
+ChatGPT Plus,manual_csv,strict_plain_list,SN,70.0,word,failed_saturation,2
+ChatGPT Plus,manual_csv,strict_plain_list,SV,50.0,sentence,duplicate,3
+ChatGPT Plus,manual_csv,strict_plain_list,SV,50.0,word,dictionary_failed,1
+ChatGPT Plus,manual_csv,strict_plain_list,SV,50.0,word,duplicate,20
+ChatGPT Plus,manual_csv,strict_plain_list,SV,70.0,sentence,duplicate,10
+ChatGPT Plus,manual_csv,strict_plain_list,SV,70.0,sentence,failed_saturation,4
+ChatGPT Plus,manual_csv,strict_plain_list,SV,70.0,word,dictionary_failed,1
+ChatGPT Plus,manual_csv,strict_plain_list,SV,70.0,word,duplicate,20
+ChatGPT Plus,manual_csv,strict_plain_list,SV,70.0,word,failed_saturation,4
+ChatGPT Plus,manual_csv,strict_plain_list,V,50.0,sentence,dictionary_failed,1
+ChatGPT Plus,manual_csv,strict_plain_list,V,50.0,sentence,duplicate,12
+ChatGPT Plus,manual_csv,strict_plain_list,V,50.0,sentence,failed_saturation,4
+ChatGPT Plus,manual_csv,strict_plain_list,V,50.0,word,duplicate,17
+ChatGPT Plus,manual_csv,strict_plain_list,V,50.0,word,failed_saturation,1
+ChatGPT Plus,manual_csv,strict_plain_list,V,70.0,sentence,dictionary_failed,1
+ChatGPT Plus,manual_csv,strict_plain_list,V,70.0,sentence,duplicate,9
+ChatGPT Plus,manual_csv,strict_plain_list,V,70.0,sentence,failed_saturation,9
+ChatGPT Plus,manual_csv,strict_plain_list,V,70.0,word,dictionary_failed,1
+ChatGPT Plus,manual_csv,strict_plain_list,V,70.0,word,duplicate,20
+ChatGPT Plus,manual_csv,strict_plain_list,V,70.0,word,failed_saturation,9
+llama3.1:8b,manual_csv,paper_style,N,50.0,sentence,dictionary_failed,7
+llama3.1:8b,manual_csv,paper_style,N,50.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,paper_style,N,50.0,sentence,wrong_word_count,7
+llama3.1:8b,manual_csv,paper_style,N,50.0,word,dictionary_failed,13
+llama3.1:8b,manual_csv,paper_style,N,50.0,word,failed_saturation,19
+llama3.1:8b,manual_csv,paper_style,N,70.0,sentence,dictionary_failed,1
+llama3.1:8b,manual_csv,paper_style,N,70.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,paper_style,N,70.0,sentence,wrong_word_count,19
+llama3.1:8b,manual_csv,paper_style,N,70.0,word,dictionary_failed,1
+llama3.1:8b,manual_csv,paper_style,N,70.0,word,failed_saturation,1
+llama3.1:8b,manual_csv,paper_style,N,70.0,word,repeated_words,1
+llama3.1:8b,manual_csv,paper_style,N,70.0,word,wrong_word_count,1
+llama3.1:8b,manual_csv,paper_style,S,50.0,sentence,dictionary_failed,2
+llama3.1:8b,manual_csv,paper_style,S,50.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,paper_style,S,50.0,sentence,repeated_words,1
+llama3.1:8b,manual_csv,paper_style,S,50.0,sentence,wrong_word_count,17
+llama3.1:8b,manual_csv,paper_style,S,50.0,word,dictionary_failed,5
+llama3.1:8b,manual_csv,paper_style,S,50.0,word,duplicate,1
+llama3.1:8b,manual_csv,paper_style,S,50.0,word,failed_saturation,13
+llama3.1:8b,manual_csv,paper_style,S,50.0,word,wrong_word_count,1
+llama3.1:8b,manual_csv,paper_style,S,70.0,sentence,dictionary_failed,5
+llama3.1:8b,manual_csv,paper_style,S,70.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,paper_style,S,70.0,sentence,repeated_words,1
+llama3.1:8b,manual_csv,paper_style,S,70.0,sentence,wrong_word_count,13
+llama3.1:8b,manual_csv,paper_style,S,70.0,word,dictionary_failed,10
+llama3.1:8b,manual_csv,paper_style,S,70.0,word,failed_saturation,18
+llama3.1:8b,manual_csv,paper_style,S,70.0,word,wrong_word_count,2
+llama3.1:8b,manual_csv,paper_style,SN,50.0,sentence,dictionary_failed,1
+llama3.1:8b,manual_csv,paper_style,SN,50.0,sentence,failed_saturation,12
+llama3.1:8b,manual_csv,paper_style,SN,50.0,sentence,wrong_word_count,9
+llama3.1:8b,manual_csv,paper_style,SN,50.0,word,dictionary_failed,4
+llama3.1:8b,manual_csv,paper_style,SN,50.0,word,failed_saturation,12
+llama3.1:8b,manual_csv,paper_style,SN,70.0,sentence,dictionary_failed,1
+llama3.1:8b,manual_csv,paper_style,SN,70.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,paper_style,SN,70.0,sentence,repeated_words,1
+llama3.1:8b,manual_csv,paper_style,SN,70.0,sentence,wrong_word_count,15
+llama3.1:8b,manual_csv,paper_style,SN,70.0,word,dictionary_failed,7
+llama3.1:8b,manual_csv,paper_style,SN,70.0,word,failed_saturation,20
+llama3.1:8b,manual_csv,paper_style,SN,70.0,word,wrong_word_count,3
+llama3.1:8b,manual_csv,paper_style,SV,50.0,sentence,dictionary_failed,1
+llama3.1:8b,manual_csv,paper_style,SV,50.0,sentence,failed_saturation,19
+llama3.1:8b,manual_csv,paper_style,SV,50.0,sentence,wrong_word_count,12
+llama3.1:8b,manual_csv,paper_style,SV,50.0,word,dictionary_failed,6
+llama3.1:8b,manual_csv,paper_style,SV,50.0,word,failed_saturation,12
+llama3.1:8b,manual_csv,paper_style,SV,50.0,word,wrong_word_count,1
+llama3.1:8b,manual_csv,paper_style,SV,70.0,sentence,dictionary_failed,3
+llama3.1:8b,manual_csv,paper_style,SV,70.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,paper_style,SV,70.0,sentence,wrong_word_count,10
+llama3.1:8b,manual_csv,paper_style,SV,70.0,word,dictionary_failed,4
+llama3.1:8b,manual_csv,paper_style,SV,70.0,word,duplicate,2
+llama3.1:8b,manual_csv,paper_style,SV,70.0,word,failed_saturation,20
+llama3.1:8b,manual_csv,paper_style,SV,70.0,word,wrong_word_count,1
+llama3.1:8b,manual_csv,paper_style,V,50.0,sentence,duplicate,1
+llama3.1:8b,manual_csv,paper_style,V,50.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,paper_style,V,50.0,sentence,repeated_words,1
+llama3.1:8b,manual_csv,paper_style,V,50.0,sentence,wrong_word_count,2
+llama3.1:8b,manual_csv,paper_style,V,50.0,word,dictionary_failed,3
+llama3.1:8b,manual_csv,paper_style,V,50.0,word,duplicate,1
+llama3.1:8b,manual_csv,paper_style,V,50.0,word,failed_saturation,9
+llama3.1:8b,manual_csv,paper_style,V,70.0,sentence,dictionary_failed,4
+llama3.1:8b,manual_csv,paper_style,V,70.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,paper_style,V,70.0,sentence,repeated_words,2
+llama3.1:8b,manual_csv,paper_style,V,70.0,sentence,wrong_word_count,17
+llama3.1:8b,manual_csv,paper_style,V,70.0,word,dictionary_failed,6
+llama3.1:8b,manual_csv,paper_style,V,70.0,word,duplicate,1
+llama3.1:8b,manual_csv,paper_style,V,70.0,word,failed_saturation,15
+llama3.1:8b,manual_csv,strict_plain_list,N,50.0,sentence,dictionary_failed,2
+llama3.1:8b,manual_csv,strict_plain_list,N,50.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,N,50.0,sentence,wrong_word_count,3
+llama3.1:8b,manual_csv,strict_plain_list,N,50.0,word,dictionary_failed,1
+llama3.1:8b,manual_csv,strict_plain_list,N,50.0,word,failed_saturation,19
+llama3.1:8b,manual_csv,strict_plain_list,N,70.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,N,70.0,sentence,wrong_word_count,18
+llama3.1:8b,manual_csv,strict_plain_list,N,70.0,word,dictionary_failed,10
+llama3.1:8b,manual_csv,strict_plain_list,N,70.0,word,duplicate,1
+llama3.1:8b,manual_csv,strict_plain_list,N,70.0,word,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,S,50.0,sentence,dictionary_failed,1
+llama3.1:8b,manual_csv,strict_plain_list,S,50.0,sentence,failed_saturation,19
+llama3.1:8b,manual_csv,strict_plain_list,S,50.0,sentence,repeated_words,1
+llama3.1:8b,manual_csv,strict_plain_list,S,50.0,sentence,wrong_word_count,1
+llama3.1:8b,manual_csv,strict_plain_list,S,50.0,word,dictionary_failed,7
+llama3.1:8b,manual_csv,strict_plain_list,S,50.0,word,failed_saturation,19
+llama3.1:8b,manual_csv,strict_plain_list,S,50.0,word,invalid_characters,1
+llama3.1:8b,manual_csv,strict_plain_list,S,50.0,word,wrong_word_count,1
+llama3.1:8b,manual_csv,strict_plain_list,S,70.0,sentence,dictionary_failed,3
+llama3.1:8b,manual_csv,strict_plain_list,S,70.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,S,70.0,sentence,wrong_word_count,2
+llama3.1:8b,manual_csv,strict_plain_list,S,70.0,word,dictionary_failed,6
+llama3.1:8b,manual_csv,strict_plain_list,S,70.0,word,duplicate,1
+llama3.1:8b,manual_csv,strict_plain_list,S,70.0,word,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,SN,50.0,sentence,dictionary_failed,3
+llama3.1:8b,manual_csv,strict_plain_list,SN,50.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,SN,50.0,sentence,repeated_words,1
+llama3.1:8b,manual_csv,strict_plain_list,SN,50.0,sentence,wrong_word_count,5
+llama3.1:8b,manual_csv,strict_plain_list,SN,50.0,word,dictionary_failed,14
+llama3.1:8b,manual_csv,strict_plain_list,SN,50.0,word,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,SN,70.0,sentence,duplicate,7
+llama3.1:8b,manual_csv,strict_plain_list,SN,70.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,SN,70.0,sentence,wrong_word_count,20
+llama3.1:8b,manual_csv,strict_plain_list,SN,70.0,word,dictionary_failed,1
+llama3.1:8b,manual_csv,strict_plain_list,SN,70.0,word,duplicate,1
+llama3.1:8b,manual_csv,strict_plain_list,SN,70.0,word,failed_saturation,17
+llama3.1:8b,manual_csv,strict_plain_list,SV,50.0,sentence,dictionary_failed,5
+llama3.1:8b,manual_csv,strict_plain_list,SV,50.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,SV,50.0,sentence,wrong_word_count,1
+llama3.1:8b,manual_csv,strict_plain_list,SV,50.0,word,dictionary_failed,9
+llama3.1:8b,manual_csv,strict_plain_list,SV,50.0,word,failed_saturation,19
+llama3.1:8b,manual_csv,strict_plain_list,SV,70.0,sentence,dictionary_failed,3
+llama3.1:8b,manual_csv,strict_plain_list,SV,70.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,SV,70.0,word,dictionary_failed,13
+llama3.1:8b,manual_csv,strict_plain_list,SV,70.0,word,duplicate,3
+llama3.1:8b,manual_csv,strict_plain_list,SV,70.0,word,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,SV,70.0,word,invalid_characters,2
+llama3.1:8b,manual_csv,strict_plain_list,SV,70.0,word,wrong_word_count,1
+llama3.1:8b,manual_csv,strict_plain_list,V,50.0,sentence,dictionary_failed,9
+llama3.1:8b,manual_csv,strict_plain_list,V,50.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,V,50.0,sentence,wrong_word_count,2
+llama3.1:8b,manual_csv,strict_plain_list,V,50.0,word,dictionary_failed,2
+llama3.1:8b,manual_csv,strict_plain_list,V,50.0,word,duplicate,6
+llama3.1:8b,manual_csv,strict_plain_list,V,50.0,word,failed_saturation,19
+llama3.1:8b,manual_csv,strict_plain_list,V,70.0,sentence,duplicate,1
+llama3.1:8b,manual_csv,strict_plain_list,V,70.0,sentence,failed_saturation,20
+llama3.1:8b,manual_csv,strict_plain_list,V,70.0,sentence,wrong_word_count,11
+llama3.1:8b,manual_csv,strict_plain_list,V,70.0,word,dictionary_failed,3
+llama3.1:8b,manual_csv,strict_plain_list,V,70.0,word,duplicate,4
+llama3.1:8b,manual_csv,strict_plain_list,V,70.0,word,failed_saturation,20

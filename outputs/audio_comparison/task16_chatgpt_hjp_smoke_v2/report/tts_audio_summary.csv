@@ -1,0 +1,4 @@
+tts_adapter,tts_model_or_voice,model,prompt_strategy,target_class,saturation_level,text_type,candidate_count,synthesis_success_rate,suitable_for_audio_eval_rate,average_duration_seconds,average_rms,average_clipping_rate,sample_rate_compliance_rate,format_compliance_rate
+espeak_ng,hr,ChatGPT Plus,paper_style,N,50.0,word,2,1.0,1.0,0.661,2077.800156254185,0.0,1.0,1.0
+coqui_vits_hr,tts_models/hr/cv/vits,ChatGPT Plus,paper_style,N,50.0,word,2,1.0,1.0,0.97015625,3813.3237919544285,3.164356686285678e-05,1.0,1.0
+speecht5_hr,/mnt/d/Audiorehabilitation/models/speecht5_tts_hr,ChatGPT Plus,paper_style,N,50.0,word,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0

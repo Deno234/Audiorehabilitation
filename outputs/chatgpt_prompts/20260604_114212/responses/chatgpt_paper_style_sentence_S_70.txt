@@ -1,0 +1,21 @@
+Radar daje kadar.
+Radar traži kadar.
+Kadar daje rad.
+Rad daje dar.
+Rak daje dar.
+Kratak kadar traje.
+Radar čeka kadar.
+Kadar traje kratak čas.
+Rak traži kadar.
+Rad traži kadar.
+Radar stvara kadar.
+Kratak rad daje dar.
+Kadar radara traje.
+Radar rada daje kadar.
+Rad daje kratak kadar.
+Kadar daje draž.
+Radar traži draž.
+Rak daje draž.
+Rad stvara draž.
+Kadar stvara rad.
+Radar daje kratak kadar.

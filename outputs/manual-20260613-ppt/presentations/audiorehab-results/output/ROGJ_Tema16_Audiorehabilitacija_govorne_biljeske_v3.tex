@@ -1,0 +1,335 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\section{Govorne bilješke za
+prezentaciju}\label{govorne-biljeux161ke-za-prezentaciju}
+
+Trajanje: ciljaj 12-14 minuta i ostavi 1-2 minute za pitanja. Govori
+mirno; gotovo svaka slajd ima jednu glavnu poruku.
+
+\subsection{Slajd 1 --- Naslov}\label{slajd-1-naslov}
+
+Reci: Tema je evaluacija jezičnih generativnih modela za
+audiorehabilitaciju. Cilj nije samo generirati lijepe riječi, nego
+provjeriti mogu li se dobiti hrvatske riječi i kratke rečenice s
+kontroliranim fonemskim sastavom, a zatim ih pretvoriti u audio.
+
+\subsection{Slajd 2 --- Motivacija}\label{slajd-2-motivacija}
+
+Objasni problem: u audiorehabilitaciji trebamo materijal koji cilja
+određene glasove ili kontraste. Ako korisnik ima problem razlikovati /s/
+i /š/, nije dovoljno imati bilo koju rečenicu. Treba znati koji fonemi
+se stvarno pojavljuju i u kojem omjeru.
+
+\subsection{Slajd 3 --- Istraživačko
+pitanje}\label{slajd-3-istraux17eivaux10dko-pitanje}
+
+Glavna ideja: LLM može biti koristan kao generator kandidata, ali nije
+pouzdan evaluator. Zato je doprinos rada reproducibilni Python pipeline
+koji sve broji i provjerava deterministički.
+
+Ako profesor pita „zašto ne vjerovati ChatGPT-u?'': Zato što LLM često
+daje uvjerljiv odgovor, ali nema garantirano točno brojanje fonema,
+pogotovo za hrvatske višeslovne foneme dž, lj i nj.
+
+\subsection{Slajd 4 --- Veza s
+literaturom}\label{slajd-4-veza-s-literaturom}
+
+Reci da se oslanjamo na rad Andrijašević i Vukelić, gdje se GPT koristi
+za generiranje hrvatskog govornog materijala za auditivni trening. Mi
+preuzimamo ideju pet klasa fonema i razina zasićenja, ali uvodimo strožu
+validaciju.
+
+Važno: HJP u promptu je samo uputa modelu. U našem radu HJP valjanost je
+zasebna ručna provjera riječi.
+
+\subsection{Slajd 5 --- Fonemske klase i
+formula}\label{slajd-5-fonemske-klase-i-formula}
+
+Objasni formulu: broj fonema ciljne klase dijeli se s ukupnim brojem
+fonema i množi sa 100. Ako ciljamo klasu N na 70 \%, kandidat prolazi
+samo ako barem 70 \% njegovih fonema pripada klasi N.
+
+Tehnički detalj: parser ide longest-match-first za dž, lj i nj. Bez toga
+bi npr. „panj'' pogrešno postao p-a-n-j umjesto p-a-nj.
+
+\subsection{Slajd 6 --- Pipeline}\label{slajd-6-pipeline}
+
+Objasni što skripta radi:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Učita CSV ili generira kandidate preko Ollame.
+\item
+  Normalizira tekst u UTF-8, čuva hrvatske znakove.
+\item
+  Fonemizira tekst.
+\item
+  Računa zasićenje.
+\item
+  Provjerava dopuštene znakove, broj riječi, duplikate i ponovljene
+  riječi.
+\item
+  Dodaje Hunspell screening i ručni HJP word-review.
+\item
+  Stvara CSV i Markdown izvještaje.
+\end{enumerate}
+
+Ako pita „koje su glavne datoteke'': \texttt{src/phonemizer.py},
+\texttt{src/validators.py}, \texttt{src/metrics.py},
+\texttt{src/pipeline.py}, \texttt{src/tts.py},
+\texttt{src/asr\_eval.py}.
+
+\subsection{Slajd 7 --- Dizajn
+eksperimenata}\label{slajd-7-dizajn-eksperimenata}
+
+Reci da postoje tri sloja:
+
+Prvi je reprodukcija paper-style promptova. Drugi je Task 16 usporedba
+ChatGPT Plus protiv lokalne Ollame. Treći je audio faza samo na
+validiranim kandidatima.
+
+Naglasak: audio ne radimo nad svim kandidatima, nego samo nad onima koji
+su prošli determinističku i leksičku provjeru.
+
+\subsection{Slajd 8 --- Reprodukcija rada:
+riječi}\label{slajd-8-reprodukcija-rada-rijeux10di}
+
+Ovdje reci da je ovo namjerno prikazano gotovo istim formatom kao Table
+II u radu. U paperu su retci fonemske klase, stupci su saturation
+leveli, a ćelija je postotak riječi koje zadovoljavaju oba kriterija:
+zasićenje + standardni hrvatski/HJP.
+
+Naša tablica koristi isti princip: saturation pass + ručni HJP
+word-review. Važno je reći da naš pipeline dodatno mjeri duplikate, ali
+ih ovdje ne miješamo u ćeliju jer želimo metodološki isti indikator kao
+u paperu.
+
+Zaključak za riječi: naši paper-style rezultati su vrlo visoki za većinu
+klasa, ali SV na 70 \% i V na 80 \% pokazuju pad. To je usporedivo s
+idejom rada da visoka zasićenja i ``visoke'' klase postaju teže.
+
+\subsection{Slajd 9 --- Reprodukcija rada:
+rečenice}\label{slajd-9-reprodukcija-rada-reux10denice}
+
+Ovdje je analog Table III iz rada. Paper za rečenice prikazuje postotak
+rečenica koje zadovoljavaju saturation level. Mi prikazujemo isti
+kriterij.
+
+Glavna poruka: na 50 \% smo gotovo savršeni za većinu klasa. Na 70 \% se
+vidi pad, posebno za klasu V. To je važan zaključak jer se slaže s
+očekivanjem: viši prag daje modelu manje slobode.
+
+\subsection{Slajd 10 --- ChatGPT Plus vs
+Ollama}\label{slajd-10-chatgpt-plus-vs-ollama}
+
+Ovo je najvažniji tekstni rezultat. ChatGPT Plus ima 48,6 \% tehnički
+valjanih kandidata i 85,9 \% saturation pass. Ollama ima samo 4,5 \%
+tehnički valjanih i 4,6 \% saturation pass.
+
+Zaključak: u ovoj konfiguraciji lokalni \texttt{llama3.1:8b} nije
+dovoljan za strogo hrvatsko fonemsko zasićenje. ChatGPT Plus je znatno
+bolji generator, ali i dalje treba validaciju.
+
+\subsection{Slajd 11 --- Analiza
+grešaka}\label{slajd-11-analiza-greux161aka}
+
+Objasni razliku u vrstama grešaka:
+
+ChatGPT Plus: najveći problem su duplikati. To znači da model često
+razumije zadatak, ali se vrti oko istih sigurnih kandidata.
+
+Ollama: najveći problem je sam fonetski kriterij. To je ozbiljniji
+problem jer znači da generirani tekst ne zadovoljava glavnu znanstvenu
+mjeru.
+
+\subsection{Slajd 12 --- Tehnička valjanost i
+PCD}\label{slajd-12-tehniux10dka-valjanost-i-pcd}
+
+Ovo je slajd za metodološko objašnjenje. Reci da \texttt{is\_valid} nije
+procjena LLM-a, nego rezultat determinističkih pravila.
+
+Kandidat je tehnički valjan ako prođe saturation threshold, nema
+nedopuštene znakove, ima ispravan broj riječi, nije duplikat i nema
+ponovljene riječi u rečenici. U glavnoj usporedbi Hunspell i HJP držimo
+odvojeno jer su leksička, a ne čisto fonetsko-strukturna provjera.
+
+PCD znači Phonetic Content Dissimilarity. Naš paper-style PCD uspoređuje
+fonemski sadržaj dvaju kandidata: gleda koliko fonema u duljem kandidatu
+nije dijeljeno s kraćim, podijeljeno duljinom duljeg kandidata. Veći
+prosječni PCD znači raznolikiji skup.
+
+Rezultat: ChatGPT Plus ima viši prosječni PCD po grupama od Ollame, što
+znači da je osim više validnih kandidata dao i korisniju fonetsku
+raznolikost. Ollama ima malo grupa s dovoljno validnih kandidata, pa je
+i PCD slabiji.
+
+\subsection{Slajd 13 --- Hunspell i HJP}\label{slajd-13-hunspell-i-hjp}
+
+Reci da Hunspell nije HJP. Hunspell je automatski screening: može
+odbaciti valjane flektirane riječi ili prihvatiti riječ koja nije
+prikladna za rehabilitacijski kontekst.
+
+Ručni HJP word-review: iz kandidata se izvezu jedinstvene riječi, označi
+se \texttt{hjp\_valid}, a zatim se ta odluka propagira natrag na riječi
+i rečenice. Rečenica je HJP-valid samo ako su sve njezine riječi
+HJP-valid.
+
+\subsection{Slajd 14 --- Audio dizajn}\label{slajd-14-audio-dizajn}
+
+Objasni da je za poštenu TTS usporedbu isti skup od 96 tekstova poslan u
+sva tri sustava: eSpeak NG, Coqui VITS HR i SpeechT5 HR. Time se ne
+uspoređuju različiti tekstovi, nego različiti sintetizatori na istom
+materijalu.
+
+Svi izlazi su normalizirani u isti format: WAV, mono, 16 kHz, 16-bit
+PCM.
+
+\subsection{Slajd 15 --- TTS i ASR}\label{slajd-15-tts-i-asr}
+
+Sva tri TTS sustava tehnički su uspjela sintetizirati 96/96 kandidata.
+ASR evaluacija koristi fiksni \texttt{faster-whisper\ large-v3-turbo}
+profil za hrvatski.
+
+Reci caveat: WER/CER nije klinički dokaz. To je automatski proxy. Visok
+WER može značiti da je TTS loš, ASR loš, ili da je materijal fonemski
+neobičan.
+
+\subsection{Slajd 16 --- Audio demo}\label{slajd-16-audio-demo}
+
+Ovdje pusti tri WAV datoteke istim redom: eSpeak NG, Coqui VITS HR,
+SpeechT5 HR. Naglasi da je tekst isti: „Draga rada radi.'' Time se sluša
+razlika u sintetizatoru, a ne razlika u sadržaju.
+
+Reci da su demo kopije pojačane za prezentaciju jer je SpeechT5 u
+originalnom izlazu bio tiši. Originalni istraživački audio nije
+mijenjan; pojačanje je samo praktično za slušanje u učionici.
+
+\subsection{Slajd 17 --- Slušna
+provjera}\label{slajd-17-sluux161na-provjera}
+
+Ovo je važan ljudski rezultat. eSpeak NG je najrazumljiviji po ljudskoj
+ocjeni, iako nije najprirodniji. SpeechT5 je najprirodniji, ali ne
+najrazumljiviji. Coqui je u ovom testu najslabiji.
+
+Poanta: automatska ASR metrika i ljudska procjena ne moraju dati isti
+poredak, zato se ne smije stati samo na WER/CER.
+
+\subsection{Slajd 18 --- Zaključak}\label{slajd-18-zakljuux10dak}
+
+Zaključi:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Pipeline radi i reproducibilan je.
+\item
+  LLM može pomoći u generiranju kandidata, ali samo ako Python
+  deterministički validira.
+\item
+  ChatGPT Plus je bio bolji od lokalne Ollame za tekst.
+\item
+  Audio faza je tehnički izvediva, ali klinička prikladnost traži
+  stručnu provjeru.
+\end{enumerate}
+
+\subsection{Kratki odgovori ako profesor
+pita}\label{kratki-odgovori-ako-profesor-pita}
+
+\textbf{Kako fonemizator radi?}\\
+Tekst se pretvara u mala slova, uklanja se interpunkcija, čuvaju se
+hrvatski znakovi, a \texttt{dž}, \texttt{lj} i \texttt{nj} se prepoznaju
+prije pojedinačnih slova. Razmaci ne ulaze u broj fonema.
+
+\textbf{Što znači saturation pass?}\\
+Ako kandidat ima N fonema, a nk pripada ciljnoj klasi, zasićenje je nk/N
+× 100. Kandidat prolazi ako je postotak veći ili jednak traženom pragu.
+
+\textbf{Zašto imate Hunspell i HJP?}\\
+Hunspell je automatski i skalabilan, ali nije konačan. HJP/manual
+word-review je bliže kriteriju iz literature, ali je ručni.
+
+\textbf{Zašto je Ollama tako slaba?}\\
+Testirani lokalni model nije pouzdano pratio hrvatske fonemske klase.
+Većina kandidata pala je na zasićenju, ne samo na hrvatskoj leksici.
+
+\textbf{Zašto TTS nije klinički zaključak?}\\
+Jer tehnički WAV i dobra ASR transkripcija ne dokazuju da je izgovor
+terapeutski prikladan. Potrebni su stručnjaci, više slušatelja i
+eventualno korisničko testiranje.
+
+\textbf{Što biste poboljšali?}\\
+Veći ručni listening review, više ocjenjivača, inter-rater reliability,
+jači lokalni LLM, repair loop za neuspjele kandidate i formalniji
+HJP/klinički review.
+
+\end{document}

@@ -1,0 +1,107 @@
+{
+  "run_id": "20260614_183751",
+  "timestamp": "2026-06-14T18:38:02",
+  "operation": "pipeline",
+  "config_path": "/mnt/d/Audiorehabilitation/experiments/config.yaml",
+  "config_snapshot_path": "outputs/reports/config_snapshot_20260614_183751.yaml",
+  "adapter": "manual_csv",
+  "model": "",
+  "prompt_strategies": [
+    "paper_style",
+    "strict_plain_list"
+  ],
+  "experiment_blocks": [],
+  "experiment_grid": {
+    "target_classes": [
+      "N",
+      "SN",
+      "S",
+      "SV",
+      "V"
+    ],
+    "saturation_levels": [
+      50,
+      70
+    ],
+    "text_types": [
+      "word",
+      "sentence"
+    ],
+    "prompt_strategies": [
+      "paper_style",
+      "strict_plain_list"
+    ]
+  },
+  "generation": {
+    "adapter": "manual_csv",
+    "candidate_count_per_condition": 5,
+    "request_extra_factor": 2,
+    "sleep_seconds_between_requests": 1,
+    "words": {
+      "target_classes": [
+        "N",
+        "SN",
+        "S",
+        "SV",
+        "V"
+      ],
+      "saturation_levels": [
+        40,
+        50,
+        60,
+        70,
+        80
+      ],
+      "candidates_per_group": 50
+    },
+    "sentences": {
+      "target_classes": [
+        "N",
+        "SN",
+        "S",
+        "SV",
+        "V"
+      ],
+      "saturation_levels": [
+        50,
+        60,
+        70
+      ],
+      "candidates_per_group": 50,
+      "min_words": 3,
+      "max_words": 5
+    },
+    "models": {
+      "ollama": [],
+      "manual_baseline": "manual_csv"
+    }
+  },
+  "raw_generation_files": [
+    "outputs/raw_generations/raw_generations_20260614_183751.json"
+  ],
+  "input_csvs": [
+    "/mnt/d/Audiorehabilitation/data/manual_candidates_example.csv"
+  ],
+  "output_reports": {
+    "all_candidates": "outputs/reports/all_candidates_20260614_183751.csv",
+    "validated_candidates": "outputs/reports/validated_candidates_20260614_183751.csv",
+    "experiment_summary": "outputs/reports/experiment_summary_20260614_183751.csv",
+    "audio_eval_summary": "outputs/reports/audio_eval_summary_20260614_183751.csv",
+    "pcd_matrix": "outputs/reports/pcd_matrix_20260614_183751.csv",
+    "pcd_summary": "outputs/reports/pcd_summary_20260614_183751.csv",
+    "phoneme_frequency": "outputs/reports/phoneme_frequency_20260614_183751.csv",
+    "phoneme_class_distribution": "outputs/reports/phoneme_class_distribution_20260614_183751.csv",
+    "markdown_report": "outputs/reports/report_20260614_183751.md",
+    "plot_saturation_pass_rate_20260614_183751": "outputs/reports/saturation_pass_rate_20260614_183751.png",
+    "plot_duplicate_rate_20260614_183751": "outputs/reports/duplicate_rate_20260614_183751.png",
+    "plot_phoneme_class_distribution_20260614_183751": "outputs/reports/phoneme_class_distribution_20260614_183751.png"
+  },
+  "python_version": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:13:31) [GCC 14.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "package_versions": {
+    "pytest": "9.0.3",
+    "yaml": "6.0.3",
+    "matplotlib": "3.10.9"
+  },
+  "extra": {}
+}

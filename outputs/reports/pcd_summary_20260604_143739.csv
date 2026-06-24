@@ -1,0 +1,12 @@
+model,prompt_strategy,target_class,saturation_level,text_type,pcd_version,candidate_count,average_pcd
+llama3.1:8b,paper_style,N,50.0,word,pcd_paper_style,1,0.0
+llama3.1:8b,strict_plain_list,N,50.0,word,pcd_paper_style,1,0.0
+llama3.1:8b,paper_style,SN,50.0,word,pcd_paper_style,8,0.5744047619047619
+llama3.1:8b,strict_plain_list,SN,70.0,word,pcd_paper_style,2,0.5
+llama3.1:8b,paper_style,S,50.0,word,pcd_paper_style,7,0.5857142857142857
+llama3.1:8b,strict_plain_list,S,50.0,word,pcd_paper_style,1,0.0
+llama3.1:8b,strict_plain_list,S,50.0,sentence,pcd_paper_style,1,0.0
+llama3.1:8b,paper_style,S,70.0,word,pcd_paper_style,2,0.16666666666666666
+llama3.1:8b,paper_style,SV,50.0,word,pcd_paper_style,8,0.5221513605442177
+llama3.1:8b,strict_plain_list,SV,50.0,word,pcd_paper_style,1,0.0
+llama3.1:8b,paper_style,V,50.0,word,pcd_paper_style,2,0.6666666666666666

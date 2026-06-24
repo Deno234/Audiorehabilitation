@@ -1,0 +1,6 @@
+Generate Croatian {text_type} candidates for auditory training.
+Target phoneme class: {target_class}
+Required saturation level: at least {saturation_level}%.
+
+Return only candidates, one per line.
+

@@ -1,0 +1,10 @@
+run_id,model,prompt_strategy,target_class,saturation_level,text_type,candidate_count,valid_count,valid_rate,saturation_pass_count,saturation_pass_rate,unique_candidate_rate,duplicate_rate,average_saturation,pcd_version,average_pcd,failed_saturation,invalid_characters,wrong_word_count,duplicate,repeated_words,dictionary_failed
+20260614_183751,manual,manual_example,N,50.0,sentence,2,1,0.5,2,1.0,1.0,0.0,63.33333333333333,pcd_paper_style,0.3333333333333333,0,0,1,0,0,0
+20260614_183751,manual,manual_example,N,50.0,word,2,1,0.5,2,1.0,0.5,0.5,66.66666666666666,pcd_paper_style,0.0,0,0,0,1,0,0
+20260614_183751,manual,manual_example,S,50.0,sentence,1,1,1.0,1,1.0,1.0,0.0,58.333333333333336,pcd_paper_style,0.0,0,0,0,0,0,0
+20260614_183751,manual,manual_example,S,50.0,word,1,0,0.0,0,0.0,1.0,0.0,33.33333333333333,pcd_paper_style,0.0,1,0,0,0,0,0
+20260614_183751,manual,manual_example,SN,50.0,sentence,1,1,1.0,1,1.0,1.0,0.0,61.53846153846154,pcd_paper_style,0.0,0,0,0,0,0,0
+20260614_183751,manual,manual_example,SN,50.0,word,1,1,1.0,1,1.0,1.0,0.0,50.0,pcd_paper_style,0.0,0,0,0,0,0,0
+20260614_183751,manual,manual_example,SV,50.0,sentence,3,1,0.3333333333333333,2,0.6666666666666666,1.0,0.0,51.96581196581196,pcd_paper_style,0.7025641025641026,1,0,2,0,1,0
+20260614_183751,manual,manual_example,V,50.0,sentence,1,1,1.0,1,1.0,1.0,0.0,58.333333333333336,pcd_paper_style,0.0,0,0,0,0,0,0
+20260614_183751,manual,manual_example,V,50.0,word,1,0,0.0,0,0.0,1.0,0.0,14.285714285714285,pcd_paper_style,0.0,1,1,0,0,0,0

@@ -1,0 +1,59 @@
+experiment:
+  name: hunspell_validation_example
+  description: Opt-in example config for Croatian Hunspell dictionary screening.
+
+generation:
+  adapter: manual_csv
+  candidate_count_per_condition: 5
+  request_extra_factor: 2
+  sleep_seconds_between_requests: 1
+
+ollama:
+  model: "llama3.1:8b"
+  base_url: "http://localhost:11434"
+  temperature: 0.8
+  max_retries: 3
+
+experiment_grid:
+  target_classes: ["N", "SN", "S", "SV", "V"]
+  saturation_levels: [50, 70]
+  text_types: ["word", "sentence"]
+  prompt_strategies: ["paper_style", "strict_plain_list"]
+
+validation:
+  dictionary:
+    mode: hunspell_cli
+    hunspell_executable: "hunspell"
+    hunspell_dictionary: "hr_HR"
+    local_wordlist_path:
+    manual_review_csv_path:
+  sentence:
+    min_words: 3
+    max_words: 5
+
+metrics:
+  pcd_version: pcd_paper_style
+
+tts:
+  adapter: espeak_ng
+  external_command:
+    command_template: ""
+    output_wav_argument: "{output_path}"
+    text_argument: "{text}"
+    croatian_voice_or_model_confirmed: false
+
+audio_eval:
+  asr_adapter:
+  faster_whisper:
+    model_path: ""
+    language: "hr"
+    device: "cpu"
+    compute_type: "int8"
+
+outputs:
+  raw_generations_dir: outputs/raw_generations
+  validated_dir: outputs/validated
+  audio_dir: outputs/audio
+  reports_dir: outputs/reports
+  chatgpt_prompts_dir: outputs/chatgpt_prompts
+  manifests_dir: outputs/manifests

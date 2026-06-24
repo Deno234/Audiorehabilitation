@@ -1,0 +1,41 @@
+{
+  "run_id": "20260603_170223",
+  "timestamp": "2026-06-03T17:02:24",
+  "operation": "pipeline",
+  "config_path": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/config.yaml",
+  "config_snapshot_path": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/config_snapshot_20260603_170223.yaml",
+  "adapter": "manual_csv",
+  "model": "",
+  "prompt_strategies": [],
+  "experiment_blocks": [],
+  "experiment_grid": {},
+  "generation": {},
+  "raw_generation_files": [
+    "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/raw/raw_generations_20260603_170223.json"
+  ],
+  "input_csvs": [
+    "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/manual.csv"
+  ],
+  "output_reports": {
+    "all_candidates": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/all_candidates_20260603_170223.csv",
+    "validated_candidates": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/validated_candidates_20260603_170223.csv",
+    "experiment_summary": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/experiment_summary_20260603_170223.csv",
+    "audio_eval_summary": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/audio_eval_summary_20260603_170223.csv",
+    "pcd_matrix": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/pcd_matrix_20260603_170223.csv",
+    "pcd_summary": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/pcd_summary_20260603_170223.csv",
+    "phoneme_frequency": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/phoneme_frequency_20260603_170223.csv",
+    "phoneme_class_distribution": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/phoneme_class_distribution_20260603_170223.csv",
+    "markdown_report": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/report_20260603_170223.md",
+    "plot_saturation_pass_rate_20260603_170223": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/saturation_pass_rate_20260603_170223.png",
+    "plot_duplicate_rate_20260603_170223": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/duplicate_rate_20260603_170223.png",
+    "plot_phoneme_class_distribution_20260603_170223": "/tmp/pytest-of-deno/pytest-1/test_notes_are_preserved_but_d0/reports/phoneme_class_distribution_20260603_170223.png"
+  },
+  "python_version": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:13:31) [GCC 14.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "package_versions": {
+    "pytest": "9.0.3",
+    "yaml": "6.0.3",
+    "matplotlib": "3.10.9"
+  },
+  "extra": {}
+}

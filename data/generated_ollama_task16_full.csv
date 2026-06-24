@@ -1,0 +1,758 @@
+candidate,model,prompt_strategy,target_class,saturation_level,text_type,source_adapter,run_id
+babilonski,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bankarstvo,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+banjotop,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+barem,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+barman,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bartar,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bazačić,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bebeto,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+belega,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+belina,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+benzolični,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bergantić,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bezdani,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bezglupan,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bezgrješan,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bezjamstvo,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bezkreditno,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bezmalo,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bezmašan,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+bezmravac,llama3.1:8b,paper_style,N,50.0,word,ollama,20260604_143739
+Novčanik,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Nepoznati,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Niski,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Novačka,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Neznamenit,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Nastupite,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Natječajni,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Novinarstvo,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Navigacija,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Nafta,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Naziv,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Netko,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Ništa,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Nakon,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Napomenuti,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Navijači,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Natjecanje,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Nađi,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Naglašen,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Nižinski,llama3.1:8b,strict_plain_list,N,50.0,word,ollama,20260604_143739
+Kobilica jede jabuke.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Neki čovjek nije bio tu.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Znači da sam morao iti.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Mnogi se nisu složili.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Neznanci su počeli gnusiti.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Gospodin je kupio dvije kobilice.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Novine će biti dostupne od sutra.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Neka osoba nije htjela ići na putovanje.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Stari čovjek je došao s njom.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Mladić je otišao u glazbu.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Učiteljica nije dala dovoljno zadataka.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Neki se čovjek počeo grđati.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Neznanci su začepili cesta.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Novinar će biti tu sutra navečer.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Kobilice nisu bile bliske.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Starija žena nije htjela iti.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Neki mladić je otišao na putovanje.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Žena se počela gnusiti od njega.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Glazbenik nije htjel idući na koncert.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Neznanci su počeli grđati cesta.,llama3.1:8b,paper_style,N,50.0,sentence,ollama,20260604_143739
+Niski čovjek jede hranu.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Razgovor nije zanimljiv.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Novinar je bio uvjeren.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Žena je znala pješačiti.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Nova škola će biti sjajna.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Čovjek mora znati razmišljati.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Srednja škola je bila loša.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Kći je bila visoka kao staklo.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Ljudi su znali šiću kupiti.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Voda nije bila hladna.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Stari čovjek je imao psovke.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Nova knjiga će biti jako skučena.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Žene su znale da se igraju.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Rijeka je bila strana.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Novac nije bio dovoljan.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Mladić je pokušavao zaboraviti.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Baba je znala šljive kupiti.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Ljudi su znali što čine.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Srednji razumčovjek je volio čitat.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+Nova škola će biti bistra.,llama3.1:8b,strict_plain_list,N,50.0,sentence,ollama,20260604_143739
+"Nisam u stanju dati detaljan popis riječi koje zadovoljavaju postavljene uvjete jer to zahtijeva vrlo veliku količinu procesiranja i obrađivanja velikog broja podataka, a nije tako jednostavno rješiti bez pristupa mrežnim tehnikama i izvorima kao što je https://hjp.znanje.hr. Međutim, detaljno pojasnjenje koji bi omogućio izradu takvog popisa nije dostupno u ovom formatu.",llama3.1:8b,paper_style,N,70.0,word,ollama,20260604_143739
+novčić,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+nežni,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+njezino,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+našnici,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+načelo,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+navođeno,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+narječje,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+nuvoriči,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+nadražujem,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+nikolišu,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+nalazni,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+nakopnuti,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+nuženosti,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+naklonjen,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+nagraničen,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+načinjen,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+nekolikoši,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+natjecanje,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+nižinačka,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+načelnikovi,llama3.1:8b,strict_plain_list,N,70.0,word,ollama,20260604_143739
+Malina nekad nosi veliku količinu vlažnosti.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Mnogi ljudi nisu sposobni da učine dovoljno napora.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Najbolji jezik nije uvijek najpopularniji.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Novinari svake godine objavljuju brojni članak.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Nastala su velika gomila količina hrane.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Netko je kupio malu kućicu u gradu.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Naš narod nikada nije bio toliko nasilan.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Najnovije istraživanje pokazalo je da nema ničega.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Neki ljudi imaju vrlo velike šanse za uspjeh.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Malina jede mnogo hrane u proljeće.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+"Sve što smo vidjeli, nije bilo toliko važno.",llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Mnogi učenici imaju bolju prošlost nego budućnost.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Količina novca je uvijek bila naš problem.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Netko će biti daleko od svog doma.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+U prvom razdoblju bio sam vrlo nesiguran.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Nekima je slučajno stalo do turskog jezika.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Količina zelenjaka nije nikad bila dovoljna za nas.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Netko će biti u stanu velikih očekivanja.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Najbolji su učenici uvijek bili srednje inteligentni.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Mnogi učitelji su vrlo često nedostupni.,llama3.1:8b,paper_style,N,70.0,sentence,ollama,20260604_143739
+Najbolja je,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Niski zvuk,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Mala voda,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Bijeli kamen,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Nova kuća,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Veliki broj,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Gorka hrana,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Crni konj,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Očigledno sunce,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Hladan zrak,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Ljudsko vrijeme,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Lakše reći,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Ljubav u srcu,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Mladi čovjek,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Neka kazna,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Nova škola,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Pisanje knjige,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Razgovor s njom,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Uzrok smrti,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+Visoki zvuk,llama3.1:8b,strict_plain_list,N,70.0,sentence,ollama,20260604_143739
+baka,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+brka,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+glas,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+glog,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+hola,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+hvata,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+knjiga,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+kovac,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+kralj,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+lako,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+likov,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+logar,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+mala,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+mlad,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+njena,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+oka,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+oko,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+pamet,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+poklop,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+prosto,llama3.1:8b,paper_style,SN,50.0,word,ollama,20260604_143739
+svladaju,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+vojnica,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+vjetarce,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+svečanju,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+najvažniji,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+snagaši,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+srednjegrad,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+važnosti,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+važnoste,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+naglasuju,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+važnošću,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+važnosće,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+vojništva,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+važnostju,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+važnostjeh,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+važnostih,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+snažnosti,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+načelnuvši,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+načelnovši,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+načelnosći,llama3.1:8b,strict_plain_list,SN,50.0,word,ollama,20260604_143739
+Mornar je pomogao u akciji.,llama3.1:8b,paper_style,SN,50.0,sentence,ollama,20260604_143739
+Nije bilo lako otkrio tajni ulaz.,llama3.1:8b,paper_style,SN,50.0,sentence,ollama,20260604_143739
+Graditelji su počeli graditi novi most.,llama3.1:8b,paper_style,SN,50.0,sentence,ollama,20260604_143739
+Najbolji način je da se uzdrži.,llama3.1:8b,paper_style,SN,50.0,sentence,ollama,20260604_143739
+Novi nastavnik je bio vrlo strpljan.,llama3.1:8b,paper_style,SN,50.0,sentence,ollama,20260604_143739
+Odgovor bi trebao biti odmah.,llama3.1:8b,paper_style,SN,50.0,sentence,ollama,20260604_143739
+Srednjoškolski studenti moraju raditi više.,llama3.1:8b,paper_style,SN,50.0,sentence,ollama,20260604_143739
+Tramvaj je prestao kretati se zbog oštećenja.,llama3.1:8b,paper_style,SN,50.0,sentence,ollama,20260604_143739
+Žene su polagale prisegu u prvom redu.,llama3.1:8b,paper_style,SN,50.0,sentence,ollama,20260604_143739
+Za svaku godinu mora biti izdano novo publikacijo.,llama3.1:8b,paper_style,SN,50.0,sentence,ollama,20260604_143739
+Nisu znali da će imati toliko problema.,llama3.1:8b,paper_style,SN,50.0,sentence,ollama,20260604_143739
+Svi su čekali na početak konferencije.,llama3.1:8b,paper_style,SN,50.0,sentence,ollama,20260604_143739
+Svaka kuća ima čipku,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Nađi ga u prolazu,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Škola učenika je opasna,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Vatra gori sve vreme,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Stara kći jede hranu,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Sloboda je ljubavna tema,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Nova sestra može pomoći,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Kušaći psi izbacuju smećak,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Domaće jaje jedva koči,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Stručni doktor radi u bolnici,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Zadatak bi trebao biti lako,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Učiteljica govori glasno i čisto,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Ljudi koji plače su glupavi,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Jedna žena ima lijepu kosu,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Škola u kojoj sam učio nije bila sjajna,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Nova kuća koju sam kupio treba biti odlična,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Bilješka koja je zaboravljena je gubitak vremena,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Rijetko ljudi govore o pravim stvarima,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Žena koja voli često plače,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Lekar koji je bio u bolnici može pomoći,llama3.1:8b,strict_plain_list,SN,50.0,sentence,ollama,20260604_143739
+Nisu sve ove odrednice prisutne u hrvatskom jeziku.,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+nju,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+njama,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+njega,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+baba,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kup,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupati,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupa,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupi,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupina,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupna,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupno,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupnaonica,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupuđa,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupuđac,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupujem,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupujem-li,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupuje,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupuje-mo,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+kupujući,llama3.1:8b,paper_style,SN,70.0,word,ollama,20260604_143739
+voda,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+grom,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+hvala,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+vlaga,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+luka,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+glas,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+nova,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+lava,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+soka,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+gola,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+bora,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+zora,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+gora,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+glava,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+lavica,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+volja,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+vrag,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+glašća,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+glasa,llama3.1:8b,strict_plain_list,SN,70.0,word,ollama,20260604_143739
+Moj brat jede hleb.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Hvala ti za pomoć njemu.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Oni su odveli nas u grad.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Bili smo u zelenoj šumi.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Prijatelj je kupio novu količinu mlijeka.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Žena je objasnila mi jedan problem.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Ti si kupio novo košulju.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Moj otac pije čaj sa šećerom.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+U čast rođendana slavili smo zajedno.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Bila sam u školi i učila sam.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Najbolji prijatelj mi je dao jednu knjigu.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Nekoliko djece igralo je van kod mene.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Majka mi je rekla da kupim još jedan kruh.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Rijeka teče preko stjenovitog brda.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Ona me poziva na večeru jutros.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Dvanaest ljudi učio je hrvatski jezik.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+U čast svoje majke slavili smo danas.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Moja sestra se igrala s nekim dječacima.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Svi su bili u velikoj sali sjedali na stolovima.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+Nešto je krivo i iznenada mu se nije obrisalo.,llama3.1:8b,paper_style,SN,70.0,sentence,ollama,20260604_143739
+voda,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+kora,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+ljubav,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+mladi,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+gornja,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+sveta,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+njega,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+hladna,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+važno,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+dvorac,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+glava,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+škola,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+krava,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+žena,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+vlaga,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+čista,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+gora,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+hvala,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+vrata,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+glasa,llama3.1:8b,strict_plain_list,SN,70.0,sentence,ollama,20260604_143739
+Rječnik odabirom:,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+krv,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+krvariti,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kraj,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kruga,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kul,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kuća,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kućiti,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kuna,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kup,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kukavica,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kukavičina,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kukicima,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kukice,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kućište,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kućnik,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kućnici,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kućišta,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kućištima,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+kučetna,llama3.1:8b,paper_style,S,50.0,word,ollama,20260604_143739
+Here is the list of 40 Croatian words:,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+spreman,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+osjeti,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+svjest,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+sušenje,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+zaboravljenost,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+svezna,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+prihvatljivost,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+svečani,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+nasilnost,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+srećan,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+savremeno,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+sadržaj,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+svesni,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+nastavljati,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+spremanost,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+osjetljiv,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+svjestan,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+suđenje,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+zaboravljanje,llama3.1:8b,strict_plain_list,S,50.0,word,ollama,20260604_143739
+Hvala vam za pomoć.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Ova knjiga je čudo.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Džepna knjiga sadrži niz strana.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Rječnik hrvatskoga jezika sadrži riječi o različitoj nacionalnosti.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Knjige sadrže niz strana s detaljanom informacijom.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Knjižnici koji imaju značajan broj knjiga moraju biti dostupne široj javnosti.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+"Riječ ""razlog"" pripada kategoriji razumljivih riječi u hrvatskom jeziku.",llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Brojni stručnjaci će vam dati prilagodljive savjete.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Džepna knjiga sadrži niz strana s detaljanom informacijom.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Knjižnice moraju imati priliku da upoznaju brojne čitače.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Sve knjige sadrže detaljan opis autorovog života.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Knjižnice sadrže brojne knjige koje će vam biti interesantne.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Rječnik sadrži detaljan opis razumljivosti hrvatskoga jezika.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+U knjižnici koji sadrže brojne knjige često možete pronaći korisnu informaciju.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Razumljivost i kvaliteta teksta koji se stvara pomoću tih sustava su vrlo značajne karakteristike.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+U knjižnici sadrže brojne knjige koje će vam biti interesantne da pročitate.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Sve knjige u knjižnici sadrže detaljan opis autora.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+U knjižnici koji sadrže brojne knjige možete pronaći korisnu informaciju za sebe i druge čitatelje.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Knjižnice sadrže brojne knjige koje će biti zanimljive za brojne čitače.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Knjižnice sadrže brojne knjige koje će vam biti korisne za daljnju nastavu.,llama3.1:8b,paper_style,S,50.0,sentence,ollama,20260604_143739
+Sve je lijepo,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Dva dječaka hajde,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Škola počinje,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Ljudi su zlobni,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Zaduženo vrijeme prolazi,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Vrijeme je vrijeme,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Džamija je slična,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Riječi su tvrdi,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Neke riječi su muke,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Muškarci nose šešir,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Škola je hladno,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Kći jede jelo,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Suvlaznjen čovjek prolazi,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Ovo je lijepo,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Vrijeme prolazi brzo,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Neko će zasiti,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Škola počinje sada,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Ljudi su zaboravili,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Žena jede hranu,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Riječi su tvrdine,llama3.1:8b,strict_plain_list,S,50.0,sentence,ollama,20260604_143739
+Pokušavat će se doći do željenog rezultata pretraživanjem u HJP-ovoj bazi podataka.,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+"Klasi S (Niski i svi ostali), riječi koje sadrže:",llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+banka,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+banke,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+banko,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+banku,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+baraka,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+barka,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+basta,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+banotić,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+baštica,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+baza,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+bazalja,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+bazaljam,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+bazenje,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+bazu,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+bedem,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+bezalažnjak,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+bezalušak,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+bezanoga,llama3.1:8b,paper_style,S,70.0,word,ollama,20260604_143739
+sluh,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+savjetovanje,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+središte,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+sviđanje,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+slučajni,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+savezavanje,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+skrivanje,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+savremenik,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+suženje,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+sirovina,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+saradnica,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+smanjenje,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+suština,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+sukobnik,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+sadružnici,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+spuštanje,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+suprotan,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+snimanje,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+svjest,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+svojstva,llama3.1:8b,strict_plain_list,S,70.0,word,ollama,20260604_143739
+Suvlađa.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Rastanak je vrlo brz.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Mladi kći se učil čitanju.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Nova škola nije baš dobra.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Gosti su došli s plemenitim darom.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Voda je hladna i čista.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Rijeka je široka i duboka.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Sjeverni vjetar teče kroz grad.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Kći se snažno igrala na travi.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Prva polovica ljeta bila je suha.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Mladi sin jede hranu s velikim uždorom.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Gostio sam u kući svojih rođaka.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Vatra je izgorjela do dna zidova.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+"Nova škola nije baš dobra, a da li će biti loša ili vrlo loša?",llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Stari sin se snažno igrao na trati.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Kći su odveli u školu.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Prva polovica ljeta bila je vrlo vruća.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Sjeverni vjetar dnevno nosio je sneg.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Mladi kći se učil čitanju na početku školstva.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Gosti su došli s velikim darom.,llama3.1:8b,paper_style,S,70.0,sentence,ollama,20260604_143739
+Voda je hladna,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Sreda je ljepša,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Škola je sasvim nova,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Zadatak namerno iznosi,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Svet vidi sve,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Korijen čiji život,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Fokus je na šumu,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Budućnost ćak će biti,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Ljepota sad nije glavna,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Nova škola ima svašta,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Visoka će ući u zrak,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Kraj svakog života počinje,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Niska kultura nikada ne može,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Srednja škola ima sve sjajno,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Kružni bazen služi samo za izlaz,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Ljudi koji često gledaju televiziju,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Škola nije baš jako dobila,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Iznenadilo je svako u gradu,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Žena koja voli da jede školjke,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Danas će biti sasvim hladno,llama3.1:8b,strict_plain_list,S,70.0,sentence,ollama,20260604_143739
+Napominjem da su ove riječi dobivene korištenjem mrežne stranice https://hjp.znanje.hr/.,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+četiri,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+često,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+češka,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+večer,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+tečnost,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+tekuci,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učenik,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učiniti,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učište,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učiti,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učioce,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učite,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učivši,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učilište,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učio,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učilo,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učiteći,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učinak,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+učinimo,llama3.1:8b,paper_style,SV,50.0,word,ollama,20260604_143739
+kružiti,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+bršljena,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+kratka,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+biserčak,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+krupan,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+žutkao,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+šargot,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+vjeran,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+krivičiti,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+krivo,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+živjeti,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+krugači,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+brzih,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+tvrđava,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+brzo,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+šumeti,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+tvrdo,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+krutića,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+zvonači,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+živahno,llama3.1:8b,strict_plain_list,SV,50.0,word,ollama,20260604_143739
+Nema razgovora o velikim novinama.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Gledam najnovije vijesti na televiziji.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Školom je potrebna nova knjižnica.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Treba mi novo ručno kazalo.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Hrvati trebaju svoj državni praznik.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+U zemlju dolazi mnogo stranih novina.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Odmah mora biti izgrađena nova škola.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Vrijeme je za novo znanje u školi.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Moramo voditi razglednice naših prijatelja.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Hrvati trebaju svoju nezavisnu državu.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Škola nije uspela da se napravi.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+U zemlji ima mnogo novih šuma.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Treba nam nova škola u gradu.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Na kraju mora biti dobro rješenije.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Osnova za sva naša znanja je škola.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Novo učenje je vrlo teško posao.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+U zemlji ima mnogo novih stranih knjiga.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+U zemlji dolazi mnogo stranih novina.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Treba nam nova knjižnica u školi.,llama3.1:8b,paper_style,SV,50.0,sentence,ollama,20260604_143739
+Moje kćeri čita knjigu,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Crna kuća nije doma,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Škola ima novo športsko,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Srećan čovjek radi lijepo,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Veliki ljubimac je naš šačak,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Dječak će učiti glasove,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Kućica se nalazi u parku,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Žuti perajuči voli cvijeće,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Neki đaci vole igračke,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Škola ima novo predavaonica,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Žena čita knjigu o ljubavi,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Ova kuća nije naša vlasništvo,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Crni mačak voli hranu u,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Doktor će dijagnosticirati bolest odmah,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Škola ima novo šačilo,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Beli konj jede cvijeće na,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Sve smo složeni o novim školama,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Žuti perajuči voli cvijeće u,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Crna kuća nije naša vlasništvo,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+Veliki ljubimac ima novo igračke,llama3.1:8b,strict_plain_list,SV,50.0,sentence,ollama,20260604_143739
+četrnaestorica,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+neznabeda,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+svjetlina,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+njegovo,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+vilaže,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+središte,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+zvana,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+ovisni,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+nijansa,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+jedinka,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+svjestan,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+čestita,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+nezapamćeno,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+nepodnošljiva,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+podniski,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+vjenčani,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+sviđajući,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+ovisnosti,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+visoki,llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+"niska temperatura nije standardna riječ, ali joj se dopusti uočiti zbog usporedbenih potreba",llama3.1:8b,paper_style,SV,70.0,word,ollama,20260604_143739
+Here is the list of 40 Croatian words for auditory rehabilitation research:,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+brzača,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+načelje,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnost,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važan,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važno,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važne,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnosti,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnim,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnom,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnosťu,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnostmi,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnosći,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnostju,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnostiće,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnoće,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važneće,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnostiću,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnosćiće,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+važnostićeju,llama3.1:8b,strict_plain_list,SV,70.0,word,ollama,20260604_143739
+Voda je čist.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Rječnik nije dobro izgledao.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Žene su često tajuće.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Kamen je snažan materijal.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Fokusiraj se na zadatak.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Domaćin nas učestvovao.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Hrvati se žive rječju hr.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Svetac ne može dati lažne odgovore.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Baza je vrlo važan dio sustava.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Jezik je snažna sredstvo.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Srednja škola nije samo za učenike.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Nova buba se uveliko širi.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Kuhar nije zaboravio da voda treba biti hladna.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Stara kula na brdu nema nikakvih nedostataka.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Hvala Bogu što smo uspješni u svom poslu.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Najbolja igračka je pisanje i slikanje.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Hrvatska vlada će se pobrinuti za našu sigurnost.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Nije dobro biti sam.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Snažan hrabrost može sprečiti neki zločin.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Bistri tisak je vrlo koristan u slučaju nesreće.,llama3.1:8b,paper_style,SV,70.0,sentence,ollama,20260604_143739
+Ja sam hrabar,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Uzorak je lijep,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Merenje je teško,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Brodovi kretnja brza,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Nova vila u gradu,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Kralj je mlad i jak,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Suncu se ne mora,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Voda je hladna čista,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Ljudi su veoma umni,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Zemlja je zemljina mjesto,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Pjesma mi srce boli,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Danas je lijep dan,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Hladno vruće pivo,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Brzoglavo je teško živjeti,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Nova škola u našim gradovima,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Kraljeva kuća je velikanska,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Mora nije daleko od nas,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Ženat je i ima djecu,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Srednja škola je najbolja,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Ljudski život je previše kratak,llama3.1:8b,strict_plain_list,SV,70.0,sentence,ollama,20260604_143739
+Brzo,llama3.1:8b,paper_style,V,50.0,word,ollama,20260604_143739
+Bujno,llama3.1:8b,paper_style,V,50.0,word,ollama,20260604_143739
+Cijeli,llama3.1:8b,paper_style,V,50.0,word,ollama,20260604_143739
+Cilj,llama3.1:8b,paper_style,V,50.0,word,ollama,20260604_143739
+Crveno,llama3.1:8b,paper_style,V,50.0,word,ollama,20260604_143739
+Krijumi,llama3.1:8b,paper_style,V,50.0,word,ollama,20260604_143739
+Lavirint,llama3.1:8b,paper_style,V,50.0,word,ollama,20260604_143739
+Maljević,llama3.1:8b,paper_style,V,50.0,word,ollama,20260604_143739
+Mjesto,llama3.1:8b,paper_style,V,50.0,word,ollama,20260604_143739
+Nervoza,llama3.1:8b,paper_style,V,50.0,word,ollama,20260604_143739
+Svrha,llama3.1:8b,paper_style,V,50.0,word,ollama,20260604_143739
+vrlo,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+visoki,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+vjenčati,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+živjeti,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+zabava,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+važno,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+važan,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+važnost,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+važnostorin,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+vizuelni,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+vizualizacija,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+vizualizirati,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+virulencija,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+vizionar,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+vizionarski,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+virtuelna,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+visokonaponska,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+vrata,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+vratiti,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+vrijeme,llama3.1:8b,strict_plain_list,V,50.0,word,ollama,20260604_143739
+Nema mene u gradu.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Voda je hladna.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Nježno će mi biti.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Ona je snažna.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Mladić jede hranu.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Ruka je niska.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Ona je vrlo čista.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Grad ima mnogo zelenja.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Imao sam hladnu večer.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Sretnice su namjeravale da pobijede.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Nemaš li hlađenog piva.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Naši mladići vole hranu.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Nježno će ti biti.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Zbog čiste vode moramo se brinuti.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Mlada žena jede hranu.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Grad ima mnogo hrane.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Ti si zgodan kao što si mlađi.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Srednji grad ima mnogo mladića.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Neka žena nije hladna.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Hladno je ovo ljeto.,llama3.1:8b,paper_style,V,50.0,sentence,ollama,20260604_143739
+Voda je slatka,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Cijena je visoka,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Puno je njega,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Slatko je caj,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Djeca igraju vatru,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Nikad nije hladno,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Žutu vatu jede,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Visoko lete ptice,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Slata voda je hladna,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Crni đavor cvjeta u proljeće,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Bijela kiša pada na bilke,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Riječica teče brzo kroz šumu,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Djeca igraju s kamenjem,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Žutu svjetlost razbija u mraku,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Hladan vjetar donosi sneg u jesen,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Crna rijeka protječe kroz grad,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Slatko caj kupi za sebe,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Visoka struja može izgrediti,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Žuta trava raste brzo na sunčanom mjestu,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Djeca igraju s pčelinama,llama3.1:8b,strict_plain_list,V,50.0,sentence,ollama,20260604_143739
+Križ,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Zvezda,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Svidjeti,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Žestina,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Žicara,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Vještina,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Bezvesna,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Svršenica,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Živčani,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Sveznost,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Veseli,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Križiti,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Bezenika,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Visoki,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+Vesela,llama3.1:8b,paper_style,V,70.0,word,ollama,20260604_143739
+voljeti,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+večer,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+voda,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+vjest,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+vikend,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+zvonik,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+visoki,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+vizualizacija,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+krajolike,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+kontejner,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+koncept,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+komadi,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+krivulja,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+kristalna,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+korijen,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+kvarnerska,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+kamenača,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+kritičan,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+laznička,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+lužine,llama3.1:8b,strict_plain_list,V,70.0,word,ollama,20260604_143739
+Mora biti brzo.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Nemoj mi kaziti o nju.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Kneadu njega na ulici.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Žena je bila u velikoj stresu.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Ona nije htjela kupiti novu kozmetiku.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Njezina sestra se udala za đakca.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+On vjeruje da je njen čovjek u vezi sa ženom.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Zbog teške bolesti nije bio u stanju otići na putovanje.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Ona je rekla da će se udati samo za njega.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Nije znala gdje će kupiti novo kozmetiku ili novu obuću.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Zbog svoga muža nije mogla otići na putovanje.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Kneadu ga u džipu i poslali su ga kući.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+"Mora biti brzo, ili će doći kriv.",llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Ona je rekla da mu neće dopustiti da se udaje za njega.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Ono što sam joj rekao nije bilo istina.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+"Nego, moram kupiti novu kozmetiku, ili će biti loša oprema.",llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+"Mora biti brzo, jer će doći neki od njegovih prijatelja.",llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+On vjeruje da je njegova žena u vezi s njegovim bratancem.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+"Nego, moram kupiti novo oruđe, jer će drugi uvrijediti moj muž.",llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Ona je rekla da će se udati samo za njega ako ne bude već u vezi s njegovim bratancem.,llama3.1:8b,paper_style,V,70.0,sentence,ollama,20260604_143739
+Voda je hladna,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Crvena vila,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Brzo jede,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Cijena jest,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Niska cesta,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Švedska kraljica,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Život nije lažan,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Svaka nula ima znak,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Visoka struja zahtjeva energiju,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Gorki sok ovisi od kiselina,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Crveni voz vodi putnici,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Puno novih zadataka čekaju,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Mlađa žena nosi plavu školjku,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Niski zvuk nije glasan kao višak,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Škola zahtjeva visoke cijene ugovora,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Visoki stupanj neizvršavanja ovisi o kvaliteti,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Gorko je kad piju bez vode,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Svaki broj ima jednu ili dvije znakove,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Crvene boje su vrlo različite od niskih,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739
+Škola zahtjeva da studenti rade više zadataka,llama3.1:8b,strict_plain_list,V,70.0,sentence,ollama,20260604_143739

@@ -1,0 +1,166 @@
+{
+  "run_id": "20260529_170549",
+  "adapter": "manual_csv",
+  "metadata": {
+    "config_path": "experiments/config.yaml",
+    "input_path": "data/manual_candidates_example.csv"
+  },
+  "rows": [
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00000",
+      "candidate": "panj",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "N",
+      "saturation_level": 50.0,
+      "text_type": "word",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    },
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00001",
+      "candidate": "puna banana",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "N",
+      "saturation_level": 50.0,
+      "text_type": "sentence",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    },
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00002",
+      "candidate": "puno banana u panju",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "N",
+      "saturation_level": 50.0,
+      "text_type": "sentence",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    },
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00003",
+      "candidate": "polje",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "SN",
+      "saturation_level": 50.0,
+      "text_type": "word",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    },
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00004",
+      "candidate": "ovo veliko polje",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "SN",
+      "saturation_level": 50.0,
+      "text_type": "sentence",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    },
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00005",
+      "candidate": "džep",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "S",
+      "saturation_level": 50.0,
+      "text_type": "word",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    },
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00006",
+      "candidate": "brza riba radi",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "S",
+      "saturation_level": 50.0,
+      "text_type": "sentence",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    },
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00007",
+      "candidate": "čest šešir",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "SV",
+      "saturation_level": 50.0,
+      "text_type": "sentence",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    },
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00008",
+      "candidate": "teta šeće često",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "SV",
+      "saturation_level": 50.0,
+      "text_type": "sentence",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    },
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00009",
+      "candidate": "sit zec s ceste",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "V",
+      "saturation_level": 50.0,
+      "text_type": "sentence",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    },
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00010",
+      "candidate": "škola škola",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "SV",
+      "saturation_level": 50.0,
+      "text_type": "sentence",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    },
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00011",
+      "candidate": "test123",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "V",
+      "saturation_level": 50.0,
+      "text_type": "word",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    },
+    {
+      "run_id": "20260529_170549",
+      "candidate_id": "20260529_170549_00012",
+      "candidate": "panj",
+      "model": "manual",
+      "prompt_strategy": "manual_example",
+      "target_class": "N",
+      "saturation_level": 50.0,
+      "text_type": "word",
+      "source_adapter": "manual_csv",
+      "source_file": "data/manual_candidates_example.csv"
+    }
+  ]
+}

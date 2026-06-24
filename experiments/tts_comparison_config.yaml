@@ -1,0 +1,71 @@
+experiment:
+  name: tts_comparison
+  description: Local Croatian TTS model comparison for validated candidate text.
+
+tts_comparison:
+  adapters:
+    - name: espeak_ng
+      enabled: true
+      executable: "espeak-ng"
+      voice: "hr"
+      croatian_voice_or_model_confirmed: true
+
+    - name: coqui_vits_hr
+      enabled: true
+      command: "/mnt/d/Audiorehabilitation/scripts/coqui_tts_no_cache.py"
+      model_name: "tts_models/hr/cv/vits"
+      croatian_voice_or_model_confirmed: true
+      allow_ffmpeg: false
+
+    - name: speecht5_hr
+      enabled: true
+      model_id: "nikolab/speecht5_tts_hr"
+      model_path: "/mnt/d/Audiorehabilitation/models/speecht5_tts_hr"
+      processor_path: "/mnt/d/Audiorehabilitation/models/speecht5_processor"
+      vocoder_path: "/mnt/d/Audiorehabilitation/models/speecht5_hifigan"
+      local_files_only: true
+      device: "cpu"
+      croatian_voice_or_model_confirmed: true
+      speaker_embedding_path: "/mnt/d/Audiorehabilitation/models/speaker_embeddings/cmu_arctic_slt_speecht5_xvector.npy"
+      speaker_embedding_dim: 512
+      allow_default_zero_speaker_embedding: false
+      allow_ffmpeg: false
+
+audio:
+  target_sample_rate: 16000
+  target_channels: 1
+  target_sample_width_bits: 16
+
+audio_eval:
+  asr_adapter:
+  faster_whisper:
+    model_path: "/mnt/d/Audiorehabilitation/models/faster-whisper-large-v3-turbo"
+    model_name: large-v3-turbo
+    language: "hr"
+    device: "cpu"
+    compute_type: "int8"
+  asr_profiles:
+    fast:
+      adapter: faster_whisper
+      model_name: large-v3-turbo
+      model_path: "/mnt/d/Audiorehabilitation/models/faster-whisper-large-v3-turbo"
+      language: "hr"
+      device: "cpu"
+      compute_type: "int8"
+      local_files_only: true
+    best:
+      adapter: faster_whisper
+      model_name: large-v3
+      model_path: ""
+      language: "hr"
+      device: "cpu"
+      compute_type: "int8"
+      local_files_only: true
+    lightweight:
+      adapter: faster_whisper
+      model_name: small
+      model_path: ""
+      language: "hr"
+      device: "cpu"
+      compute_type: "int8"
+      local_files_only: true

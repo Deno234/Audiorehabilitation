@@ -1,0 +1,7 @@
+The following Croatian candidates failed deterministic validation:
+{failed_candidates}
+
+Revise them for target phoneme class {target_class} and saturation level {saturation_level}%.
+Return only revised candidates, one per line.
+Final acceptance will be determined only by Python validation.
+

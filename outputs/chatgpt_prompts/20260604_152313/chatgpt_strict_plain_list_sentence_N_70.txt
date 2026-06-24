@@ -1,0 +1,24 @@
+Generate 20 Croatian sentences for auditory rehabilitation research.
+
+Each sentence must contain 3 to 5 words.
+
+Target phoneme class: N
+Required target-class saturation level: at least 70%
+
+The selected target class refers to one of these Croatian phoneme classes:
+N / Niski: m, n, nj, b, p, u
+SN / Srednjeniski: v, g, o, h, l, lj
+S / Srednji: a, k, r, d, dž, f, ž
+SV / Srednjevisoki: č, e, š, t, đ, j
+V / Visoki: ć, i, c, z, s
+
+Rules:
+- Generate Croatian only.
+- Preserve Croatian letters: č, ć, đ, š, ž.
+- Avoid foreign words.
+- Avoid digits and symbols.
+- Output only a plain list, one candidate per line.
+- Do not number the lines.
+- Do not explain.
+- Do not count phonemes in the answer.
+- Python validation will decide final acceptance.

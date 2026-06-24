@@ -1,0 +1,38 @@
+experiment:
+  name: auditory_rehabilitation_text_only
+  description: Evaluation of Croatian generated text for auditory rehabilitation needs.
+
+generation:
+  words:
+    target_classes: [N, SN, S, SV, V]
+    saturation_levels: [40, 50, 60, 70, 80]
+    candidates_per_group: 50
+  sentences:
+    target_classes: [N, SN, S, SV, V]
+    saturation_levels: [50, 60, 70]
+    candidates_per_group: 50
+    min_words: 3
+    max_words: 5
+  models:
+    openai: []
+    ollama: []
+    manual_baseline: manual_csv
+
+validation:
+  dictionary:
+    mode: none
+    local_wordlist_path:
+    manual_review_csv_path:
+  sentence:
+    min_words: 3
+    max_words: 5
+
+metrics:
+  pcd_version: pcd_paper_style
+
+outputs:
+  raw_generations_dir: outputs/raw_generations
+  validated_dir: outputs/validated
+  audio_dir: outputs/audio
+  reports_dir: outputs/reports
+

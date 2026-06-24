@@ -1,0 +1,12 @@
+Odaberi i napiši 11 postojećih riječi iz hrvatskog standardnog jezika koje sadrže minimalno 70% fonema koji pripadaju klasi SN, a preostali fonemi mogu biti iz drugih klasa fonema.
+
+Svaka riječ mora biti iz hrvatskog standardnog jezika. Provjeri, ako imaš pristup mreži, postoji li svaka riječ na mrežnoj stranici https://hjp.znanje.hr/.
+
+Oznaka SN odnosi se na jednu od ovih klasa fonema:
+N / Niski: m, n, nj, b, p, u
+SN / Srednjeniski: v, g, o, h, l, lj
+S / Srednji: a, k, r, d, dž, f, ž
+SV / Srednjevisoki: č, e, š, t, đ, j
+V / Visoki: ć, i, c, z, s
+
+Vrati samo popis riječi, jednu riječ po retku, bez objašnjenja.

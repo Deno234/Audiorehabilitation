@@ -1,0 +1,8 @@
+model,target_class,saturation_level,text_type,pcd_version,candidate_count,average_pcd
+manual,N,50.0,word,pcd_paper_style,1,0.0
+manual,N,50.0,sentence,pcd_paper_style,1,0.0
+manual,SN,50.0,word,pcd_paper_style,1,0.0
+manual,SN,50.0,sentence,pcd_paper_style,1,0.0
+manual,S,50.0,sentence,pcd_paper_style,1,0.0
+manual,SV,50.0,sentence,pcd_paper_style,1,0.0
+manual,V,50.0,sentence,pcd_paper_style,1,0.0

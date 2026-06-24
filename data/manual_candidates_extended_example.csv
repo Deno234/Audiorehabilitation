@@ -1,0 +1,55 @@
+candidate,model,prompt_strategy,target_class,saturation_level,text_type,notes
+panj,manual,baseline_prompt,N,40,word,demo_valid_candidate
+puna,manual,baseline_prompt,N,50,word,demo_valid_candidate
+bun,manual,baseline_prompt,N,60,word,demo_valid_candidate
+pupun,manual,generate_more_than_needed_prompt,N,70,word,demo_valid_candidate
+mumun,manual,generate_more_than_needed_prompt,Niski,80,word,demo_valid_candidate
+puno banana u panju,manual,few_shot_prompt,N,40,sentence,demo_valid_candidate
+mama puni puno,manual,few_shot_prompt,N,50,sentence,demo_valid_candidate
+buna puni mumun,manual,generate_more_than_needed_prompt,N,60,sentence,demo_valid_candidate
+puna banana mami,manual,baseline_prompt,N,70,sentence,demo_valid_candidate
+mama mama pije,manual,baseline_prompt,N,50,sentence,demo_repeated_words
+polje,manual,baseline_prompt,SN,40,word,demo_valid_candidate
+vol,manual,baseline_prompt,Srednjeniski,50,word,demo_valid_candidate
+glog,manual,generate_more_than_needed_prompt,SN,60,word,demo_valid_candidate
+lovilo,manual,generate_more_than_needed_prompt,SN,70,word,demo_valid_candidate
+golovol,manual,generate_more_than_needed_prompt,SN,80,word,demo_valid_candidate
+ovo veliko polje,manual,few_shot_prompt,SN,40,sentence,demo_valid_candidate
+lovac lovi goluba,manual,few_shot_prompt,SN,50,sentence,demo_valid_candidate
+volog glog lovi,manual,generate_more_than_needed_prompt,SN,60,sentence,demo_valid_candidate
+ovo polje lovi,manual,baseline_prompt,SN,70,sentence,demo_valid_candidate
+ovo polje,manual,baseline_prompt,SN,50,sentence,demo_wrong_word_count
+džep,manual,baseline_prompt,S,40,word,demo_valid_candidate
+rad,manual,baseline_prompt,Srednji,50,word,demo_valid_candidate
+krad,manual,generate_more_than_needed_prompt,S,60,word,demo_valid_candidate
+ražar,manual,generate_more_than_needed_prompt,S,70,word,demo_valid_candidate
+džaradar,manual,generate_more_than_needed_prompt,S,80,word,demo_valid_candidate
+brza riba radi,manual,few_shot_prompt,S,40,sentence,demo_valid_candidate
+radar radi brzo,manual,few_shot_prompt,S,50,sentence,demo_valid_candidate
+džar radi razdragano,manual,generate_more_than_needed_prompt,S,60,sentence,demo_valid_candidate
+krad rad džar,manual,generate_more_than_needed_prompt,S,70,sentence,demo_valid_candidate
+džep,manual,baseline_prompt,S,40,word,demo_duplicate
+čest,manual,baseline_prompt,SV,40,word,demo_valid_candidate
+šet,manual,baseline_prompt,Srednjevisoki,50,word,demo_valid_candidate
+tete,manual,generate_more_than_needed_prompt,SV,60,word,demo_valid_candidate
+češće,manual,generate_more_than_needed_prompt,SV,70,word,demo_valid_candidate
+češetet,manual,generate_more_than_needed_prompt,SV,80,word,demo_valid_candidate
+teta šeće često,manual,few_shot_prompt,SV,40,sentence,demo_valid_candidate
+čest šešir teče,manual,few_shot_prompt,SV,50,sentence,demo_valid_candidate
+šeće teta češće,manual,generate_more_than_needed_prompt,SV,60,sentence,demo_valid_candidate
+teta teta šeće,manual,baseline_prompt,SV,50,sentence,demo_repeated_words
+čest šešir teče dugo danas ovdje,manual,baseline_prompt,SV,50,sentence,demo_wrong_word_count
+sit,manual,baseline_prompt,V,40,word,demo_valid_candidate
+cic,manual,baseline_prompt,Visoki,50,word,demo_valid_candidate
+zizi,manual,generate_more_than_needed_prompt,V,60,word,demo_valid_candidate
+siscic,manual,generate_more_than_needed_prompt,V,70,word,demo_valid_candidate
+cizisic,manual,generate_more_than_needed_prompt,V,80,word,demo_valid_candidate
+sit zec s ceste,manual,few_shot_prompt,V,40,sentence,demo_valid_candidate
+sivi zec sisa,manual,few_shot_prompt,V,50,sentence,demo_valid_candidate
+cic zizi sisa,manual,generate_more_than_needed_prompt,V,60,sentence,demo_valid_candidate
+siscic zizi cic,manual,generate_more_than_needed_prompt,V,70,sentence,demo_valid_candidate
+happy kuća,manual,baseline_prompt,V,50,word,demo_foreign_letters
+test123,manual,baseline_prompt,V,50,word,demo_digits
+panj,manual,baseline_prompt,N,40,word,demo_duplicate
+džep,manual,baseline_prompt,V,80,word,demo_failed_saturation
+kuća lijepo svira danas tiho sada,manual,baseline_prompt,SN,50,sentence,demo_wrong_word_count

@@ -1,0 +1,12 @@
+Napiši 5 rečenica od 3 do 5 riječi koje sadrže minimalno 70% fonema koji pripadaju klasi SV, a preostali fonemi mogu biti iz drugih klasa fonema.
+
+Rečenice moraju poštivati pravila hrvatskog standardnog jezika. Sve korištene riječi moraju postojati na mrežnoj stranici https://hjp.znanje.hr/, ako imaš pristup provjeri.
+
+Oznaka SV odnosi se na jednu od ovih klasa fonema:
+N / Niski: m, n, nj, b, p, u
+SN / Srednjeniski: v, g, o, h, l, lj
+S / Srednji: a, k, r, d, dž, f, ž
+SV / Srednjevisoki: č, e, š, t, đ, j
+V / Visoki: ć, i, c, z, s
+
+Vrati samo popis rečenica, jednu rečenicu po retku, bez objašnjenja.

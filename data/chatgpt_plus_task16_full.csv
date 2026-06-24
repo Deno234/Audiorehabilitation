@@ -1,0 +1,798 @@
+candidate,model,prompt_strategy,target_class,saturation_level,text_type,source_adapter,run_id
+buba,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+bubanj,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+bubica,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+bubnjar,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+bubamara,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+bunar,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+buna,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+bumbar,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+bum,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+pumpa,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+puna,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+pun,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+puno,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+punina,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+unuk,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+unuka,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+munja,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+mumljanje,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+mumljati,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+numbat,ChatGPT Plus,paper_style,N,50,word,manual_chatgpt_plus,20260604_152313
+buba,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+bubanj,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+bunar,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+buna,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+bumbar,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+pumpa,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+pun,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+puna,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+puno,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+puni,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+punina,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+unuk,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+unuka,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+munja,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+munjina,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+mumljati,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+mumljanje,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+bubnjar,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+bubnjava,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+punjenje,ChatGPT Plus,strict_plain_list,N,50,word,manual_chatgpt_plus,20260604_152313
+Mama mumlja punu bundu.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Mima puni bunar.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Muna puni pumpu.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Buba mami Nenu.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Nina puni bubanj.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Mamin unuk bubnja.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Buba mumlja mami.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Neno pumpa bunar.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Bubanj puni buku.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Mima nudi bunu.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Mama budi Nenu.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Nina mami unuka.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Unuk mumlja mami.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Buba puni bunar.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Neno budi mamu.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Mamin bunar pupa.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Bubnjar budi Ninu.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Mama pumpa gumu.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Nina mumlja puno.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Buba bubnja mami.,ChatGPT Plus,paper_style,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Mama puni pumpu.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Buba budi mamu.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Unuk nosi bundu.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Mama nudi bunar.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Nina puni bubanj.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Bubanjar puni bubanj.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Mama kupuje bundu.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Unuk pumpa gumu.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Buba pada u bunar.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Mama budi unuka.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Nena puni pumpu.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Buba mumlja mami.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Mama plete punđu.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Unuk nosi pupu.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Nina nudi mamu.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Bunar puni munja.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Mama kupuje pumpu.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Buba nosi bundu.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Nena budi babu.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+Unuk puni bunar.,ChatGPT Plus,strict_plain_list,N,50,sentence,manual_chatgpt_plus,20260604_152313
+pun,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+puna,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+puno,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+puni,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+punu,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+pumpa,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+pumpe,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+pumpu,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+buba,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+bubu,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+bube,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+bubi,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+bubanj,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+bubnja,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+bubnju,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+bubnjem,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+buna,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+bunu,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+buni,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+munja,ChatGPT Plus,paper_style,N,70,word,manual_chatgpt_plus,20260604_152313
+pun,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+puna,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+puno,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+puni,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+punu,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+buna,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+bunu,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+buni,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+buba,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+bubu,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+bubi,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+pumpa,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+pumpu,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+pumpe,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+bubanj,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+bubnju,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+bubnja,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+munja,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+munju,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+unuk,ChatGPT Plus,strict_plain_list,N,70,word,manual_chatgpt_plus,20260604_152313
+Mama pumpa pumpu.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Baba puni pumpu.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Mama puni bunar.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Baba pumpa puno.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Mama budi unuka.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Unuk budi babu.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Buba puni pumpu.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Mama nudi bananu.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Baba nudi pumu.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Unuk nudi mamu.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Mama puni bubanj.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Baba puni bunar.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Unuk pumpa pumpu.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Mama nudi bundu.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Baba nudi bunju.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Buba budi mamu.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Mama mumlja puno.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Baba mumlja puno.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Unuk puni bubanj.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Mama budi babu.,ChatGPT Plus,paper_style,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Mama puni pumpu.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Buba puni pumpu.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Baba puni pumpu.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Unuk puni pumpu.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Mama puni bundu.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Buba puni bundu.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Baba puni bundu.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Unuk puni bundu.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Mama puni bubanj.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Buba puni bubanj.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Baba puni bubanj.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Unuk puni bubanj.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Mama pumpa pumpu.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Buba pumpa pumpu.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Baba pumpa pumpu.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Unuk pumpa pumpu.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Mama pumpa bubanj.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Buba pumpa bubanj.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Baba pumpa bubanj.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+Unuk pumpa bubanj.,ChatGPT Plus,strict_plain_list,N,70,sentence,manual_chatgpt_plus,20260604_152313
+vol,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+gol,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+golo,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+glog,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+lov,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+lovor,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+lovac,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+golub,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+govor,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+olovo,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+uho,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+gluh,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+gluhi,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+vlaga,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+glava,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+plug,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+hvala,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+volja,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+lula,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+gulaš,ChatGPT Plus,paper_style,SN,50,word,manual_chatgpt_plus,20260604_152313
+vol,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+gol,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+golo,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+glog,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+lov,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+lovor,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+lovac,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+golub,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+govor,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+olovo,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+uho,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+gluh,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+gluhi,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+vlaga,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+glava,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+plug,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+hvala,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+volja,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+lula,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+uloga,ChatGPT Plus,strict_plain_list,SN,50,word,manual_chatgpt_plus,20260604_152313
+Vol voli glog.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Golub lovi vola.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovac lovi goluba.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovac voli lov.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Golub gladuje dugo.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Vol dugo boluje.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovac lovi vuka.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Golub voli volju.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Vuk lovi goluba.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovac gleda goluba.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Glog dugo cvjeta.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Golub dugo guguće.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovac dugo lovi.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Vol gleda goluba.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Glog golubi vole.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Golub gleda glog.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovac voli golubove.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Vol vuče plug.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Golub lovi hljeb.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovac govori dugo.,ChatGPT Plus,paper_style,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Vol voli glog,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Golub voli glog,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovac lovi goluba,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Glog voli vlagu,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Vol gleda goluba,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Golub guguće dugo,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovac govori dugo,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Vol dugo boluje,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Golub leti dolom,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovac lovi vuka,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Glog dugo cvjeta,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Golub voli lovor,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovor voli vlagu,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Vol vuče plug,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Golub gleda glog,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovac voli lov,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Glog raste gol,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Vol nosi plug,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Golub dugo guguće,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+Lovor dugo gori,ChatGPT Plus,strict_plain_list,SN,50,sentence,manual_chatgpt_plus,20260604_152313
+vol,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+vola,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+volu,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+volom,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+volovi,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+gol,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+gola,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+golo,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+goli,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+golog,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+golom,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+glog,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+gloga,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+glogu,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+glogom,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+lov,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+lova,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+lovu,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+lovom,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+lovor,ChatGPT Plus,paper_style,SN,70,word,manual_chatgpt_plus,20260604_152313
+vol,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+gol,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+golo,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+goli,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+glog,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+lov,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+lovu,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+lova,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+lovom,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+lovor,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+volja,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+volu,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+vola,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+volom,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+gloga,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+glogu,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+golub,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+gluh,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+gluhi,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+olovo,ChatGPT Plus,strict_plain_list,SN,70,word,manual_chatgpt_plus,20260604_152313
+Vol voli glog.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Golub voli glog.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Vol voli lov.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Golub lovi voluhara.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Glog voli vlagu.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Vol gleda goluba.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Golub guguće dugo.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Glog dugo golubi.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Vol dugo boluje.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Golub voli lovor.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Lovor voli vlagu.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Vol vuče plug.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Golub voli golubove.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Vuk lovi goluba.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Lovac voli lov.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Golub gleda glog.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Glog gleda golub.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Vol voli goluba.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Golub voli volju.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Lovor dugo gori.,ChatGPT Plus,paper_style,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Vol voli glog,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Vol voli lov,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Vol voli lovor,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Glog voli vlagu,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Lovor voli vlagu,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Gol vol voli,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Gluh vol voli,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Glog dugo gori,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Vol dugo boluje,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Golub voli glog,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Golub voli lovor,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Vol gleda glog,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Vol gleda lovor,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Golub gleda glog,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Golub guguće dugo,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Lovac voli lov,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Lovac lovi vola,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Lovac lovi goluba,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Lovor gleda glog,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+Golub lovi vola,ChatGPT Plus,strict_plain_list,SN,70,sentence,manual_chatgpt_plus,20260604_152313
+rad,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+radar,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+kadar,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+ratar,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+dar,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+drag,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+draga,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+draž,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+žar,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+rak,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+ruka,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+krak,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+krava,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+dabar,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+jarak,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+karika,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+karat,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+grad,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+drvo,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+žaba,ChatGPT Plus,paper_style,S,50,word,manual_chatgpt_plus,20260604_152313
+rad,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+dar,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+rak,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+žar,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+raž,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+kadar,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+radar,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+ratar,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+krak,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+draž,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+drag,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+draga,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+rana,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+ruka,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+dabar,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+jarak,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+karika,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+karat,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+arkada,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+krava,ChatGPT Plus,strict_plain_list,S,50,word,manual_chatgpt_plus,20260604_152313
+Radnik rado radi.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Kadar radnik radi.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Krava rado pase.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Vatra jako žari.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Dar drag raduje.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Kradljivac krade dar.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Ratar radi rado.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Dobar kadar radi.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Karakazan dugo radi.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Radar radi danas.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Draga rada radi.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Kadar ratar ore.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Krava daje dar.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Dobar radar radi.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Žar jako grije.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Rad daje dar.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Kara rado radi.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Draga krava pase.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Ratar kopa jarak.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Dabar gradi branu.,ChatGPT Plus,paper_style,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Ratar radi rado.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Radar radi danas.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Kadar radi rado.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Draga Dara radi.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Ratar kopa jarak.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Dabar gradi branu.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Krava daje dar.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Ratar daje dar.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Radnik gradi kuću.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Draga krava pase.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Radar kvari rad.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Dara daruje raka.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Katarina radi danas.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Dobar kadar radi.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Ratar ore jarak.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Drag rad raduje.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Dara gradi grad.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Radnik kopa kanal.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Kradljivac krade dar.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+Ratar krade rak.,ChatGPT Plus,strict_plain_list,S,50,sentence,manual_chatgpt_plus,20260604_152313
+rad,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+dar,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+rak,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+žar,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+raž,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+kadar,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+radar,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+ratar,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+krak,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+draž,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+drag,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+ruka,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+rana,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+dabar,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+jarak,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+karika,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+karat,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+arkada,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+karda,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+kara,ChatGPT Plus,paper_style,S,70,word,manual_chatgpt_plus,20260604_152313
+rad,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+dar,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+rak,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+žar,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+raž,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+kadar,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+radar,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+ratar,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+krak,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+draž,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+drag,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+draga,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+rana,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+ruka,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+dabar,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+jarak,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+karika,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+karat,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+arkada,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+karda,ChatGPT Plus,strict_plain_list,S,70,word,manual_chatgpt_plus,20260604_152313
+Ratar rado radi.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Kadar radnik radi.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Radar rado radi.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Ratar krade dar.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Kadar daje dar.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Draga Dara radi.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Ratar daje dar.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Dabar gradi radar.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Kadar ratar radi.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Radar daje kadar.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Ratar kopa jarak.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Draga krava radi.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Dar raduje ratara.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Radnik gradi radar.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Ratar radi rad.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Kadar krade raka.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Drag rad raduje.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Radar kvari rad.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Ratar gradi kadar.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Draga rada radi.,ChatGPT Plus,paper_style,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Dara rado radi.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Ratar rado radi.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Radar rado radi.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Kadar rado radi.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Dara daje dar.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Ratar daje dar.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Kadar daje dar.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Radnik radi rad.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Dabar gradi grad.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Dara gradi grad.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Ratar kopa jarak.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Radarka radi rado.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Radar kvari rad.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Dara daruje raka.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Ratar krade rak.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Draga Dara radi.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Drag rad raduje.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Kadar gradi grad.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Ratar radi danas.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+Dara kopa jarak.,ChatGPT Plus,strict_plain_list,S,70,sentence,manual_chatgpt_plus,20260604_152313
+tečaj,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+četka,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+teta,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+četa,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+četvrt,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+češće,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+šetnja,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+šetati,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+šetalište,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+šešir,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+ječam,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+ječati,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+jesti,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+teći,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+čest,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+čestit,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+šutjeti,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+dječji,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+dječak,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+tješitelj,ChatGPT Plus,paper_style,SV,50,word,manual_chatgpt_plus,20260604_152313
+tečaj,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+četka,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+teta,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+četa,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+četvrt,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+češće,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+šetnja,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+šetati,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+šetalište,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+šešir,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+ječam,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+ječati,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+jesti,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+teći,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+čest,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+čestit,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+šutjeti,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+dječji,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+dječak,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+tješitelj,ChatGPT Plus,strict_plain_list,SV,50,word,manual_chatgpt_plus,20260604_152313
+Teta šeće šetalištem.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Dječje čete šetaju.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Ježevi jedu trešnje.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Tete šiju dječje šešire.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Teta čita dječje štivo.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Četiri ježa šetaju.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Tečaj traje četvrtkom.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Štef čeka tetu.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Teta je tiše čitala.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Dječje čete kreću.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Četka čeka čišćenje.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Ježevi traže trešnje.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Šetnje često tješe tetu.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Teta je češće šetala.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Dječje trešnje teže.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Tješitelj tješi dječaka.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Čete teže šetaju.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Šetač čeka četvrtak.,ChatGPT Plus,paper_style,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Teta čeka tečaj,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Tete često šeću,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Čete tiše šute,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Dječje čete šeću,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Teta tješi dječaka,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Četke čiste šešire,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Šetač čeka tetu,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Tečaj traje četvrtkom,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Tete čitaju štivo,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Dječak češće čita,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Čete teško teku,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Šetnje često tješe,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Četiri ježa šetaju,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Teta šije šešir,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Četke čekaju čišćenje,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Tješitelj tješi tetu,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Teta šeće šetalištem,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Dječje štivo teče,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+Čete često ječe,ChatGPT Plus,strict_plain_list,SV,50,sentence,manual_chatgpt_plus,20260604_152313
+teta,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+tete,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+četa,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+čete,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+teče,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+tečaj,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+češće,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+četke,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+šeta,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+šetnje,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+šutjeti,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+tješi,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+tješe,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+tješiti,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+tješitelj,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+čest,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+ječanje,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+ječati,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+četvrt,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+četvrti,ChatGPT Plus,paper_style,SV,70,word,manual_chatgpt_plus,20260604_152313
+teta,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+tete,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+četa,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+čete,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+teče,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+tečaj,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+češće,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+četke,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+šeta,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+šetnje,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+šutjeti,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+tješi,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+tješe,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+tješiti,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+tješitelj,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+čest,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+ječanje,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+ječati,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+četvrt,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+četvrti,ChatGPT Plus,strict_plain_list,SV,70,word,manual_chatgpt_plus,20260604_152313
+Tete tješe čete.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Čete teže teku.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tečaj teče četvrtkom.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Teta tješi dječje čete.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Dječje čete teže.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tete često šeću.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Teško je četama.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Teta čeka tečaj.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Čete šute češće.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Dječeče čete šeću.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tete šeću tiše.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Štetne četke teže.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Četke teže tetama.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Teta češće šije.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tješitelj tješi tetu.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Četvrt je tiše.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Čete često ječe.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tečaj tješi tetu.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Teta teče šetalištem.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Dječje čete šute.,ChatGPT Plus,paper_style,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tete tješe čete,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Čete često šute,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Teta čeka tečaj,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tete šeću tiše,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Čete teže teku,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tečaj teče češće,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Teta tješi tetu,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tete češće šetaju,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Čete tiše teku,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Teta šije šešir,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tete čiste četke,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tješitelj tješi tetu,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Četke često teže,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Teta čita štivo,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Čete često ječe,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tete šute češće,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Dječje čete šeću,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Teta češlja tetu,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Tečaj tješi tetu,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+Šetnje često tješe,ChatGPT Plus,strict_plain_list,SV,70,sentence,manual_chatgpt_plus,20260604_152313
+sir,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+siv,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+sivi,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+sin,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+sine,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+sinu,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+zec,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+zeca,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+zecu,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+zid,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+zidu,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+niz,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+sisa,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+sisati,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+sisavac,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+cica,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+cika,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+sit,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+siti,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+sito,ChatGPT Plus,paper_style,V,50,word,manual_chatgpt_plus,20260604_152313
+sir,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+siv,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+sivi,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+sin,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+sine,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+zec,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+zeca,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+zecu,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+zid,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+zidu,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+niz,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+sisa,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+sisati,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+cica,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+ciku,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+sit,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+siti,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+sito,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+cijediti,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+sijeno,ChatGPT Plus,strict_plain_list,V,50,word,manual_chatgpt_plus,20260604_152313
+Sivi zec sjedi.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec zijeva.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Zec sije sijeno.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec visi.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Zec nosi sir.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sin sije sjeme.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Zec cijedi sok.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi pas sjedi.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Pas nosi sir.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi psi sjede.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Cici zec skače.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sisa sin cicu.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi sin čisti.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Zec čisti zube.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec skici.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sin nosi cipele.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi psi cvile.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Zec sisa ciku.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Cica nosi sir.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec šuti.,ChatGPT Plus,paper_style,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec sjedi,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec zijeva,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Zec nosi sir,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sin sije sjeme,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi psi sjede,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Zec sjedi niz zid,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sin nosi cipele,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi pas sjedi,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Zec čisti zube,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec visi,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sin sisa ciku,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Zec siše sijeno,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec šuti,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sin cijedi sok,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi psi cvile,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Zec nosi sijeno,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi sin sjedi,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Pas nosi sir,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Zec sisa cicu,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec siđe,ChatGPT Plus,strict_plain_list,V,50,sentence,manual_chatgpt_plus,20260604_152313
+sir,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+siv,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+sin,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+niz,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+zec,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+sit,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+sisa,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+cica,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+cika,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+zid,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+sisi,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+sisu,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+sicu,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+cici,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+cicu,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+sici,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+sisati,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+sivci,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+svisci,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+zvici,ChatGPT Plus,paper_style,V,70,word,manual_chatgpt_plus,20260604_152313
+sir,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+siv,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+sin,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+niz,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+zec,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+sit,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+sisa,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+cica,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+ciku,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+zid,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+sisi,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+sisu,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+sicu,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+cici,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+cicu,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+sici,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+sisati,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+sivci,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+svisci,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+zvici,ChatGPT Plus,strict_plain_list,V,70,word,manual_chatgpt_plus,20260604_152313
+Sivi zec sisi.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Zec sisi ciku.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sin sisa ciku.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec visi.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Cici zec sisi.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi sin sjedi.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Zec sisa cicu.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi psi cvile.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sin visi sisi.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Cica sisa cicu.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec siđe.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Zec siđe niz zid.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi sin sisa.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Zec nosi sir.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sin nosi cici.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec cici.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Zec visi niz zid.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi psi sjede.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Cica cijedi sisi.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sin siđe niz zid.,ChatGPT Plus,paper_style,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec visi,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec sjedi,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec šizi,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi sin sjedi,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi sin sisa,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi sin visi,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sin sisa cicu,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sin siše cicu,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Zec sisa cicu,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Zec siše cicu,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec sisa,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec siše,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sin nosi sir,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sin sisi sisa,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Cica sisa cicu,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Cici sin sisa,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi zec siđe,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi psi sjede,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Sivi psi cvile,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313
+Zec visi sisi,ChatGPT Plus,strict_plain_list,V,70,sentence,manual_chatgpt_plus,20260604_152313

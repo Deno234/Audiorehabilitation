@@ -1,0 +1,585 @@
+
+
+===== PAGE 1 =====
+Generating Speech Material for Auditory Training 
+Exercises Using ChatGPT Chatbot
+Andrea Andrijašević, Bernard Vukelić
+University of Applied Sciences of Rijeka, Rijeka, Croatia
+bernard.vukelic@veleri.hr
+Abstract — Hearing rehabilitation is a complex process 
+comprised of various types of interventions. One of them,  
+auditory training, is commonly offered to adults with hearing 
+loss that either underwent coch lear implant surgery or adapt 
+with difficulty to the prescribed behind-t he-ear hearing aid.
+During this type of interventi on, speech material saturated 
+with phonemes of different spectral characteristics is 
+presented to the patient. In this paper, text analysis and 
+generation capabilities offered by the OpenAI’s state-of-the-
+art GPT-4 model-based ChatGPT chatbot were assessed
+under a set of explicitly stated Croatian language rules and 
+strict phonetic criteria, with the final objective of novel 
+speech material generation. Th e results indica te that the 
+chatbot can successfully genera te isolated words of standard
+Croatian language for two target phoneme classes at
+saturation levels up to 80 %, and for the remaining three
+classes at levels up to 60 %. Moreover, as much as 90 % of 
+sentences that it generated at the 50 % saturation level satisfy
+the stated phonetic criteria and, even though generally void 
+of meaning, adhere to the Croatian language rules and, thus, 
+can be used for auditory training exercises.
+Keywords – hearing rehabilitation; auditory training;
+behind-the-ear hearing ai d; phonemes; chatGPT; chatbot 
+evaluation
+I. I NTRODUCTION
+According to the Andrija Štampar Teaching Institute of 
+Public Health report, there were 17 679 persons with 
+hearing loss registered in the Croatian Disabilities Registry
+in 2023 [1]. As the Registry only contains data for the 
+persons with disabling, i.e. severe hearing loss, it has been
+estimated that the total number of hearing impaired persons
+in Croatia is significantly higher [2]. Hearing loss is a 
+global issue, with the World Health Org anization’s
+projection that by 2050 almost every fourth person in the 
+world will have been affected by it [3]. Due to its main 
+symptom – a decrease in speech intelligibility, it renders 
+socializing more difficult and, thus, often negatively affects
+the psychological state of hearing impaired individuals,
+consequently reducing their overall quality of life [3], [4].
+Hearing rehabilitation is a long and complex process 
+comprised of various types of interventions [4] - [6]. One 
+of them, auditory training, is commonly offered to adults 
+with hearing loss that either underwent cochlear implant 
+surgery or adapt with difficulty to the prescribed behind-
+the-ear hearing aid. In the Clinical Hospital Center Rije ka, 
+this type of intervention is based on the verbotonal method,
+and comprises a set of auditory exercises utili zing speech 
+material whose complexity gradually increases [6]. During 
+the intermediate phases of auditory training, speech 
+material consisting of isolated words and sentences 
+saturated with phonemes of specific spectral characteristics
+gets presented to the patient, whose tas k is to correctly 
+identify it.
+Since the tas k of novel speech material generation that 
+adheres to the required saturation level as well to the syntax 
+and vocabulary of a language is quite challenging for 
+humans, in this study, the potential of the OpenAI’s 
+ChatGPT chatbot [7], [8] for the text analysis and 
+generation tasks, under a set of explicitly stated language 
+rules and strict phonetic criteria, was assessed.
+An online literature search for relevant publications was 
+performed using Scopus, Web of Science (WoS), and
+PubMed databases, querying them for topics (llm OR
+chatbot OR chatgpt) AND (auditory OR hearing). These
+database search strings returned no relevant research papers
+on the subject of text generation for auditory training
+exercises. A patent, to some extent related to the present
+research topic, was identified on WoS – regarding chatbot-
+assisted hearing rehabilitation in a question-and-answer
+form based on an audio quiz with predetermined voice 
+data, as well as the corresponding approved interventional
+study [9]. Several opinion piece articles on the possible 
+future directions that the development of artificial 
+intelligence-assisted hearing rehabilitation could ta ke were 
+also identified [10], [11].
+The remainder of the paper is structured as follows. In 
+Section 2, the methodology utilized for the text analysis
+and generation experiments performed with the ChatGPT
+chatbot is outlined. The results are presented and discussed 
+in Section 3. Finally, Section 4 provides a conclusion to the 
+research findings and discusses future work.
+II. M ETHODOLOGY
+The experiments were performed between November
+2023 and January 2024, utilizing the commercial version of 
+the OpenAI’s ChatGPT chatbot – the ChatGPT Plus, based 
+on the GPT-4 large language model. In the first experiment,
+ChatGPT’s text analysis capabilities were evaluated,
+whereas in the latter two experiments it was its text 
+generation potential that w as under scrutiny. All three
+experiments were performed by first presenting the chatbot
+with a table of Croatian phonemes arranged in five classes
+based on their spectral content, as defined in [12], [13]. The
+classification in [13] was slightly modified by removing the
+duplicate phonemes (namely, the phonemes /m/, /n/, /nj/,
+and /lj/) from the table in the Srednji (Mid) and 
+126
+MIPRO 2024, May 20 - 24, 2024, Opatija, Croatia
+2024 47th MIPRO ICT and Electronics Convention (MIPRO) | 979-8-3503-8250-1/24/$31.00 ©2024 IEEE | DOI: 10.1109/MIPRO60963.2024.10569423
+Authorized licensed use limited to: University of Rijeka Croatia. Downloaded on April 13,2026 at 12:20:18 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+===== PAGE 2 =====
+Srednjevisoki (Mid-high) classes, in order to make the tasks
+less challenging for the chatbot. Accordingly, the table of 
+phonemes presented to ChatGPT was 
+of the following 
+form:
+Klase fonema
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+(Phoneme classes
+Low (L): /m/, /n/, /nj/, /b/, /p/, /u/
+Low-mid (LM): /v/, /g/, /o/, /h/, /l/, /lj/
+Mid (M): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Mid-high (MH): /č/, /e/, /š/, /t/, /đ/, /j/
+High (H): /ć/, /i/, /c/, /z/, /s/)
+A. Experiment 1: Text Analysis
+The objective of this experiment was evaluation of
+ChatGPT’s ability to analyze sentences in Croatian 
+language. It was comprised of four tasks:
+(i.) parsing a sentence into phonemes,
+(ii.) assigning each phoneme a phoneme class,
+(iii.) counting the total number of phonemes in the 
+sentence, as well as the number of phonemes of 
+each class,
+(iv.) calculating the phoneme class distribution of the 
+sentence (in percentages).
+The first 
+two tasks served to evaluate ChatGPT’s ability 
+to utilize the table of phoneme classes, whereas the latter 
+two tested its elementary mathematical abilities needed in 
+order to satisfy the saturation level
+set by the user.
+Redundancy present in the tas ks (iii.) and (iv.) was 
+intentional, so as to evaluate the stability of chatbot’s
+output.
+The text to be presented to the chatbot comprised of 30 
+three to five-words-long sentences saturated with
+phonemes of one, i.e. target class, with six sentences per 
+class. The sentences were previously utilized in the
+computer program Audio exercises described in [6] and
+analyzed in [13]. Initial tests revealed ChatGPT’s inability
+to correctly par
+se text containing phonemes /nj/, /lj/, and
+/dž/, mista king them for /n/+/j/, /l/+/j/, and /d/+/ž/ pairs,
+respectively. This type of error was not ta ken into account
+in the Results section, as we found it reasonable.
+The aforementioned four tas ks were integrated into a
+prompt of the following form:
+Kakvu distribuciju klasa fonema ima rečenica "ždral leti 
+daleko"? Od koliko fonema se sastoji ta rečenica?
+Izra
+čunaj za tu rečenicu ukupan broj fonema za svaku 
+klasu fonema uzimajući u obzir ponavljanja pojedinih 
+fonema. Izračunaj za tu rečenicu postotke korištenih klasa 
+fonema uzimajući u obzir ponavljanja pojedinih fonema.
+(What distribution of phoneme classes does the sentence 
+„ždral leti daleko“ have? How many phonemes does that
+sentence consist of? Calculate for that
+sentence the total 
+number of phonemes of each phoneme class while ta king 
+into account the individual phoneme repetitions. Calculate 
+for that sentence the percentages of used phoneme classes 
+while ta king into account the individual phoneme
+repetitions.)
+B. Experiments 2 and 3: Text Generation
+The latter two experiments assessed ChatGPT’s text 
+generation capabilities. The following three strict language 
+and phonetic criteria were embedded in user’s prompts:
+(i.) generated text needs to conform to the required
+saturation level (SL), i.e. the minimum percentage 
+of phonemes of the target class,
+(ii.) generated text needs to adhere to the rules of 
+standard Croatian language,
+(iii.) generated text can be comprised only of words 
+present on the https://hjp.znanje.hr/ web page –
+Hrvatski jezični portal (HJP), an online dictionary
+of standard Croatian language.
+In the first text generation experiment, for each of the
+five classes, ChatGPT was asked to generate a list of eleven
+words that satisfied all aforementioned criteria. In prompts, 
+for each class, the saturation level was initially set to 40 %
+and then increased to 80 % in 10 % steps. These five
+saturation levels were utilized as the majority of isolated 
+words used in [6] and [13] are saturated with phonemes
+within the 40-80 % range. In order to evaluate the stability 
+of its output, for the High class , the chatbot was also asked 
+to generate lists of eleven words with the saturation level
+decreasing from 80 % to 40 % (denoted as the H2 case).
+The aforementioned three criteria were integrated into a
+prompt of the following form:
+Odaberi i napiši postojeću r iječ iz hrvatskog standardnog 
+jezika koja sadrži minimalno 80% fonema koji pripadaju 
+klasi Srednji (S ), a preostali fonemi mogu biti iz drugih
+klasa fonema. Ta riječ mora biti iz hrvatskog standardnog 
+jezika. Provjeri postoji li ta riječ na mrežnoj stranici 
+https://hjp.znanje.hr/.
+(Choose and write an existing word from standard Croatian 
+language that contains minimally 80 % of phonemes that 
+belong to the Mid (
+M) class, while the remaining phonemes 
+can be from other phoneme classes. That word must belong 
+to standard Croatian language. Verify whether that word 
+exists on the https://hjp.znanje.hr/ web page.)
+In the second text generation experiment, for each of 
+the five classes, the chatbot was as ked to generate a list of 
+twenty-one sentences comprised of three to five words.
+Two saturation levels were utilized – 50 % and 70 %, as the 
+majority of sentences used in [6] and [13] (and, thus, in 
+experiment 1) are saturated with phonemes within this 
+range.
+At the 50 % SL only the first two criteria were
+integrated into prompts, since the results of initial tests 
+indicated that at this saturation level ChatGPT outputs
+sentences comprised of words of standard Croatian 
+language. Unfortunately, this was not the ca
+se at 70 % SL
+for which the chatbot outputted sentences comprised 
+mostly of nonsense words: “mumi mumi muminje mumi”,
+“mumija mnom mumi mumi”, “mumin numen pominje”.
+Hence, the
+third criterion needed to be added into prompts.
+127Authorized licensed use limited to: University of Rijeka Croatia. Downloaded on April 13,2026 at 12:20:18 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+===== PAGE 3 =====
+An example of user’s prompt at the 70 % SL:
+Napiši rečenicu od 3 do 5 riječi koja sadrži minimalno 70 
+% fonema koji pripadaju klasi Srednjevisoki, a preostali
+fonemi mogu biti iz drugih klasa fonema. Ta rečenica mora 
+poštivati pravila hrvatskog standardnog jezika. Sve 
+korištene riječi moraju postojati na mrežno
+j stranici 
+https://hjp.znanje.hr/
+(Write a 3 to 5-words-long sentence that contains
+minimally 70 % of phonemes that belong to the Mid-high
+class, while the remaining phonemes can be from other 
+phoneme classes. That
+sentence must adhere to the rules of 
+standard Croatian language. All utilized words must exist 
+on the https://hjp.znanje.hr/ web page.)
+III. R ESULTS
+A. Experiment 1
+The ChatGPT chatbot performed the tas ks (i.) and (ii.)
+without a single error – it correctly parsed each of the 30
+sentences and correctly classified each of the 432
+phonemes they contained. The redundancy present in tas ks
+(iii.) and (iv.) enabled identification of two minor issues
+regarding its counting abilities.
+The first identified
+issue was with counting of the total 
+number of phonemes in a sentence. This type of error 
+occurred only for the five sentences of the Low class, for 
+which
+the st yle of chatbot’s output differed from the one
+for the remaining four classes. For those five sentences, the
+total number of phonemes that the chatbot reported and the
+total number of phonemes it
+used for the calculation of 
+percentages differed by one, being correct in the latter case.
+The data in Table I illustrate the second identified issue,
+reporting the number of sentences for which the chatbot 
+correctly counted the number of target class phonemes.
+Although the results are far from impressive for the Low-
+mid and Mid classes, as in the previously identified 
+counting
+issue, in each sentence it made a counting error,
+the chatbot undercounted the target class phonemes only by 
+one.
+Perhaps unsurprisingly, ChatGPT di
+splayed no issues 
+with percentages calculation since it implemented it with
+straightforward custom Python code with variable names in
+Croatian language. To illustrate this, we present a code
+snippet for the word “bura” (bora), obtained during the
+initial testing phase:
+niski_fonemi_bura=2   
+srednji_fonemi_bura=2  
+ukupno_fonema_bura=niski_fonemi_bura+srednji_fonemi_bu
+ra 
+postotak_niski_bura=(niski_fonemi_bura/ukupno_fonema_b
+ura)*100 
+postotak_srednji_bura=(srednji_fonemi_bura/ukupno_fone
+ma_bura)*100 
+TABLE I. N
+UMBER OF SENTENCES FOR WHICH THE NUMBER
+OF TARGET CLASS PHONEMES WAS CORRECTLY COUNTED
+Target class L LM M MH H
+Number of sentences withcorrectly 
+counted number of target class
+phonemes
+4 2 0 4 4
+B. Experiments 2 and 3 – Text Length
+Figs. 1 and 2 present the distributions of the total number 
+of phonemes in generated words and sentences,
+respectively, by target class and saturation level criteria.
+The generated words have an average length of 6
+phonemes, whereas the average length of sentences is 16.5 
+phonemes. It can be observed that the median length of
+both types of generated text changes only slightly across
+saturation levels (one phoneme for words, and one or
+two 
+phonemes for sentences) for all classes except for the Low-
+mid class, for which, interestingly, it changes in opposite 
+directions for words and sentences.
+ 
+C. Experiments 2 and 3 – Phoneme Usage
+Fig. 3 presents the distri butions of the average 
+phoneme usage frequency in generated text, for words and 
+sentences separately. The dist ributions were obtained by 
+first summing the phoneme usage frequency distributions
+of individual words / sentences, and then dividing the 
+resulting frequency distributions by the grand total number 
+of phonemes in words / sentences. It needs to be 
+mentioned that for words, the results obtained for the H1 
+and H2 cases were first averaged in order to ensure equal
+weighting across the five phoneme classes.
+It can be observed that, in general, the distributions for 
+words and sentences are of similar shape. Moreover, the 
+two most frequently utilized phonemes were the vowels /a/
+and /i/
+, whereas t he only phoneme that ChatGPT did not 
+utilize in text generation was /dž/. The latter result cannot 
+be considered surprising, as the phoneme in question is 
+rarely used in Croatian language. The phonemes that the 
+chatbot used least frequently were /h/, /lj/, /f/, /ž/, and /đ/,
+most of which are also quite r are in standard Croatian 
+language. Also unsurprisingly, in each class, the most 
+frequently utilized phoneme was the vowel the class
+contains.
+D. Experiments 2 and 3 – Distribution of Phonetic
+Content
+Figs. 4 and 5 present the distributions of phonetic 
+content of generated words and se ntences, respectively, as 
+well as the indicators of whet her the target class saturation 
+level and HJP criteria were satisfied. In Fig. 4, the 
+adherence of each generated word to the HJP criterion was 
+verified manually by the authors. 
+In Fig. 4, it can be observed that for the classes L, LM, 
+M, and MH the percentage of  generated words that satisfy
+both criteria, in general, sl owly decreases as the SL 
+increases, whereas for th e H1 and H2 cases the chatbot
+was focused either on satisfying the SL criterion or the 
+HJP criterion. Interestingly, after the user informed the
+chatbot that the H2 words had not satisfied the SL
+criterion, the chatbot  started generating words similar to 
+the H1 words.
+Table II provides the corresponding “both criteria
+satisfied” indicator group-lev el percentages by target class 
+and saturation level. The chat bot performed best for the 
+Mid class, by consistently generating more than 50 % of 
+words that met the criteria sp ecified by the user, whereas,
+on the other hand, not even at the 40 % saturation level
+128Authorized licensed use limited to: University of Rijeka Croatia. Downloaded on April 13,2026 at 12:20:18 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+===== PAGE 4 =====
+was it able to generate a satisfactory high percentage of
+appropriate words for the class High – with an H1+H2
+average of only 27 %.
+The sentences that the chatbot gener
+ated with the SL
+criterion set to 50 % conformed to the rules of Croatian
+language, yet a large proportion of them had no meaning. A
+few examples to illustrate this, for the class Low :
+“puno 
+banana u panju” (a lot of bananas in the tree stump),
+“mama puni bunar mlijekom” (mum is filling the well with 
+milk), “puni mlin brzim putem” (charge the mill the fast 
+way).
+As mentioned in section II-B, the inclusion of the HJP
+criterion at the 70 % SL to the user’s instructions resulted 
+in an improvement of the chatbot’s output for the L, LM, M
+and MH classes. A few examples to illustrate this, for the 
+class Low: “nemoj mami miješati rane” (do not stir mum’s
+wounds), “mumija nudi bunar mami” (a mummy is 
+offering a well to mum) , “puni bure nudi mir” (fill the
+barrel offer peace). For the class High at the 70 % 
+saturation level, the chatbot generated some novel, i.e., 
+nonsense diacritic-free words that it combined with 
+Croatian
+language words into sentences ( “cici izići izici”,
+“izicima sići izići” ), satisfying in this manner the set 
+saturation level as effectively as in the H1 word generation 
+experiment.
+Table III summarizes the results
+presented in Fig. 5 for 
+the sentence generation experiment, by providing the “SL
+criterion satisfied” indicator group-level percentages by 
+target class and saturation le vel. The chatbot performed 
+very well for all of the classes at the 50 % SL, with a range 
+between 66 % and 100 % of sentences that met this
+criterion. It also performed excellently for the Low-mid 
+and High classes at the 70 % saturation level.
+E. Experiments 2 and 3 –
+Phonetic Content Dissimilarity
+Figs. 6 and 7 present the phonetic content dissimilarity 
+(PCD) matrices for the pairs of generated words and 
+sentences, respectively. This distance measure is defined as 
+the ratio of the number of phonemes that the longer word
+/
+sentence does not share with the shorter one to the length 
+(total number of phonemes) of the longer word / sentence
+[13]. In case they are of equal length, PCD is calculated
+based on the second word / sentence’s data. An example to
+illustrate its use, with the pair of words “jedan” (one) and 
+“nedjelja” (Sunday) – the latter, longer word contains 7 
+phonemes, of which one /e/ is not shared with the first 
+word, as well as the phoneme /lj/, resulting in a PCD of 
+0.286.
+In Fig. 6, the PCD values are lower within the target
+class boundaries, i.e. intra-class, indicating higher 
+similarity. The highest simil
+arity overall can be observed
+among the H1 case generated words, whereas for the H2
+case ChatGPT utilized a significant proportion of
+phonemes from other classes (also visible in Fig. 4). High
+level of intra-
+class similarity can be also observed among
+the generated sentences in Fig. 7.
+F. Discussion
+The results of the first experiment indicate that the 
+ChatGPT chatbot can successfully parse short sentences in 
+Croatian language as well as classify the Croatian
+language phonemes. The chatbot is also able to calculate 
+percentages faultlessly, while ma king insignificant
+counting errors. The results of this text analysis 
+experiment suggest the existe nce of necessary abilities in
+the chatbot’s GPT-4
+large language model needed for 
+prompt comprehension and successful performance in text 
+generation tas ks. This was confirmed with the results of 
+the experiments 2 and 3, in which the chatbot generated
+words and sentences of sufficient length, a large 
+proportion of which satisfied both the target class 
+saturation level criterion and Croatian language rules.
+Figure 1. Total number of phonemes in generated words.
+Figure 2. Total number of phonemes in generated sentences.
+Figure 3.  Phoneme usage frequency in generated text. Text type: words –
+filled circles, sentences – open squares. Special symbols: N – /nj/, L – /lj/,
+and D – /dž/.
+129Authorized licensed use limited to: University of Rijeka Croatia. Downloaded on April 13,2026 at 12:20:18 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+===== PAGE 5 =====
+a)
+b)
+Figure 4. Distributions of phonetic content in generated words. a) Target 
+classes: MH, H1 and H2, b) Target classes: L, LM and M. In the first three 
+columns, yellow color indicates that the criterion has been satisfied.
+Figure 5. Distributions of phonetic content in generated sentences. In the
+first column, yellow color indicates that the criterion has been satisfied.
+TABLE II. “ BOTH CRITERIA SATISFIED” INDICATOR 
+PERCENTAGES FOR GENERATED WORDS
+SL /
+Target 
+class
+40 % 50 % 60 % 70 % 80 %
+L 100 % 63.64 % 27.27 % 18.18 % 54.55 %
+LM 90.91 % 81.82 % 63.64 % 9.09 % 0%
+M 100 % 72.73 % 72.73 % 54.55 % 63.64%
+MH 100 % 81.82 % 45.45 % 36.36 % 18.18 %
+H1 36.36 % 27.27 % 36.36 % 0% 0%
+H2 18.18 % 18.18 % 0% 0 % 9.09 %
+TABLE III. “ SATURATION LEVEL CRITERON SATISFIED”
+INDICATOR PERCENTAGES FOR GENERATED SENTENCES
+SL /
+Target
+class
+50 % 70 %
+L 95.24 % 0%
+LM 100 % 95.24 %
+M 95.24 % 33.33 %
+MH 95.24 % 0%
+H 66.67 % 100 %
+130Authorized licensed use limited to: University of Rijeka Croatia. Downloaded on April 13,2026 at 12:20:18 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+===== PAGE 6 =====
+Figure 6. Phonetic content dissimilarity matrix of generated words.
+IV. C ONCLUSION
+In this paper, a novel method for speech material 
+analysis and generation in the context of hearing
+rehabilitation that is based on the OpenAI’s ChatGPT 
+chatbot was proposed. The results show that the chatbot is
+able to generate both words and sentences of sufficient 
+l
+ength. Words of standard Croatian language were 
+successfully generated for the Low and Mid target classes
+up to the 80 % saturation level, while very good results
+were obtaine d for the remaining three target phoneme 
+classes for saturation levels up to 60 %. Moreover, since
+nonsense words, i.e. pseudowords are also commonly used
+as speech material in
+hearing rehabilitation, the chatbot-
+generated ones that satisfy the saturation level requested by 
+hearing therapists can also be utilized. Furthermore, as
+much as 90 % of sentences that ChatGPT
+generated at the 
+50 % saturation level satisfy the stated phonetic criteria 
+and, even though generally void of meaning, adhere to the 
+Croatian language rules and, thus, can be used for auditory
+training exercises.
+As the results of this preliminary study have shown that
+the ChatGPT chatbot can efficiently
+generate text in 
+Croatian language that satisfies both strict language rules
+and phonetic criteria, future wor k will be directed towards 
+creating a comprehensive dataset of isolated words and 
+sentences to be used by hearing therapists in the Clinical 
+Hospital Centre Rijeka during rehabilitation of persons who
+either underwent cochlear implant surgery or adapt with 
+difficulty to the prescribed hearing aid.
+R
+EFERENCES
+[1] Andrija Štamp ar Teaching Institute of Public Health .“ P r o v j e r i t e  
+svoj sluh!, Svjetski dan uha i sluha, 3. ožuj ka 2023.” Accessed: 
+01.24.2024 [Online]. Available: 
+https://www.stampar.hr/hr/novosti/provjerite-svoj-sluh-svjetski-
+dan-uha-i-sluha-3-ozujka-2023
+[2] Ž. Draušnik, V. Štefančić, and T. Benja k, "The prevalence of 
+disability caused by hearing impairments in the Republic of 
+Croatia," (in Croatian
+), Hrvatska revija za rehabilitacijska 
+Figure 7. Phonetic content dissimilarity matrix of generated sentences.
+istraživanja, vol. 52(1), pp. 140-149, 2016. [Online]. Available: 
+https://doi.org/10.31299/hrri.52.1.12
+[3] World Health Organization. “The world report on hearing.”
+Accessed: 01.24.2024 [Online]. Available: 
+https://www.who.int/publications/i/item/9789240020481
+[4] L. Bonetti, I. Rat kovski, and B. Šimunjak, "Contemporary 
+rehabilitation of adults with acquired hearing loss", (in Croatian),
+Liječnički vjesnik , vol. 139(9-10), pp. 292-298, 2017. [Online]. 
+Available:
+https://hrcak.srce.hr/193282
+[5] F. H. Bess, and L. E. Humes, Audiology: The Fundamentals ,
+Lippincott Williams & Wilkins, 2003.
+[6] M. Čulina, and A. Andrijašević, "Audio exercises: a computer 
+program for auditory training and tinnitus treatment", ( in Croatian),
+Zbornik Veleučilišta u Rijeci , vol. 11(1), pp. 331-351, 2023. 
+[Online]. Available: https://doi.org/10.31784/zvr.11.1.18
+[7] OpenAI. Accessed: 01.24.2024 [Online]. Available:     
+https://openai.com/gpt-4
+[8] W . Hariri, “Unlocking the potential of ChatGPT: A comprehensive 
+exploration of its applications, advantages, limitations, and future 
+directions in natural language processing”, 2023,
+arXiv:2304.02017
+[9]
+Method for providing chatbot for rehabilitation education for 
+hearing-impaired patient, involves determining type of hearing loss 
+rehabilitation content based on executed chatbot, and obtaining user 
+response data for provided audio quiz, by J. H. Lee, Y. H. Son, S.
+Park, J. S. Han, and S. N. Par k
+. (2023) Patent number KR2572362-
+B1
+[10] J.-W. Wasmann, et al., “Computational audiology: new approaches 
+to advance hearing health care in the digital age,” Ear Hear.,v o l .  
+42(6), pp. 1499-1507, 2021. DOI:
+10.1097/AUD.0000000000001041.
+[11] D. W. Swanepoel, V. Manchaiah, and J.-W. A.
+Wasmann, “The rise 
+of AI chatbots in hearing health care,” The Hearing Journal, vol.
+76(4), pp. 26-32, 2023. DOI: 10.1097/01.HJ.0000927336.03567.3e
+[Online]. Available:
+https://journals.lww.com/thehearingjournal/Fulltext/2023/04000/Th
+e_Rise_of_AI_Chatbots_in_Hearing_Health_Care.3.aspx
+[12] L. I. Rulen kova, Kako malo gluho dijete naučiti slušati i govoriti 
+primjenom verbotonalne metode,P o l iklinika SUVAG, 2015.
+[13] A. Andrijašević, and M. Čulina, “ Audio exercises: pitch stat istics 
+and long-term spectra of the sound files,” in 10th Congress of the 
+Alps Adria Acoustics Association , Slovenia, pp. 154-163, 2023.
+[Online]. Available: https://www.alpsadriaacoustics.eu/wp-
+content/uploads/2024/01/Proceedings_ver4.pdf
+131Authorized licensed use limited to: University of Rijeka Croatia. Downloaded on April 13,2026 at 12:20:18 UTC from IEEE Xplore.  Restrictions apply. 

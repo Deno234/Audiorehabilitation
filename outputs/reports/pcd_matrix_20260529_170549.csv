@@ -1,0 +1,50 @@
+left_index,right_index,left_candidate,right_candidate,pcd_version,pcd
+0,0,panj,panj,pcd_paper_style,0.0
+0,1,panj,puno banana u panju,pcd_paper_style,0.8
+0,2,panj,polje,pcd_paper_style,0.75
+0,3,panj,ovo veliko polje,pcd_paper_style,0.9230769230769231
+0,4,panj,brza riba radi,pcd_paper_style,0.9166666666666666
+0,5,panj,teta šeće često,pcd_paper_style,0.9230769230769231
+0,6,panj,sit zec s ceste,pcd_paper_style,1.0
+1,0,puno banana u panju,panj,pcd_paper_style,0.8
+1,1,puno banana u panju,puno banana u panju,pcd_paper_style,0.0
+1,2,puno banana u panju,polje,pcd_paper_style,0.8666666666666667
+1,3,puno banana u panju,ovo veliko polje,pcd_paper_style,0.8666666666666667
+1,4,puno banana u panju,brza riba radi,pcd_paper_style,0.7333333333333333
+1,5,puno banana u panju,teta šeće često,pcd_paper_style,0.8666666666666667
+1,6,puno banana u panju,sit zec s ceste,pcd_paper_style,1.0
+2,0,polje,panj,pcd_paper_style,0.75
+2,1,polje,puno banana u panju,pcd_paper_style,0.8666666666666667
+2,2,polje,polje,pcd_paper_style,0.0
+2,3,polje,ovo veliko polje,pcd_paper_style,0.6923076923076923
+2,4,polje,brza riba radi,pcd_paper_style,1.0
+2,5,polje,teta šeće često,pcd_paper_style,0.8461538461538461
+2,6,polje,sit zec s ceste,pcd_paper_style,0.9166666666666666
+3,0,ovo veliko polje,panj,pcd_paper_style,0.9230769230769231
+3,1,ovo veliko polje,puno banana u panju,pcd_paper_style,0.8666666666666667
+3,2,ovo veliko polje,polje,pcd_paper_style,0.6923076923076923
+3,3,ovo veliko polje,ovo veliko polje,pcd_paper_style,0.0
+3,4,ovo veliko polje,brza riba radi,pcd_paper_style,0.9230769230769231
+3,5,ovo veliko polje,teta šeće često,pcd_paper_style,0.7692307692307693
+3,6,ovo veliko polje,sit zec s ceste,pcd_paper_style,0.7692307692307693
+4,0,brza riba radi,panj,pcd_paper_style,0.9166666666666666
+4,1,brza riba radi,puno banana u panju,pcd_paper_style,0.7333333333333333
+4,2,brza riba radi,polje,pcd_paper_style,1.0
+4,3,brza riba radi,ovo veliko polje,pcd_paper_style,0.9230769230769231
+4,4,brza riba radi,brza riba radi,pcd_paper_style,0.0
+4,5,brza riba radi,teta šeće često,pcd_paper_style,0.9230769230769231
+4,6,brza riba radi,sit zec s ceste,pcd_paper_style,0.8333333333333334
+5,0,teta šeće često,panj,pcd_paper_style,0.9230769230769231
+5,1,teta šeće često,puno banana u panju,pcd_paper_style,0.8666666666666667
+5,2,teta šeće često,polje,pcd_paper_style,0.8461538461538461
+5,3,teta šeće često,ovo veliko polje,pcd_paper_style,0.7692307692307693
+5,4,teta šeće često,brza riba radi,pcd_paper_style,0.9230769230769231
+5,5,teta šeće često,teta šeće često,pcd_paper_style,0.0
+5,6,teta šeće često,sit zec s ceste,pcd_paper_style,0.5384615384615384
+6,0,sit zec s ceste,panj,pcd_paper_style,1.0
+6,1,sit zec s ceste,puno banana u panju,pcd_paper_style,1.0
+6,2,sit zec s ceste,polje,pcd_paper_style,0.9166666666666666
+6,3,sit zec s ceste,ovo veliko polje,pcd_paper_style,0.7692307692307693
+6,4,sit zec s ceste,brza riba radi,pcd_paper_style,0.8333333333333334
+6,5,sit zec s ceste,teta šeće često,pcd_paper_style,0.5384615384615384
+6,6,sit zec s ceste,sit zec s ceste,pcd_paper_style,0.0

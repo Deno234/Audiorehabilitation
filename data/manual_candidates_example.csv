@@ -1,0 +1,15 @@
+candidate,model,prompt_strategy,target_class,saturation_level,text_type
+panj,manual,manual_example,N,50,word
+puna banana,manual,manual_example,Niski,50,sentence
+puno banana u panju,manual,manual_example,N,50,sentence
+polje,manual,manual_example,Srednjeniski,50,word
+ovo veliko polje,manual,manual_example,SN,50,sentence
+džep,manual,manual_example,Srednji,50,word
+brza riba radi,manual,manual_example,S,50,sentence
+čest šešir,manual,manual_example,Srednjevisoki,50,sentence
+teta šeće često,manual,manual_example,SV,50,sentence
+sit zec s ceste,manual,manual_example,Visoki,50,sentence
+škola škola,manual,manual_example,SV,50,sentence
+test123,manual,manual_example,V,50,word
+panj,manual,manual_example,N,50,word
+

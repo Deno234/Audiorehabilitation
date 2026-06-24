@@ -1,0 +1,15 @@
+run_id,candidate_id,candidate,normalized_text,model,source_adapter,prompt_strategy,target_class,saturation_level,text_type,tts_adapter,tts_model_or_voice,croatian_voice_or_model_confirmed,speaker_embedding_source,audio_path,sample_rate,channels,sample_width_bits,duration_seconds,synthesis_status,error,suitable_for_audio_eval
+20260604_160319,20260604_160319_00000,buba,buba,ChatGPT Plus,manual_csv,paper_style,N,50.0,word,espeak_ng,hr,yes,,outputs/audio_comparison/task16_chatgpt_hjp_smoke_v2/espeak_ng/20260604_160319_00000.wav,16000,1,16,0.611625,success,,yes
+20260604_160319,20260604_160319_00001,bubanj,bubanj,ChatGPT Plus,manual_csv,paper_style,N,50.0,word,espeak_ng,hr,yes,,outputs/audio_comparison/task16_chatgpt_hjp_smoke_v2/espeak_ng/20260604_160319_00001.wav,16000,1,16,0.710375,success,,yes
+20260604_160319,20260604_160319_00000,buba,buba,ChatGPT Plus,manual_csv,paper_style,N,50.0,word,coqui_vits_hr,tts_models/hr/cv/vits,yes,,outputs/audio_comparison/task16_chatgpt_hjp_smoke_v2/coqui_vits_hr/20260604_160319_00000.wav,16000,1,16,0.9875625,success,,yes
+20260604_160319,20260604_160319_00001,bubanj,bubanj,ChatGPT Plus,manual_csv,paper_style,N,50.0,word,coqui_vits_hr,tts_models/hr/cv/vits,yes,,outputs/audio_comparison/task16_chatgpt_hjp_smoke_v2/coqui_vits_hr/20260604_160319_00001.wav,16000,1,16,0.95275,success,,yes
+20260604_160319,20260604_160319_00000,buba,buba,ChatGPT Plus,manual_csv,paper_style,N,50.0,word,speecht5_hr,/mnt/d/Audiorehabilitation/models/speecht5_tts_hr,yes,,outputs/audio_comparison/task16_chatgpt_hjp_smoke_v2/speecht5_hr/20260604_160319_00000.wav,,,,,failed,"
+SpeechT5Tokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+",no
+20260604_160319,20260604_160319_00001,bubanj,bubanj,ChatGPT Plus,manual_csv,paper_style,N,50.0,word,speecht5_hr,/mnt/d/Audiorehabilitation/models/speecht5_tts_hr,yes,,outputs/audio_comparison/task16_chatgpt_hjp_smoke_v2/speecht5_hr/20260604_160319_00001.wav,,,,,failed,"
+SpeechT5Tokenizer requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+",no
