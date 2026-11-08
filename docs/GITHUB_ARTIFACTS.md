@@ -39,6 +39,12 @@ models/coqui_tts/tts/tts_models--hr--cv--vits/model_file.pth.tar
 
 After unpacking the archive into the repository root, the paths in `experiments/tts_comparison_config.yaml` should work without further changes.
 
+## Sharing a MATLAB audio export
+
+Use the README's single-rate export command with `--sample-rates 22050 --zip`. The exporter builds `audio_22050Hz.zip` from verified PCM16 WAV files and includes a manifest with relative audio paths. It rejects raw Git LFS pointers and publishes the archive only when every selected conversion succeeds. Share the generated ZIP directly, for example as a release attachment. If distributing a ZIP tracked by Git LFS, obtain its actual binary content before sending it to collaborators.
+
+Keep each synthesis run's native `*_raw.wav` files and comparison manifest together for future exports. The ZIP contains only the selected derivatives and their source identifiers and hashes.
+
 ## What is intentionally ignored
 
 - `.venv/` and other virtual environments

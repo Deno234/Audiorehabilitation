@@ -21,6 +21,7 @@ outputs:
   raw_generations_dir: {raw}
   validated_dir: {validated}
   reports_dir: {reports}
+  manifests_dir: {reports}/manifests
 """.format(
             raw=tmp_path / "raw",
             validated=tmp_path / "validated",
@@ -64,6 +65,7 @@ outputs:
   raw_generations_dir: {raw}
   validated_dir: {validated}
   reports_dir: {reports}
+  manifests_dir: {reports}/manifests
 """.format(
             raw=tmp_path / "raw",
             validated=tmp_path / "validated",

@@ -83,32 +83,31 @@ python -m src.pipeline --apply-hjp-word-review --input outputs/reports/all_candi
 9. Synthesize audio from the reviewed/validated candidates:
 
 ```bash
-python -m src.pipeline --synthesize-audio-comparison --input outputs/reports/validated_hjp_candidates_task16_chatgpt_<chatgpt_run>.csv --config experiments/tts_comparison_config.yaml --output-dir outputs/audio_comparison/task16_chatgpt_hjp_tts_subset
+python -m src.pipeline --synthesize-audio-comparison --input outputs/reports/validated_hjp_candidates_task16_chatgpt_20260604_160319.csv --config experiments/tts_comparison_config.yaml --output-dir outputs/audio_comparison/task16_chatgpt_hjp_tts_full
 ```
 
 10. Generate the TTS technical report:
 
 ```bash
-python -m src.pipeline --compare-tts-audio --audio-manifest outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/tts_comparison_manifest.csv --output-dir outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/report
+python -m src.pipeline --compare-tts-audio --audio-manifest outputs/audio_comparison/task16_chatgpt_hjp_tts_full/tts_comparison_manifest.csv --output-dir outputs/audio_comparison/task16_chatgpt_hjp_tts_full/report
 ```
 
 11. Evaluate the combined TTS manifest with local ASR:
 
 ```bash
-python -m src.pipeline --evaluate-audio --audio-manifest outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/tts_comparison_manifest.csv --asr-profile fast --config experiments/tts_comparison_config.yaml --output outputs/audio_eval/task16_chatgpt_hjp_tts_fast
+python -m src.pipeline --evaluate-audio --audio-manifest outputs/audio_comparison/task16_chatgpt_hjp_tts_full/tts_comparison_manifest.csv --asr-profile fast --config experiments/tts_comparison_config.yaml --output outputs/audio_eval/task16_chatgpt_hjp_tts_full_fast
 ```
 
 12. Export a balanced listening-review CSV, fill human scores, and summarize results:
 
 ```bash
-python -m src.pipeline --export-listening-review-sample --audio-manifest outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/tts_comparison_manifest.csv --output data/listening_review_sample_task16_chatgpt_hjp_tts_subset.csv --per-adapter 20
-python -m src.pipeline --compare-tts-audio --audio-manifest outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/tts_comparison_manifest.csv --listening-review data/listening_review_balanced_task16_chatgpt_hjp_tts_subset.csv --output-dir outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/report
+python -m src.pipeline --export-listening-review-sample --audio-manifest outputs/audio_comparison/task16_chatgpt_hjp_tts_full/tts_comparison_manifest.csv --output data/listening_review_sample_task16_chatgpt_hjp_tts_full.csv --per-adapter 20
 ```
 
 13. Build the final report:
 
 ```bash
-python -m src.pipeline --build-final-report --comparison-dir outputs/comparisons/chatgpt_vs_ollama_task16 --audio-eval-dir outputs/audio_eval/task16_chatgpt_hjp_tts_fast --tts-report-dir outputs/audio_comparison/task16_chatgpt_hjp_tts_subset/report --output outputs/final_report/final_report_latest.md
+python -m src.pipeline --build-final-report --comparison-dir outputs/comparisons/chatgpt_vs_ollama_task16 --audio-eval-dir outputs/audio_eval/task16_chatgpt_hjp_tts_full_fast --output outputs/final_report/task16_chatgpt_hjp_tts_full.md
 ```
 
 Generated text and audio are research material only. They are not clinically approved rehabilitation material.
@@ -441,14 +440,75 @@ Install tools only when you want to use them:
 ```bash
 sudo apt install -y espeak-ng
 python -m pip install TTS
-python -m pip install transformers torch soundfile numpy
+python -m pip install transformers torch scipy numpy
 python -m pip install faster-whisper
 ```
 
-The comparison config starts with only eSpeak NG enabled:
+The checked-in comparison config enables all three Croatian TTS adapters. To limit a fresh run for a smoke test:
 
 ```bash
 python -m src.pipeline --synthesize-audio-comparison --input outputs/reports/validated_candidates_<run_id>.csv --config experiments/tts_comparison_config.yaml --output-dir outputs/audio_comparison/<run_id> --limit 50
+```
+
+### Native recordings and sample-rate exports
+
+From the repository root in WSL, install the Python requirements in the active environment with `python -m pip install -r requirements.txt`. The comparison config uses the local Croatian eSpeak NG voice, Coqui wrapper, and SpeechT5 model/vocoder paths under `/mnt/d/Audiorehabilitation`. Check those paths and the cached models before synthesis on another machine.
+
+The validated input for run `20260604_160319` contains **355 unique candidates**. A complete synthesis produces **1,065 native recordings** across the three adapters and one 16 kHz mono PCM16 derivative per recording. The historical `tts_subset` directory contains 96 candidates and is reserved for verification. Synthesize the full input into a fresh directory:
+
+```bash
+python -m src.pipeline --synthesize-audio-comparison \
+  --input outputs/reports/validated_hjp_candidates_task16_chatgpt_20260604_160319.csv \
+  --config experiments/tts_comparison_config.yaml \
+  --output-dir outputs/audio_comparison/task16_chatgpt_hjp_tts_full
+```
+
+Keep the complete run directory, including `tts_comparison_manifest.csv` and each adapter's `<candidate_id>_raw.wav`. The raw file is the native synthesis result. eSpeak NG and Coqui retain their emitted WAV bytes. Fresh SpeechT5 runs save the float32 waveform at the vocoder rate, preserving precision that older PCM16 raw files already quantized. A comparison run stops before inference if its destinations collide with an existing experiment.
+
+Generate the collaborator ZIP directly from those raw recordings:
+
+```bash
+python -m src.pipeline --export-audio-formats \
+  --input-dir outputs/audio_comparison/task16_chatgpt_hjp_tts_full \
+  --sample-rates 22050 \
+  --output-dir outputs/audio_exports/task16_full_polyphase \
+  --zip
+```
+
+The archive is `outputs/audio_exports/task16_full_polyphase/audio_22050Hz.zip`. A complete full-run ZIP contains 1,065 WAVs plus its UTF-8 manifest. To export multiple rates, use `--sample-rates 16000 22050 44100 48000`. Each rate is derived directly from the raw file. A later single-rate ZIP includes only the rate requested on that invocation. Rows in the directory manifest cover the available exports, while rows in the ZIP correspond to its members.
+
+Rerun the same export command after an interruption. It verifies source and derivative SHA-256 hashes and conversion settings before reuse. A failed conversion sets a nonzero exit status and appears in `export_error` in `audio_export_manifest.csv`. Restore the indicated raw file if it is missing, corrupt, or a Git LFS pointer, then retry. Export does not invoke the TTS adapters.
+
+#### Historical comparisons
+
+Both comparison synthesis and export default to `polyphase`. The converter uses a band-limited polyphase FIR filter (Kaiser window, beta 5, zero padding), averages channels in float64 for mono, and quantizes to PCM16 with nearest-even rounding. It retains the input level except when a single gain factor is needed to prevent overload. Equal-rate audio bypasses filtering. The manifest records the selected method, whether filtering or sample-rate conversion was applied, gain, format, frame counts, software versions, and hashes.
+
+For exact reproduction of the old PCM16 conversion from the same archived raw files, select `--resampling-method legacy-nearest` on synthesis or export. It uses the original integer stereo downmix, frame-count rounding, and nearest-sample indexing from revision `224397cf9f15db551adc5db93ce45c12fd5767fe`. For example:
+
+```bash
+python -m src.pipeline --export-audio-formats \
+  --input-dir outputs/audio_comparison/task16_chatgpt_hjp_tts_subset \
+  --sample-rates 16000 --resampling-method legacy-nearest \
+  --output-dir outputs/audio_exports/task16_subset_legacy_verification
+```
+
+Use separate export directories for the two methods. New polyphase 16 kHz recordings can differ from archived 16 kHz recordings in sample values, spectra, RMS, clipping, and downstream ASR metrics. Fresh inference can also differ across model versions, speaker embeddings, or stochastic generation. Keep the raw hashes, candidate IDs, model identifiers and preprocessing method with any published results.
+
+Compare models on the same candidates, at one common rate and with one method and ASR profile. Report native sample rates as well. Upsampling from 16,000 to 22,050 Hz changes the sample spacing. Frequencies above the original 8 kHz Nyquist limit cannot be recovered. Comparison and evaluation summaries group by target rate and method. Old manifests use a 16,000 Hz fallback and label the method `unrecorded`. Supply `--expected-sample-rate 22050` when evaluating an older experiment known to have used that target.
+
+#### MATLAB
+
+Extract the ZIP anywhere. The `audio_path` column is relative to the extracted manifest. `source_run`, `raw_audio_path` (relative to that run), and `raw_sha256` identify the archived source. Only the exported WAVs are required for MATLAB:
+
+```matlab
+folder = "task16_matlab";
+unzip("audio_22050Hz.zip", folder);
+T = readtable(fullfile(folder, "audio_export_manifest.csv"), "TextType", "string");
+p = fullfile(folder, T.audio_path(1));
+info = audioinfo(p);
+[x, Fs] = audioread(p);
+assert(Fs == 22050 && info.BitsPerSample == 16 && info.NumChannels == 1);
+assert(size(x, 1) == T.frames(1));
 ```
 
 Generate the TTS audio comparison report:
@@ -473,7 +533,7 @@ python -m src.pipeline --export-listening-review-sample --audio-manifest outputs
 
 To enable Coqui after installing `TTS`, edit `experiments/tts_comparison_config.yaml` and set `coqui_vits_hr.enabled: true`. Real Coqui use may download the model on first run unless it is already cached locally.
 
-To enable SpeechT5, install `transformers`, `torch`, `soundfile`, and `numpy`, configure local `model_path`, `vocoder_path`, and `speaker_embedding_path`, keep `local_files_only: true`, and set `speecht5_hr.enabled: true`. The project does not auto-download SpeechT5 models by default.
+To enable SpeechT5, install `transformers`, `torch`, `scipy`, and `numpy`, configure local `model_path`, `vocoder_path`, and `speaker_embedding_path`, keep `local_files_only: true`, and set `speecht5_hr.enabled: true`. The project does not auto-download SpeechT5 models by default.
 
 For an experimental smoke test without a real speaker embedding, set:
 

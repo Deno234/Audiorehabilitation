@@ -32,6 +32,7 @@ tts_comparison:
       allow_ffmpeg: false
 
 audio:
+  resampling_method: polyphase
   target_sample_rate: 16000
   target_channels: 1
   target_sample_width_bits: 16

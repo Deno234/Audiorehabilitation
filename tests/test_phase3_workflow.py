@@ -509,6 +509,7 @@ def test_mocked_speecht5_synthesis_and_local_only(tmp_path, monkeypatch):
             return FakeTensor()
 
     class FakeVocoder:
+        config = types.SimpleNamespace(sampling_rate=24000)
         @classmethod
         def from_pretrained(cls, path, local_files_only):
             calls.append(("vocoder", path, local_files_only))
@@ -517,11 +518,7 @@ def test_mocked_speecht5_synthesis_and_local_only(tmp_path, monkeypatch):
         def to(self, _device):
             return self
 
-    def fake_write(path, data, samplerate):
-        create_wav(Path(path))
-
     monkeypatch.setitem(sys.modules, "torch", FakeTorch)
-    monkeypatch.setitem(sys.modules, "soundfile", types.SimpleNamespace(write=fake_write))
     monkeypatch.setitem(
         sys.modules,
         "transformers",
@@ -555,6 +552,9 @@ def test_mocked_speecht5_synthesis_and_local_only(tmp_path, monkeypatch):
         rows = list(csv.DictReader(handle))
     assert rows[0]["synthesis_status"] == "success"
     assert rows[0]["tts_adapter"] == "speecht5_hr"
+    assert rows[0]["raw_encoding"] == "FLOAT"
+    assert rows[0]["raw_sample_width_bits"] == "32"
+    assert rows[0]["raw_sample_rate"] == "24000"
     assert rows[0]["speaker_embedding_source"] == str(speaker_path)
     assert ("processor", str(model_path), True) in calls
     assert ("model", str(model_path), True) in calls
@@ -608,7 +608,6 @@ def test_speecht5_zero_fallback_records_manifest_source(tmp_path, monkeypatch):
             return FakeTensor()
 
     monkeypatch.setitem(sys.modules, "torch", FakeTorch)
-    monkeypatch.setitem(sys.modules, "soundfile", types.SimpleNamespace(write=lambda path, data, samplerate: create_wav(Path(path))))
     monkeypatch.setitem(
         sys.modules,
         "transformers",
@@ -785,6 +784,7 @@ def test_external_command_tts_command_and_manifest(tmp_path, monkeypatch):
     )
     with manifest.open("r", encoding="utf-8", newline="") as handle:
         rows = list(csv.DictReader(handle))
+    assert rows[0]["synthesis_status"] == "success"
     assert rows[0]["tts_adapter"] == "external_command"
     assert rows[0]["croatian_voice_or_model_confirmed"] == "yes"
 

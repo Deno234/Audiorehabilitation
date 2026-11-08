@@ -9,6 +9,7 @@ import shutil
 from typing import Any
 
 from .audio_eval import evaluate_audio
+from .audio_formats import METHODS
 from .comparison import compare_runs
 from .final_report import build_final_report
 from .generators import (
@@ -210,6 +211,12 @@ def main() -> None:
     parser.add_argument("--review", help="Candidate-level review CSV")
     parser.add_argument("--synthesize-audio", action="store_true", help="Synthesize audio from validated candidates")
     parser.add_argument("--synthesize-audio-comparison", action="store_true", help="Synthesize validated candidates with every enabled TTS adapter")
+    parser.add_argument("--export-audio-formats", action="store_true", help="Export native comparison WAVs without inference")
+    parser.add_argument("--input-dir", help="Comparison run containing native WAVs and the synthesis manifest")
+    parser.add_argument("--sample-rates", type=int, nargs="+", help="Target export rates in Hz (default 16000)")
+    parser.add_argument("--resampling-method", choices=METHODS, help="Comparison synthesis or export resampler (default polyphase)")
+    parser.add_argument("--zip", action="store_true", help="Package only the current export selection")
+    parser.add_argument("--expected-sample-rate", type=int, default=16000, help="Fallback target for older manifests")
     parser.add_argument("--compare-tts-audio", action="store_true", help="Summarize a TTS comparison manifest")
     parser.add_argument("--export-listening-review-sample", action="store_true", help="Export balanced human listening review sample")
     parser.add_argument("--export-tts-candidate-subset", action="store_true", help="Export a balanced candidate subset for TTS comparison")
@@ -235,6 +242,22 @@ def main() -> None:
         help="Export manual ChatGPT Plus prompts from the experiment grid",
     )
     args = parser.parse_args()
+    if args.export_audio_formats:
+        from .audio_export import export_audio_formats
+        if not args.input_dir or not args.output_dir:
+            parser.error("--export-audio-formats requires --input-dir and --output-dir")
+        try:
+            result = export_audio_formats(args.input_dir, args.output_dir, args.sample_rates or [16000],
+                                          resampling_method=args.resampling_method or "polyphase", make_zip=args.zip)
+        except (OSError, ValueError) as exc:
+            parser.exit(1, f"Audio export failed: {exc}\n")
+        print(f"converted={result.converted} reused={result.reused} failed={result.failed}")
+        print(f"audio_export_manifest={result.manifest}")
+        if result.archive:
+            print(f"archive={result.archive}")
+        if result.failed:
+            parser.exit(1, "See export_error in the manifest for each failed conversion.\n")
+        return
     if args.compare_runs:
         paths = compare_runs(args.inputs or [], args.output_dir or "outputs/comparisons/comparison")
         print("comparison_outputs:")
@@ -274,11 +297,13 @@ def main() -> None:
         return
     if args.synthesize_audio_comparison:
         config = load_config(args.config)
-        path = synthesize_audio_comparison(args.input, config, args.output_dir, args.limit)
+        path = synthesize_audio_comparison(args.input, config, args.output_dir, args.limit,
+                                           resampling_method=args.resampling_method)
         print(f"tts_comparison_manifest={path}")
         return
     if args.compare_tts_audio:
-        paths = compare_tts_audio(args.audio_manifest, args.output_dir or args.output or "outputs/audio_comparison/report")
+        paths = compare_tts_audio(args.audio_manifest, args.output_dir or args.output or "outputs/audio_comparison/report",
+                                  expected_sample_rate=args.expected_sample_rate)
         print("tts_comparison_outputs:")
         for key, value in paths.items():
             print(f"  {key}={value}")
@@ -311,6 +336,7 @@ def main() -> None:
             asr_profile=args.asr_profile or "",
             asr_config=config.get("audio_eval", {}),
             manual_transcriptions=args.manual_transcriptions,
+            expected_sample_rate=args.expected_sample_rate,
         )
         print("audio_eval_outputs:")
         for key, value in paths.items():

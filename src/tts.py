@@ -7,10 +7,14 @@ from pathlib import Path
 import shutil
 import shlex
 import subprocess
-import struct
+import os
 import wave
 from typing import Any
 
+from .audio_formats import (
+    CONVERSION_FIELDS, read_native, safe_component, staged_path, validate_method, validate_rate,
+    write_derivative,
+)
 from .report import write_csv
 
 
@@ -62,6 +66,7 @@ TTS_COMPARISON_MANIFEST_FIELDS = [
     "synthesis_status",
     "error",
     "suitable_for_audio_eval",
+    *CONVERSION_FIELDS,
 ]
 
 
@@ -184,6 +189,8 @@ def synthesize_audio_comparison(
     config: dict[str, Any],
     output_dir: str | Path,
     limit: int | None = None,
+    *,
+    resampling_method: str | None = None,
 ) -> Path:
     output = Path(output_dir)
     output.mkdir(parents=True, exist_ok=True)
@@ -198,18 +205,40 @@ def synthesize_audio_comparison(
         "channels": int(audio_config.get("target_channels", 1)),
         "sample_width_bits": int(audio_config.get("target_sample_width_bits", 16)),
     }
-    manifest_rows: list[dict[str, Any]] = []
-    for adapter_config in config.get("tts_comparison", {}).get("adapters", []):
-        if not adapter_config.get("enabled", False):
-            continue
-        adapter_name = adapter_config["name"]
-        adapter_dir = output / adapter_name
-        adapter_dir.mkdir(parents=True, exist_ok=True)
+    method = validate_method(resampling_method or audio_config.get("resampling_method", "polyphase"))
+    validate_rate(target["sample_rate"])
+    if target["sample_width_bits"] != 16 or target["channels"] not in (1, 2):
+        raise ValueError("Comparison WAV outputs support mono or stereo PCM16.")
+    adapters = [a for a in config.get("tts_comparison", {}).get("adapters", []) if a.get("enabled")]
+    manifest = output / "tts_comparison_manifest.csv"
+    if manifest.exists():
+        raise FileExistsError(f"Existing comparison manifest: {manifest}. Export it or choose a fresh run directory.")
+    destinations = set()
+    for adapter in adapters:
+        directory = output / safe_component(adapter["name"])
+        if directory.resolve() != output.resolve() / adapter["name"]:
+            raise ValueError(f"Adapter directory points outside the run: {directory}")
         for index, row in enumerate(candidate_rows):
-            manifest_rows.append(
-                _synthesize_comparison_row(row, index, adapter_config, adapter_dir, target)
-            )
-    return write_csv(output / "tts_comparison_manifest.csv", manifest_rows, TTS_COMPARISON_MANIFEST_FIELDS)
+            candidate_id = safe_component(row.get("candidate_id") or f"{index:04}")
+            for suffix in ("_raw.wav", ".wav"):
+                path = directory / (candidate_id + suffix)
+                key = str(path).casefold()
+                if key in destinations or path.exists() or path.is_symlink():
+                    raise FileExistsError(f"Duplicate or existing audio destination: {path}")
+                destinations.add(key)
+
+    # Exclusive creation also prevents two synthesis processes from claiming the same run.
+    with manifest.open("x", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=TTS_COMPARISON_MANIFEST_FIELDS)
+        writer.writeheader()
+        for adapter in adapters:
+            directory = output / adapter["name"]
+            directory.mkdir(parents=True, exist_ok=True)
+            for index, row in enumerate(candidate_rows):
+                result = _synthesize_comparison_row(row, index, adapter, directory, target, method)
+                writer.writerow(result)
+                handle.flush()
+    return manifest
 
 
 def _synthesize_comparison_row(
@@ -218,6 +247,7 @@ def _synthesize_comparison_row(
     adapter_config: dict[str, Any],
     adapter_dir: Path,
     target: dict[str, int],
+    method: str,
 ) -> dict[str, Any]:
     adapter = adapter_config["name"]
     candidate_id = row.get("candidate_id") or f"{index:04}"
@@ -226,53 +256,17 @@ def _synthesize_comparison_row(
     model_or_voice = _tts_model_or_voice(adapter_config)
     confirmed = "yes" if adapter_config.get("croatian_voice_or_model_confirmed", adapter == "espeak_ng") else "no"
     base = _manifest_base(row, adapter, model_or_voice, confirmed, final_path)
+    base.update(candidate_id=candidate_id, raw_audio_path=f"{adapter}/{raw_path.name}",
+                target_sample_rate=target["sample_rate"], resampling_method=method)
     try:
-        if adapter == "espeak_ng":
-            voice = adapter_config.get("voice", "hr")
-            if voice != "hr":
-                raise RuntimeError("eSpeak NG comparison requires Croatian voice 'hr'.")
-            require_croatian_voice(adapter_config.get("executable", "espeak-ng"))
-            command = build_espeak_command(adapter_config.get("executable", "espeak-ng"), _row_text(row), raw_path, voice)
-            subprocess.run(command, check=True, capture_output=True, text=True)
-        elif adapter == "coqui_vits_hr":
-            if not adapter_config.get("croatian_voice_or_model_confirmed"):
-                raise RuntimeError("coqui_vits_hr requires croatian_voice_or_model_confirmed: true.")
-            executable = adapter_config.get("command", "tts")
-            if shutil.which(executable) is None:
-                raise RuntimeError(f"Coqui TTS CLI is missing: {executable}")
-            command = build_coqui_command(
-                executable,
-                _row_text(row),
-                adapter_config.get("model_name", "tts_models/hr/cv/vits"),
-                raw_path,
-            )
-            subprocess.run(command, check=True, capture_output=True, text=True)
-        elif adapter == "speecht5_hr":
-            speaker_source = _synthesize_speecht5(row, raw_path, adapter_config)
-            base["speaker_embedding_source"] = speaker_source
-        else:
-            raise RuntimeError(f"Unsupported TTS comparison adapter: {adapter}")
-        normalize_wav(
-            raw_path,
-            final_path,
-            target_sample_rate=target["sample_rate"],
-            target_channels=target["channels"],
-            target_sample_width_bits=target["sample_width_bits"],
-            ffmpeg_executable=adapter_config.get("ffmpeg_executable", "ffmpeg"),
-            allow_ffmpeg=bool(adapter_config.get("allow_ffmpeg", False)),
-        )
-        meta = wav_metadata(final_path)
-        base.update(
-            {
-                "sample_rate": meta["sample_rate"],
-                "channels": meta["channels"],
-                "sample_width_bits": meta["sample_width_bits"],
-                "duration_seconds": meta["duration_seconds"],
-                "synthesis_status": "success",
-                "error": "",
-                "suitable_for_audio_eval": "yes",
-            }
-        )
+        with staged_path(raw_path) as temp:
+            base["speaker_embedding_source"] = _generate_native(row, adapter_config, temp)
+            decoder = adapter_config.get("ffmpeg_executable", "ffmpeg") if adapter_config.get("allow_ffmpeg") else None
+            native = read_native(temp, ffmpeg_executable=decoder)
+            os.link(temp, raw_path)  # publish the exact adapter bytes, without replacing any file
+        base.update(native.metadata)
+        base.update(write_derivative(native, final_path, target["sample_rate"], method, target["channels"]))
+        base.update(synthesis_status="success", error="", suitable_for_audio_eval="yes")
     except Exception as exc:
         base.update(
             {
@@ -286,6 +280,35 @@ def _synthesize_comparison_row(
             }
         )
     return base
+
+
+def _generate_native(row: dict, adapter_config: dict, raw_path: Path) -> str:
+    adapter = adapter_config["name"]
+    if adapter == "espeak_ng":
+        voice = adapter_config.get("voice", "hr")
+        if voice != "hr":
+            raise RuntimeError("eSpeak NG comparison requires Croatian voice 'hr'.")
+        require_croatian_voice(adapter_config.get("executable", "espeak-ng"))
+        command = build_espeak_command(adapter_config.get("executable", "espeak-ng"), _row_text(row), raw_path, voice)
+        subprocess.run(command, check=True, capture_output=True, text=True)
+    elif adapter == "coqui_vits_hr":
+        if not adapter_config.get("croatian_voice_or_model_confirmed"):
+            raise RuntimeError("coqui_vits_hr requires croatian_voice_or_model_confirmed: true.")
+        executable = adapter_config.get("command", "tts")
+        if shutil.which(executable) is None:
+            raise RuntimeError(f"Coqui TTS CLI is missing: {executable}")
+        command = build_coqui_command(
+            executable,
+            _row_text(row),
+            adapter_config.get("model_name", "tts_models/hr/cv/vits"),
+            raw_path,
+        )
+        subprocess.run(command, check=True, capture_output=True, text=True)
+    elif adapter == "speecht5_hr":
+        return _synthesize_speecht5(row, raw_path, adapter_config)
+    else:
+        raise RuntimeError(f"Unsupported TTS comparison adapter: {adapter}")
+    return ""
 
 
 def _synthesize_speecht5_scaffold(row: dict[str, Any], raw_path: Path, adapter_config: dict[str, Any]) -> None:
@@ -315,11 +338,11 @@ def _synthesize_speecht5(row: dict[str, Any], raw_path: Path, adapter_config: di
         )
     try:
         import numpy as np
-        import soundfile as sf
+        from scipy.io import wavfile
         import torch
         from transformers import SpeechT5ForTextToSpeech, SpeechT5HifiGan, SpeechT5Processor
     except ImportError as exc:
-        raise RuntimeError("speecht5_hr dependencies are missing: install transformers torch soundfile numpy.") from exc
+        raise RuntimeError("speecht5_hr dependencies are missing: install transformers torch scipy numpy.") from exc
 
     speaker_embeddings, speaker_source = _load_speecht5_speaker_embedding(adapter_config, np, torch)
     processor = SpeechT5Processor.from_pretrained(processor_path, local_files_only=local_files_only)
@@ -347,7 +370,10 @@ def _synthesize_speecht5(row: dict[str, Any], raw_path: Path, adapter_config: di
     elif hasattr(speech, "cpu"):
         speech = speech.cpu().numpy()
     raw_path.parent.mkdir(parents=True, exist_ok=True)
-    sf.write(str(raw_path), speech, int(adapter_config.get("raw_sample_rate", 16000)))
+    rate = getattr(getattr(vocoder, "config", None), "sampling_rate", None)
+    if rate is None:
+        rate = adapter_config.get("raw_sample_rate", 16000)
+    wavfile.write(raw_path, int(rate), np.asarray(speech, dtype=np.float32))
     return speaker_source
 
 
@@ -384,93 +410,16 @@ def normalize_wav(
     target_sample_width_bits: int = 16,
     ffmpeg_executable: str = "ffmpeg",
     allow_ffmpeg: bool = False,
+    resampling_method: str = "polyphase",
 ) -> Path:
-    input_wav = Path(input_path)
-    output_wav = Path(output_path)
-    try:
-        with wave.open(str(input_wav), "rb") as handle:
-            channels = handle.getnchannels()
-            sample_width = handle.getsampwidth()
-            sample_rate = handle.getframerate()
-            frames = handle.getnframes()
-            data = handle.readframes(frames)
-    except Exception:
-        if allow_ffmpeg:
-            return _normalize_with_ffmpeg(input_wav, output_wav, target_sample_rate, target_channels, ffmpeg_executable)
-        raise RuntimeError("Audio normalization requires readable WAV input or configured ffmpeg.")
-
-    if sample_width != 2:
-        if allow_ffmpeg:
-            return _normalize_with_ffmpeg(input_wav, output_wav, target_sample_rate, target_channels, ffmpeg_executable)
-        raise RuntimeError(f"Unsupported WAV sample width for stdlib normalization: {sample_width * 8} bits.")
+    source, output = Path(input_path), Path(output_path)
+    if source.resolve() == output.resolve() or (output.exists() and source.samefile(output)):
+        raise ValueError("Source and derivative must use separate files.")
     if target_sample_width_bits != 16:
-        raise RuntimeError("Stdlib normalization currently supports 16-bit PCM output only.")
-    samples = list(struct.unpack("<" + "h" * (len(data) // 2), data)) if data else []
-    if channels != target_channels:
-        if target_channels == 1 and channels == 2:
-            samples = [(samples[i] + samples[i + 1]) // 2 for i in range(0, len(samples), 2)]
-            channels = 1
-        elif target_channels == 2 and channels == 1:
-            samples = [sample for sample in samples for _ in range(2)]
-            channels = 2
-        else:
-            raise RuntimeError(f"Unsupported channel conversion: {channels} to {target_channels}.")
-    if sample_rate != target_sample_rate:
-        samples = _resample_nearest(samples, sample_rate, target_sample_rate, channels)
-        sample_rate = target_sample_rate
-    data = struct.pack("<" + "h" * len(samples), *samples) if samples else b""
-
-    output_wav.parent.mkdir(parents=True, exist_ok=True)
-    with wave.open(str(output_wav), "wb") as handle:
-        handle.setnchannels(channels)
-        handle.setsampwidth(2)
-        handle.setframerate(sample_rate)
-        handle.writeframes(data)
-    return output_wav
-
-
-def _resample_nearest(samples: list[int], source_rate: int, target_rate: int, channels: int) -> list[int]:
-    if not samples or source_rate == target_rate:
-        return samples
-    frame_count = len(samples) // channels
-    target_frame_count = max(1, round(frame_count * target_rate / source_rate))
-    output: list[int] = []
-    for target_index in range(target_frame_count):
-        source_index = min(frame_count - 1, round(target_index * source_rate / target_rate))
-        start = source_index * channels
-        output.extend(samples[start : start + channels])
+        raise ValueError("WAV derivatives support PCM16 output only.")
+    native = read_native(source, ffmpeg_executable=ffmpeg_executable if allow_ffmpeg else None)
+    write_derivative(native, output, target_sample_rate, resampling_method, target_channels)
     return output
-
-
-def _normalize_with_ffmpeg(
-    input_path: Path,
-    output_path: Path,
-    sample_rate: int,
-    channels: int,
-    executable: str,
-) -> Path:
-    if shutil.which(executable) is None:
-        raise RuntimeError(f"ffmpeg is required for this audio conversion but is missing: {executable}")
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    subprocess.run(
-        [
-            executable,
-            "-y",
-            "-i",
-            str(input_path),
-            "-ac",
-            str(channels),
-            "-ar",
-            str(sample_rate),
-            "-sample_fmt",
-            "s16",
-            str(output_path),
-        ],
-        check=True,
-        capture_output=True,
-        text=True,
-    )
-    return output_path
 
 
 def _manifest_base(
@@ -523,12 +472,12 @@ def build_external_tts_command(
     if not command_template.strip():
         raise RuntimeError("external_command TTS requires a non-empty command_template.")
     values = {"text": text, "output_path": str(output_path)}
-    command = shlex.split(command_template.format(**values))
+    command = shlex.split(command_template)
     if "{output_path}" not in command_template and output_wav_argument:
-        command.extend(shlex.split(output_wav_argument.format(**values)))
+        command.extend(shlex.split(output_wav_argument))
     if "{text}" not in command_template and text_argument:
-        command.extend(shlex.split(text_argument.format(**values)))
-    return command
+        command.extend(shlex.split(text_argument))
+    return [arg.format(**values) for arg in command]
 
 
 def wav_metadata(path: str | Path) -> dict[str, Any]:

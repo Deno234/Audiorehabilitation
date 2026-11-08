@@ -38,6 +38,10 @@ AUDIO_EVAL_FIELDS = [
     "wer",
     "cer",
     "audio_readable",
+    "target_sample_rate",
+    "resampling_method",
+    "sample_rate_compliant",
+    "format_compliant",
     "sample_rate",
     "channels",
     "sample_width_bits",
@@ -57,6 +61,8 @@ ASR_TTS_SUMMARY_FIELDS = [
     "target_class",
     "saturation_level",
     "text_type",
+    "target_sample_rate",
+    "resampling_method",
     "count_evaluated",
     "count_failed",
     "average_wer",
@@ -72,7 +78,14 @@ def normalize_audio_eval_text(text: str) -> str:
     return re.sub(r"\s+", " ", cleaned).strip()
 
 
-def wav_technical_validation(path: str | Path) -> dict[str, Any]:
+def manifest_audio_path(row: dict, manifest: str | Path) -> Path:
+    path = Path(row.get("audio_path", ""))
+    if "export_status" in row:
+        return Path(manifest).parent / path
+    return path
+
+
+def wav_technical_validation(path: str | Path | None) -> dict[str, Any]:
     result = {
         "audio_readable": False,
         "sample_rate": "",
@@ -83,6 +96,8 @@ def wav_technical_validation(path: str | Path) -> dict[str, Any]:
         "clipping_rate": "",
         "error": "",
     }
+    if path is None:
+        return result
     try:
         with wave.open(str(path), "rb") as handle:
             frames = handle.getnframes()
@@ -90,6 +105,8 @@ def wav_technical_validation(path: str | Path) -> dict[str, Any]:
             channels = handle.getnchannels()
             sample_width = handle.getsampwidth()
             data = handle.readframes(frames)
+        if not frames or len(data) != frames * channels * sample_width:
+            raise ValueError("Empty or truncated WAV data.")
         result.update(
             {
                 "audio_readable": True,
@@ -110,6 +127,14 @@ def wav_technical_validation(path: str | Path) -> dict[str, Any]:
     return result
 
 
+def format_compliance(technical: dict, expected_rate) -> dict:
+    if not technical.get("audio_readable"):
+        return {"sample_rate_compliant": "", "format_compliant": ""}
+    rate_ok = str(technical["sample_rate"]) == str(expected_rate)
+    return {"sample_rate_compliant": rate_ok,
+            "format_compliant": rate_ok and technical["channels"] == 1 and technical["sample_width_bits"] == 16}
+
+
 def evaluate_audio(
     audio_manifest: str | Path,
     output_dir: str | Path,
@@ -120,6 +145,7 @@ def evaluate_audio(
     asr_transcriber: Callable[[str], str] | None = None,
     asr_config: dict[str, Any] | None = None,
     manual_transcriptions: str | Path | None = None,
+    expected_sample_rate: int = 16000,
 ) -> dict[str, Path]:
     output = Path(output_dir)
     output.mkdir(parents=True, exist_ok=True)
@@ -139,23 +165,35 @@ def evaluate_audio(
         notes = ""
         status = "technical_only"
         error = ""
-        if asr_adapter:
+        audio = str(manifest_audio_path(row, audio_manifest))
+        export_failed = row.get("export_status", "success") != "success"
+        expected_rate = row.get("target_sample_rate") or expected_sample_rate
+        tech = wav_technical_validation(None if export_failed else audio)
+        if export_failed:
+            status = "failed"
+            error = row.get("export_error") or "Export incomplete."
+        elif asr_adapter:
             if asr_transcriber is None:
                 asr_transcriber = build_asr_transcriber(asr_adapter, resolved_profile)
-            raw_transcription = asr_transcriber(row["audio_path"])
-            status = "success"
+            if tech["audio_readable"]:
+                raw_transcription = asr_transcriber(audio)
+                status = "success"
         elif manual_transcriptions:
             match = manual.get(row.get("candidate_id", ""), {})
             raw_transcription = match.get("transcription", "")
             notes = match.get("listener_notes", "")
             status = "success" if raw_transcription else "missing_transcription"
-        tech = wav_technical_validation(row["audio_path"])
+        if not tech["audio_readable"]:
+            status = "failed"
         normalized_hypothesis = normalize_audio_eval_text(raw_transcription)
         rows.append(
             {
                 "run_id": row.get("run_id", ""),
                 "candidate_id": row.get("candidate_id", ""),
-                "audio_path": row.get("audio_path", ""),
+                "audio_path": audio,
+                "target_sample_rate": expected_rate,
+                **format_compliance(tech, expected_rate),
+                "resampling_method": row.get("resampling_method") or "unrecorded",
                 "tts_adapter": row.get("tts_adapter", ""),
                 "tts_model_or_voice": row.get("tts_model_or_voice") or row.get("tts_voice", ""),
                 "target_class": row.get("target_class", ""),
@@ -268,7 +306,7 @@ def _audio_report(rows: list[dict[str, Any]]) -> str:
 
 
 def _tts_asr_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    grouped: dict[tuple[str, str, str, str, str, str, str], list[dict[str, Any]]] = {}
+    grouped: dict[tuple[str, ...], list[dict[str, Any]]] = {}
     for row in rows:
         if not row.get("tts_adapter"):
             continue
@@ -280,6 +318,8 @@ def _tts_asr_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
             row.get("target_class", ""),
             row.get("saturation_level", ""),
             row.get("text_type", ""),
+            row["target_sample_rate"],
+            row["resampling_method"],
         )
         grouped.setdefault(key, []).append(row)
     output = []
@@ -295,6 +335,8 @@ def _tts_asr_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 "target_class": key[4],
                 "saturation_level": key[5],
                 "text_type": key[6],
+                "target_sample_rate": key[7],
+                "resampling_method": key[8],
                 "count_evaluated": len(evaluated),
                 "count_failed": len(failed),
                 "average_wer": _average(row.get("wer") for row in evaluated),
